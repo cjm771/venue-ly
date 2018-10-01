@@ -29,7 +29,7 @@
     "build": "webpack -d --config ./webpack.config.js --mode production",
     "buildWatch": "webpack -d --watch --config ./webpack.config.js --mode development",
     "devServer": "live-server --wait=500 ./dist/",
-    "startDev": "nodemon --inspect ./server/index.js"
+    "startDev": "nodemon --inspect-brk ./server/index.js"
   },
   "author": "",
   "license": "ISC"
