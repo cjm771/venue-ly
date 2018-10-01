@@ -1,16 +1,13 @@
-// ES6
+import React from 'react';
 import ReactMapboxGl, { Layer, Feature } from "react-mapbox-gl";
-
-// ES5
-var ReactMapboxGl = require("react-mapbox-gl");
-var Layer = ReactMapboxGl.Layer;
-var Feature = ReactMapboxGl.Feature;
+import {MAPBOX_ACCESS_TOKEN} from '../config/config.json';
 
 const Map = ReactMapboxGl({
-  accessToken: process.env.MAPBOX_ACCESSTOKEN
+  accessToken: MAPBOX_ACCESS_TOKEN
 });
 
 // in render()
+const MapView= () => (
 <Map
   style="mapbox://styles/mapbox/streets-v9"
   containerStyle={{
@@ -24,3 +21,6 @@ const Map = ReactMapboxGl({
       <Feature coordinates={[-0.481747846041145, 51.3233379650232]}/>
     </Layer>
 </Map>
+);
+
+export default MapView;

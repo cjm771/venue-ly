@@ -7,7 +7,7 @@ app.get('/gettoken', (req, res) => {
   res.writeHead(200, null, {
     'Content-Type': 'text/plain'
   });
-  res.end(process.env.MAPBOX_ACCESSTOKEN);
+  res.end(process.env.MAPBOX_ACCESS_TOKEN);
 })
 
 const port = process.env.PORT || 3000;

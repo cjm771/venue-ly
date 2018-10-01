@@ -1,6 +1,6 @@
 import React from 'react';
 import css from '../../css/style.css';
-import Map from './components/Map.js';
+import MapView from './Map.js';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -10,7 +10,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <Map />
+        <MapView />
       </div>
     );
   }
