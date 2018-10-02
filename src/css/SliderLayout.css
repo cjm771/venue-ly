@@ -1,0 +1,92 @@
+.sliderLayout{
+  height: 100vh;
+}
+
+.sliderLayout .header{
+  position: absolute;
+  z-index: 99999999;
+  color: #f44242;
+  font-weight: bold;
+  width: 30%;
+  
+}
+
+.sliderLayout .header .menuIcon{
+  font-size: 2em;
+  z-index: inherit;
+  padding: 10px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sliderLayout .header .headerText{
+  font-family: 'Leckerli One', cursive;
+  vertical-align: top;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 22px;
+  display: inline-block;
+}
+
+.mainContent {
+  position: absolute;
+  margin-right: 0;
+  margin-left: 0;
+  height: 100vh;
+  transition: margin 0.5s ease-in-out;
+}
+
+.mainContent.right{
+  right: 0;
+}
+
+.mainContent.left{
+  left: 0;
+}
+
+.sliderLayout.leftOn .mainContent {
+  left: 0;
+  margin-left: 30%;
+}
+
+.sliderLayout.rightOn .mainContent {
+  right: 0;
+  margin-right: 30%;
+} 
+
+
+.leftSlider,
+.rightSlider{
+ position: absolute;
+ width: 30%;
+ height: 100vh;
+ top: 0;
+ z-index: 999999;
+ background: #FFF;
+ transition: margin 0.5s ease-in-out;
+}
+
+.sliderInner{
+  padding: 20px;
+}
+
+.leftSlider
+{
+  left: 0;
+  margin-left: -30%;
+}
+
+.rightSlider
+{
+  right: 0;
+  margin-right: -30%;
+}
+
+.sliderLayout.leftOn .leftSlider{
+  margin-left: 0;
+}
+.sliderLayout.rightOn .rightSlider
+{
+  margin-right: 0;
+}
+

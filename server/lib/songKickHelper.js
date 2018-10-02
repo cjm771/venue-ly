@@ -12,6 +12,7 @@ module.exports = {
     if (results.resultsPage && results.resultsPage.results && results.resultsPage.results.event) {
       debugger;
       return results.resultsPage.results.event.map( (event) => (retrieveDataViaMap(event, {
+        id: 'id',
         name: 'displayName',
         type: 'type',
         url: 'url',
