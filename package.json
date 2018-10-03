@@ -7,6 +7,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.4",
     "@fortawesome/free-solid-svg-icons": "^5.3.1",
     "@fortawesome/react-fontawesome": "^0.1.3",
+    "bluebird": "^3.5.2",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "express-session": "^1.15.6",
@@ -14,6 +15,7 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-mapbox-gl": "^3.9.2",
+    "spotify-web-api-node": "^4.0.0",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.9"
@@ -32,7 +34,7 @@
     "build": "webpack -d --config ./webpack.config.js --mode production",
     "buildWatch": "webpack -d --watch --config ./webpack.config.js --mode development",
     "devServer": "live-server --wait=500 ./dist/",
-    "startDev": "nodemon --inspect-brk ./server/index.js"
+    "startDev": "nodemon --inspect ./server/index.js"
   },
   "author": "",
   "license": "ISC"

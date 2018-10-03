@@ -1,0 +1,624 @@
+{
+  "body": {
+     "artists": {
+        "href": "https://api.spotify.com/v1/search?query=soccer&type=artist&offset=0&limit=20",
+        "items": [
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 43223
+              },
+              "genres": [
+                 "art pop",
+                 "folk-pop",
+                 "indie pop",
+                 "indie punk",
+                 "modern rock",
+                 "preverb",
+                 "small room"
+              ],
+              "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+              "id": "4wXchxfTTggLtzkoUhO86Q",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/b047d3347eefdac8d95cf67f385bf81401cb9749",
+                    "width": 640
+                 },
+                 {
+                    "height": 320,
+                    "url": "https://i.scdn.co/image/9414225507d07441704853f475df8bf1e62dddc7",
+                    "width": 320
+                 },
+                 {
+                    "height": 160,
+                    "url": "https://i.scdn.co/image/9f80c97d16c46aa756a11bda1bd78de8c7f52df8",
+                    "width": 160
+                 }
+              ],
+              "name": "Soccer Mommy",
+              "popularity": 57,
+              "type": "artist",
+              "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/3V9w8eSRI9ti9ZdOO87mnL"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 456
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/3V9w8eSRI9ti9ZdOO87mnL",
+              "id": "3V9w8eSRI9ti9ZdOO87mnL",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/8e0ea54b3b1061c10c2c2a9e77de1b476c0937d6",
+                    "width": 640
+                 },
+                 {
+                    "height": 320,
+                    "url": "https://i.scdn.co/image/5e830853f64aea7a4815097de952d0a3bb24357b",
+                    "width": 320
+                 },
+                 {
+                    "height": 160,
+                    "url": "https://i.scdn.co/image/54578dd6fa9cecfc48e18f2392744353554f71fa",
+                    "width": 160
+                 }
+              ],
+              "name": "Dream League Soccer",
+              "popularity": 24,
+              "type": "artist",
+              "uri": "spotify:artist:3V9w8eSRI9ti9ZdOO87mnL"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/4jA6uC5NVUH3BQNDhQ5y4a"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 910
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/4jA6uC5NVUH3BQNDhQ5y4a",
+              "id": "4jA6uC5NVUH3BQNDhQ5y4a",
+              "images": [
+                 {
+                    "height": 600,
+                    "url": "https://i.scdn.co/image/204dc80e400cb31764c59a26a93c2c3469313a30",
+                    "width": 536
+                 },
+                 {
+                    "height": 224,
+                    "url": "https://i.scdn.co/image/c718912c896e733ee9870eec029afa57c3068f15",
+                    "width": 200
+                 },
+                 {
+                    "height": 72,
+                    "url": "https://i.scdn.co/image/313e792f67fb115bf3637203aa735b68831a2412",
+                    "width": 64
+                 }
+              ],
+              "name": "Soccer Team",
+              "popularity": 9,
+              "type": "artist",
+              "uri": "spotify:artist:4jA6uC5NVUH3BQNDhQ5y4a"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/06VjxEdjee9CjNfZjPCVfc"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 508
+              },
+              "genres": [
+                 "football"
+              ],
+              "href": "https://api.spotify.com/v1/artists/06VjxEdjee9CjNfZjPCVfc",
+              "id": "06VjxEdjee9CjNfZjPCVfc",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/57776f50c073f6732db9eb0443623761e22f91ee",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/2fb1aea2b160301d193f87c52c7acf1644a38828",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/a3f5b4b7844c6ee3964d444b0bd7596efec04224",
+                    "width": 64
+                 }
+              ],
+              "name": "Soccer Stars",
+              "popularity": 5,
+              "type": "artist",
+              "uri": "spotify:artist:06VjxEdjee9CjNfZjPCVfc"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/2LA4IRmTLXqs01nu6f7XEH"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 43
+              },
+              "genres": [
+                 "deep disco"
+              ],
+              "href": "https://api.spotify.com/v1/artists/2LA4IRmTLXqs01nu6f7XEH",
+              "id": "2LA4IRmTLXqs01nu6f7XEH",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/b82bfd96debb3511b4dc6d1c7c18d48b774500e4",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/f7e4da2ff6193dcaa3265603ad6407fecd08bc42",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/4926f509412635493179b150a8920aead7ed7970",
+                    "width": 64
+                 }
+              ],
+              "name": "Soccer",
+              "popularity": 2,
+              "type": "artist",
+              "uri": "spotify:artist:2LA4IRmTLXqs01nu6f7XEH"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/01hio4tME8MmZ1kCqY5rEl"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 133
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/01hio4tME8MmZ1kCqY5rEl",
+              "id": "01hio4tME8MmZ1kCqY5rEl",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/dbc2cf71ac8e6d3f81398771a69647b018ab6504",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/1b1cce375e84ed04d14990a8bc808630e6883a6d",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/73f2e7fce34e0d3d601f3f6a5804166bfd7150c5",
+                    "width": 64
+                 }
+              ],
+              "name": "Soccer Mom",
+              "popularity": 2,
+              "type": "artist",
+              "uri": "spotify:artist:01hio4tME8MmZ1kCqY5rEl"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/0e1d1GkJit5KPbjvR9YDDq"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 5
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/0e1d1GkJit5KPbjvR9YDDq",
+              "id": "0e1d1GkJit5KPbjvR9YDDq",
+              "images": [
+                 {
+                    "height": 600,
+                    "url": "https://i.scdn.co/image/3c763c7d28f72b113f45854ea743698ae264eb78",
+                    "width": 600
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/18258941ed3f6177b3c1d8b036bc379779f048fd",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/9f6b640d508ab04de5d200b608206eedfce523fb",
+                    "width": 64
+                 }
+              ],
+              "name": "Soccer Supporters",
+              "popularity": 1,
+              "type": "artist",
+              "uri": "spotify:artist:0e1d1GkJit5KPbjvR9YDDq"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/0hcLzwdWqBByolFEjv9ead"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 1
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/0hcLzwdWqBByolFEjv9ead",
+              "id": "0hcLzwdWqBByolFEjv9ead",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ceae3326876407cca4e3ef0eb83a690b516a05cc",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/385642e867ca003c0c4aa8583f54f41031d73661",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/6cc63c3884bb6a5a1a10eaa49b35bd79cbe76fba",
+                    "width": 64
+                 }
+              ],
+              "name": "Soccer One",
+              "popularity": 0,
+              "type": "artist",
+              "uri": "spotify:artist:0hcLzwdWqBByolFEjv9ead"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/11pGq1BBpdEB4vK37utJ3Z"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 73
+              },
+              "genres": [
+                 "football"
+              ],
+              "href": "https://api.spotify.com/v1/artists/11pGq1BBpdEB4vK37utJ3Z",
+              "id": "11pGq1BBpdEB4vK37utJ3Z",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/f3939d81a0097a1aa7a70ce07d60471849c516ef",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/34419b21c065f7c36f7b4922af351198e541773d",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/fb0ab79c29625fe9b45b91ba01a4dbb30b2e3c23",
+                    "width": 64
+                 }
+              ],
+              "name": "Soccer Allstars",
+              "popularity": 3,
+              "type": "artist",
+              "uri": "spotify:artist:11pGq1BBpdEB4vK37utJ3Z"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/1LWF5CEuwHKMg6cuFoa26R"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 5
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/1LWF5CEuwHKMg6cuFoa26R",
+              "id": "1LWF5CEuwHKMg6cuFoa26R",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/af6d67be1ae438ec7d6ef76e48c70a750c6e5705",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/4ef87d77c6265f227594406bf41786f7704a11dd",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/2e1db148c20a5e6320dc578e52a2837bd9cf31c0",
+                    "width": 64
+                 }
+              ],
+              "name": "Soccer Grils",
+              "popularity": 0,
+              "type": "artist",
+              "uri": "spotify:artist:1LWF5CEuwHKMg6cuFoa26R"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/2K1fcIfvsw3uxM85Ei07tk"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 22
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/2K1fcIfvsw3uxM85Ei07tk",
+              "id": "2K1fcIfvsw3uxM85Ei07tk",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/23523c1b52c591952032bc1c4b84f6a0995314bf",
+                    "width": 640
+                 },
+                 {
+                    "height": 320,
+                    "url": "https://i.scdn.co/image/2ea92c9d7ba39d4388ba14d77864a16f0c6c276f",
+                    "width": 320
+                 },
+                 {
+                    "height": 160,
+                    "url": "https://i.scdn.co/image/130220da53ebebc717bd4ebda75de647b450563d",
+                    "width": 160
+                 }
+              ],
+              "name": "Soccer Cousins",
+              "popularity": 0,
+              "type": "artist",
+              "uri": "spotify:artist:2K1fcIfvsw3uxM85Ei07tk"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/3QJByeWYN99V0RGONTBURI"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 6
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/3QJByeWYN99V0RGONTBURI",
+              "id": "3QJByeWYN99V0RGONTBURI",
+              "images": [],
+              "name": "Soccer Boys",
+              "popularity": 1,
+              "type": "artist",
+              "uri": "spotify:artist:3QJByeWYN99V0RGONTBURI"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/3S8yDYgIJGPUDrMXsCOxWM"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 0
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/3S8yDYgIJGPUDrMXsCOxWM",
+              "id": "3S8yDYgIJGPUDrMXsCOxWM",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/6c07f9d62826feddc775d06e621019713cb13209",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/8adc1dfcd8ae855aa60f7e4c1427b3622b9f644b",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/a18ffbc637aa2df86fc1df3e7c598cb02511e3d7",
+                    "width": 64
+                 }
+              ],
+              "name": "Soccer Chik",
+              "popularity": 0,
+              "type": "artist",
+              "uri": "spotify:artist:3S8yDYgIJGPUDrMXsCOxWM"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/3nQk4xPgia9zAC8h640GGD"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 62
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/3nQk4xPgia9zAC8h640GGD",
+              "id": "3nQk4xPgia9zAC8h640GGD",
+              "images": [
+                 {
+                    "height": 600,
+                    "url": "https://i.scdn.co/image/4620b5238e8986a8e443acbf163eed4905014513",
+                    "width": 600
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/f7db6dd5c8db2e0fc6ce3bba13e0690a21c434c3",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/c393a74d03cdf167dcd911eecf747e3c18a06438",
+                    "width": 64
+                 }
+              ],
+              "name": "Soccer Gladiators",
+              "popularity": 12,
+              "type": "artist",
+              "uri": "spotify:artist:3nQk4xPgia9zAC8h640GGD"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/4ujAmDosSASBwvSdAOiXkY"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 41
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/4ujAmDosSASBwvSdAOiXkY",
+              "id": "4ujAmDosSASBwvSdAOiXkY",
+              "images": [
+                 {
+                    "height": 600,
+                    "url": "https://i.scdn.co/image/309d671e23221dfb8f255b6d4287ea363329891e",
+                    "width": 600
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/7430d7e0f7db7b918fde729926ebd463fceb1514",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/055a0bd710165646f58dee8a74c2f30d1d234bd1",
+                    "width": 64
+                 }
+              ],
+              "name": "Soccer DJ",
+              "popularity": 8,
+              "type": "artist",
+              "uri": "spotify:artist:4ujAmDosSASBwvSdAOiXkY"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/5uAqfesGbMDtzx7xcUbJuB"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 1
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/5uAqfesGbMDtzx7xcUbJuB",
+              "id": "5uAqfesGbMDtzx7xcUbJuB",
+              "images": [],
+              "name": "Soccer Kids",
+              "popularity": 0,
+              "type": "artist",
+              "uri": "spotify:artist:5uAqfesGbMDtzx7xcUbJuB"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/6JPuMLa0qkJmpAIIKmHzdB"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 1
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/6JPuMLa0qkJmpAIIKmHzdB",
+              "id": "6JPuMLa0qkJmpAIIKmHzdB",
+              "images": [],
+              "name": "Les soccer",
+              "popularity": 0,
+              "type": "artist",
+              "uri": "spotify:artist:6JPuMLa0qkJmpAIIKmHzdB"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/6M6JVHgDYIZYzVyhNh0DBk"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 1
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/6M6JVHgDYIZYzVyhNh0DBk",
+              "id": "6M6JVHgDYIZYzVyhNh0DBk",
+              "images": [],
+              "name": "Soccer Mates",
+              "popularity": 0,
+              "type": "artist",
+              "uri": "spotify:artist:6M6JVHgDYIZYzVyhNh0DBk"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/6l0MnxvLaHKAuwUT8Y0B4F"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 0
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/6l0MnxvLaHKAuwUT8Y0B4F",
+              "id": "6l0MnxvLaHKAuwUT8Y0B4F",
+              "images": [],
+              "name": "Active Soccer",
+              "popularity": 0,
+              "type": "artist",
+              "uri": "spotify:artist:6l0MnxvLaHKAuwUT8Y0B4F"
+           },
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/77ZsKXQ94WxKgfgKaIpeCa"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 23
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/77ZsKXQ94WxKgfgKaIpeCa",
+              "id": "77ZsKXQ94WxKgfgKaIpeCa",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/187d461a1d776e8c7104bea7f2f5ec85e9e2afb2",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/7876a4a2ae50750219ecbd08df60b57e1276e6be",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/2ce2127e87c7224a5ad451258293b1facdd7d94c",
+                    "width": 64
+                 }
+              ],
+              "name": "Soccer Hooligans",
+              "popularity": 0,
+              "type": "artist",
+              "uri": "spotify:artist:77ZsKXQ94WxKgfgKaIpeCa"
+           }
+        ],
+        "limit": 20,
+        "next": "https://api.spotify.com/v1/search?query=soccer&type=artist&offset=20&limit=20",
+        "offset": 0,
+        "previous": null,
+        "total": 51
+     }
+  },
+  "headers": {
+     "content-type": "application/json; charset=utf-8",
+     "cache-control": "public, max-age=7200",
+     "access-control-allow-origin": "*",
+     "access-control-allow-headers": "Accept, Authorization, Origin, Content-Type, Retry-After",
+     "access-control-allow-methods": "GET, POST, OPTIONS, PUT, DELETE, PATCH",
+     "access-control-allow-credentials": "true",
+     "access-control-max-age": "604800",
+     "content-encoding": "gzip",
+     "date": "Wed, 03 Oct 2018 02:21:29 GMT",
+     "via": "1.1 google",
+     "alt-svc": "clear",
+     "connection": "close",
+     "transfer-encoding": "chunked"
+  },
+  "statusCode": 200
+}

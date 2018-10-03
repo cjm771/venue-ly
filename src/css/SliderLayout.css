@@ -6,8 +6,7 @@
   position: absolute;
   z-index: 99999999;
   color: #f44242;
-  font-weight: bold;
-  width: 30%;
+  width: 60%;
   
 }
 
@@ -15,15 +14,20 @@
   font-size: 2em;
   z-index: inherit;
   padding: 10px;
+  color: #999;
   vertical-align: top;
   display: inline-block;
+}
+
+.sliderLayout .header .menuIcon:hover{
+  cursor: pointer;
+  color: #ff0000;
 }
 
 .sliderLayout .header .headerText{
   font-family: 'Leckerli One', cursive;
   vertical-align: top;
   padding: 10px;
-  font-weight: bold;
   font-size: 22px;
   display: inline-block;
 }
@@ -45,12 +49,11 @@
 }
 
 .sliderLayout.leftOn .mainContent {
-  left: 0;
   margin-left: 30%;
+
 }
 
 .sliderLayout.rightOn .mainContent {
-  right: 0;
   margin-right: 30%;
 } 
 

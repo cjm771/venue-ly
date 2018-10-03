@@ -10,13 +10,16 @@ module.exports = {
   },
   formatResults: function(results) {
     if (results.resultsPage && results.resultsPage.results && results.resultsPage.results.event) {
-      debugger;
       return results.resultsPage.results.event.map( (event) => (retrieveDataViaMap(event, {
         id: 'id',
         name: 'displayName',
         type: 'type',
         url: 'url',
-        venue: 'venue',
+        venue:  {att: 'venue', format: (venue) => {
+          venue.name = venue.displayName;
+          // delete venue.displayName;
+          return venue;
+        }},
         starts_at: {att: 'start', format: (start) => {return start.datetime}},
         performers: { att: 'performance', 
           format: (performers) => {

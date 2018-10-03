@@ -1,0 +1,66 @@
+{
+  "body": {
+     "artists": {
+        "href": "https://api.spotify.com/v1/search?query=lil+uzi+vert&type=artist&offset=0&limit=20",
+        "items": [
+           {
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+              },
+              "followers": {
+                 "href": null,
+                 "total": 5005383
+              },
+              "genres": [
+                 "rap",
+                 "trap music"
+              ],
+              "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+              "id": "4O15NlyKLIASxsJ0PrXPfz",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/17f68c8464b468546a6b0a717708842a3cc4b79d",
+                    "width": 640
+                 },
+                 {
+                    "height": 320,
+                    "url": "https://i.scdn.co/image/622c13394c3cf2ed8197edb6f0121b7f3ce8912f",
+                    "width": 320
+                 },
+                 {
+                    "height": 160,
+                    "url": "https://i.scdn.co/image/7b94c58fe065dc4443d4be1727d2165aed0758bf",
+                    "width": 160
+                 }
+              ],
+              "name": "Lil Uzi Vert",
+              "popularity": 90,
+              "type": "artist",
+              "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+           }
+        ],
+        "limit": 20,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 1
+     }
+  },
+  "headers": {
+     "content-type": "application/json; charset=utf-8",
+     "cache-control": "public, max-age=7200",
+     "access-control-allow-origin": "*",
+     "access-control-allow-headers": "Accept, Authorization, Origin, Content-Type, Retry-After",
+     "access-control-allow-methods": "GET, POST, OPTIONS, PUT, DELETE, PATCH",
+     "access-control-allow-credentials": "true",
+     "access-control-max-age": "604800",
+     "content-encoding": "gzip",
+     "date": "Wed, 03 Oct 2018 02:18:17 GMT",
+     "via": "1.1 google",
+     "alt-svc": "clear",
+     "connection": "close",
+     "transfer-encoding": "chunked"
+  },
+  "statusCode": 200
+}

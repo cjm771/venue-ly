@@ -55,7 +55,7 @@ export default class App extends React.Component {
   render() {
     return (
       <SliderLayout leftOn={this.state.leftOn} rightOn={this.state.rightOn}>
-        <Header onMenuClick={this.onMenuClick.bind(this)}>Venuely</Header>
+        <Header onMenuClick={this.onMenuClick.bind(this)}>Venuely &#9834;</Header>
         <LeftSlider>
           Left bar
         </LeftSlider>

@@ -1,5 +1,32 @@
 /* taken from: https://codepen.io/andreasstorm/pen/ClguF */
 
+.notesWpr{
+  position: absolute;
+  top: -20px;
+  width: 30px;
+  font-size: 1em;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  color: #f44242;
+}
+.note.bounce.delayed {
+  animation-delay: .25s;
+}
+.note.bounce {
+  display: inline-block;
+  animation: music 1s ease-in-out both infinite;
+}
+
+@keyframes music {
+  0%,100% {
+      -webkit-transform: translate3d(0,-5px,0);
+  }
+  50% {
+      -webkit-transform: translate3d(0,5px,0);
+  }
+}
+
 .pin {
   width: 30px;
   height: 30px;

@@ -13,7 +13,7 @@ const MapView= (props) => (
 <Map
   onClick = {(e) => {props.onMarkerClick(null)}}
   center={(props.activeEvent) ? 
-    [props.activeEvent.venue.lng - .075, props.activeEvent.venue.lat] : 
+    [props.activeEvent.venue.lng, props.activeEvent.venue.lat] : 
     [ props.events[0].venue.lng, props.events[0].venue.lat]
   }
   style="mapbox://styles/mapbox/light-v9"
@@ -41,7 +41,11 @@ const MapView= (props) => (
         <Popup 
         coordinates={[props.activeEvent.venue.lng, props.activeEvent.venue.lat]}
         offset={25}>
-        {props.activeEvent.name}
+        <b>
+          {props.activeEvent.performers.map((artist) => {return artist.name}).join(', ')}
+        </b>
+        <br/>
+        @{props.activeEvent.venue.name }
       </Popup>)
       : ''
     }

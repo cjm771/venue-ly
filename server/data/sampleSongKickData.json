@@ -3,12 +3,12 @@
     "results": {
       "event": [
         {
-          "displayName": "Vampire Weekend at O2 Academy Brixton (February 16, 2010)",
+          "displayName": "Soccer Mommy at O2 Academy Brixton (February 16, 2010)",
           "type": "Concert",
           "uri": "http://www.songkick.com/concerts/3037536-vampire-weekend-at-o2-academy-brixton?utm_medium=partner&utm_source=PARTNER_ID",
           "venue": {
               "lng": -0.1187418,
-              "displayName": "O2 Academy Brixton",
+              "displayName": "Academy Brixton",
               "lat": 51.4681089,
               "id": 17522
           },
@@ -25,11 +25,11 @@
           "performance": [{
               "artist": {
                   "uri": "http://www.songkick.com/artists/288696-vampire-weekend",
-                  "displayName": "Vampire Weekend",
+                  "displayName": "Soccer Mommy",
                   "id": 288696,
                   "identifier": [{"mbid": "af37c51c-0790-4a29-b995-456f98a6b8c9"}]
               },
-             "displayName": "Vampire Weekend",
+             "displayName": "Soccer Mommy",
              "billingIndex": 1,
              "id": 5380281,
              "billing": "headline"
@@ -37,7 +37,7 @@
           "id": 3037536
         },
         {
-          "displayName": "Vampire Weekend at Eventim Apollo (February 17, 2010)",
+          "displayName": "Lil Uzi Vert at Eventim Apollo (February 17, 2010)",
           "type": "Concert",
           "uri": "http://www.songkick.com/concerts/3078766-vampire-weekend-at-o2-academy-brixton?utm_medium=partner&utm_source=PARTNER_ID",
           "venue": {
@@ -59,11 +59,11 @@
           "performance": [{
               "artist": {
                   "uri": "http://www.songkick.com/artists/288696-vampire-weekend",
-                  "displayName": "Vampire Weekend",
+                  "displayName": "Lil Uzi Vert",
                   "id": 288696,
                   "identifier": [{"mbid": "af37c51c-0790-4a29-b995-456f98a6b8c9"}]
               },
-              "displayName": "Vampire Weekend",
+              "displayName": "Lil Uzi Vert",
               "billingIndex": 1,
               "id": 5468321,
               "billing": "headline"

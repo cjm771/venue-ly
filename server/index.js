@@ -1,6 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const songKickHelper = require('./lib/songKickHelper');
+const spotifyHelper = require('./lib/spotifyHelper');
 
 const app = new express();
 
@@ -16,22 +17,36 @@ app.use(echoRequest);
 
 // some response helpers
 app.use((req, res, next) => {
+  
   res.throwError = function(status, error) {
     this.status(status);
     this.end(JSON.stringify(error));
     console.log('Error!', error);
   }
+
+  res.throwSuccess = function(data, status=200) {
+    this.status(status);
+    this.end(JSON.stringify(data));
+  }
   next();
 });
 
+app.get('/topTracks/:artistId', (req, res) => {
+  // spotifyHelper.fetchTopSongsByArtists
+})
+
+app.get('/artists/:artist', (req, res) => {
+  // fetchArtists is real one
+  spotifyHelper.fetchArtistsFake(req.params.artist).then((results) => {
+    res.throwSuccess(results);
+  }).catch((error) => {
+    res.throwError(500, error);
+  });
+});
 
 app.get('/events', (req, res) => {
-  console.log('hi')
   songKickHelper.fetchEvents('london', 'today', 'tomorrow').then((events) => {
-    res.writeHead(200, {
-      'Content-Type': 'application/json'
-    });
-    res.end(JSON.stringify(events));
+    res.throwSuccess(events);
   }).catch((error) => {
     res.throwError(500, error);
   });
