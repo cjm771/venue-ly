@@ -1,0 +1,802 @@
+{
+  "body": {
+     "tracks": [
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                    "id": "4wXchxfTTggLtzkoUhO86Q",
+                    "name": "Soccer Mommy",
+                    "type": "artist",
+                    "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/36NLDBi2kX7XRHnyLzLOS8"
+              },
+              "href": "https://api.spotify.com/v1/albums/36NLDBi2kX7XRHnyLzLOS8",
+              "id": "36NLDBi2kX7XRHnyLzLOS8",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/d6dcd9fea656f19b6253865d641b39451043245f",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/156650edd15c0596fd044ebe28cf21f8b7053725",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/02c7d8f1966afb962534309db102c5a88587f386",
+                    "width": 64
+                 }
+              ],
+              "name": "Clean",
+              "release_date": "2018-03-02",
+              "release_date_precision": "day",
+              "total_tracks": 10,
+              "type": "album",
+              "uri": "spotify:album:36NLDBi2kX7XRHnyLzLOS8"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                 "id": "4wXchxfTTggLtzkoUhO86Q",
+                 "name": "Soccer Mommy",
+                 "type": "artist",
+                 "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 194009,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USFP71765203"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/3BpUZB0tw4zNmG3Iw1mclL"
+           },
+           "href": "https://api.spotify.com/v1/tracks/3BpUZB0tw4zNmG3Iw1mclL",
+           "id": "3BpUZB0tw4zNmG3Iw1mclL",
+           "is_local": false,
+           "is_playable": true,
+           "name": "Your Dog",
+           "popularity": 63,
+           "preview_url": "https://p.scdn.co/mp3-preview/dc5d59dfe1403ad32a92b632241f6d7da1f0497b?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 3,
+           "type": "track",
+           "uri": "spotify:track:3BpUZB0tw4zNmG3Iw1mclL"
+        },
+        {
+           "album": {
+              "album_type": "single",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                    "id": "4wXchxfTTggLtzkoUhO86Q",
+                    "name": "Soccer Mommy",
+                    "type": "artist",
+                    "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/1fwLr1J1BuLKl0gh4jsn7p"
+              },
+              "href": "https://api.spotify.com/v1/albums/1fwLr1J1BuLKl0gh4jsn7p",
+              "id": "1fwLr1J1BuLKl0gh4jsn7p",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/80a006166c78432afe8cb5859df4a70dfe7b5643",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/49f2c470a2c7cedaa69f66ef3c13df5874ce5699",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/c591d541c5a95d7a30531bde00fce226e36b759d",
+                    "width": 64
+                 }
+              ],
+              "name": "I'm on Fire",
+              "release_date": "2018-08-22",
+              "release_date_precision": "day",
+              "total_tracks": 1,
+              "type": "album",
+              "uri": "spotify:album:1fwLr1J1BuLKl0gh4jsn7p"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                 "id": "4wXchxfTTggLtzkoUhO86Q",
+                 "name": "Soccer Mommy",
+                 "type": "artist",
+                 "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 187241,
+           "explicit": false,
+           "external_ids": {
+              "isrc": "USFP71869401"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/6EdnX4fu6jAY65VmOHFhOk"
+           },
+           "href": "https://api.spotify.com/v1/tracks/6EdnX4fu6jAY65VmOHFhOk",
+           "id": "6EdnX4fu6jAY65VmOHFhOk",
+           "is_local": false,
+           "is_playable": true,
+           "name": "I'm on Fire",
+           "popularity": 56,
+           "preview_url": "https://p.scdn.co/mp3-preview/f83802a510c5ddc03d65b2b987f10dbbb5903630?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 1,
+           "type": "track",
+           "uri": "spotify:track:6EdnX4fu6jAY65VmOHFhOk"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                    "id": "4wXchxfTTggLtzkoUhO86Q",
+                    "name": "Soccer Mommy",
+                    "type": "artist",
+                    "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/36NLDBi2kX7XRHnyLzLOS8"
+              },
+              "href": "https://api.spotify.com/v1/albums/36NLDBi2kX7XRHnyLzLOS8",
+              "id": "36NLDBi2kX7XRHnyLzLOS8",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/d6dcd9fea656f19b6253865d641b39451043245f",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/156650edd15c0596fd044ebe28cf21f8b7053725",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/02c7d8f1966afb962534309db102c5a88587f386",
+                    "width": 64
+                 }
+              ],
+              "name": "Clean",
+              "release_date": "2018-03-02",
+              "release_date_precision": "day",
+              "total_tracks": 10,
+              "type": "album",
+              "uri": "spotify:album:36NLDBi2kX7XRHnyLzLOS8"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                 "id": "4wXchxfTTggLtzkoUhO86Q",
+                 "name": "Soccer Mommy",
+                 "type": "artist",
+                 "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 241805,
+           "explicit": false,
+           "external_ids": {
+              "isrc": "USFP71765201"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/3z34424BttGlU2lTT3CneM"
+           },
+           "href": "https://api.spotify.com/v1/tracks/3z34424BttGlU2lTT3CneM",
+           "id": "3z34424BttGlU2lTT3CneM",
+           "is_local": false,
+           "is_playable": true,
+           "name": "Still Clean",
+           "popularity": 52,
+           "preview_url": "https://p.scdn.co/mp3-preview/9094cbdd3efa22badc3e4b8b5b730d94b43233bf?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 1,
+           "type": "track",
+           "uri": "spotify:track:3z34424BttGlU2lTT3CneM"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                    "id": "4wXchxfTTggLtzkoUhO86Q",
+                    "name": "Soccer Mommy",
+                    "type": "artist",
+                    "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/36NLDBi2kX7XRHnyLzLOS8"
+              },
+              "href": "https://api.spotify.com/v1/albums/36NLDBi2kX7XRHnyLzLOS8",
+              "id": "36NLDBi2kX7XRHnyLzLOS8",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/d6dcd9fea656f19b6253865d641b39451043245f",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/156650edd15c0596fd044ebe28cf21f8b7053725",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/02c7d8f1966afb962534309db102c5a88587f386",
+                    "width": 64
+                 }
+              ],
+              "name": "Clean",
+              "release_date": "2018-03-02",
+              "release_date_precision": "day",
+              "total_tracks": 10,
+              "type": "album",
+              "uri": "spotify:album:36NLDBi2kX7XRHnyLzLOS8"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                 "id": "4wXchxfTTggLtzkoUhO86Q",
+                 "name": "Soccer Mommy",
+                 "type": "artist",
+                 "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 196011,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USFP71765202"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/3FeyKZZcU7ywuJ0LtFSuBO"
+           },
+           "href": "https://api.spotify.com/v1/tracks/3FeyKZZcU7ywuJ0LtFSuBO",
+           "id": "3FeyKZZcU7ywuJ0LtFSuBO",
+           "is_local": false,
+           "is_playable": true,
+           "name": "Cool",
+           "popularity": 51,
+           "preview_url": "https://p.scdn.co/mp3-preview/513cb1be380722734d5204d6b366f91a69b8aae6?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 2,
+           "type": "track",
+           "uri": "spotify:track:3FeyKZZcU7ywuJ0LtFSuBO"
+        },
+        {
+           "album": {
+              "album_type": "single",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/6FfjnGXMhxSsJTuGLWBDth"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6FfjnGXMhxSsJTuGLWBDth",
+                    "id": "6FfjnGXMhxSsJTuGLWBDth",
+                    "name": "HEALTH",
+                    "type": "artist",
+                    "uri": "spotify:artist:6FfjnGXMhxSsJTuGLWBDth"
+                 },
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                    "id": "4wXchxfTTggLtzkoUhO86Q",
+                    "name": "Soccer Mommy",
+                    "type": "artist",
+                    "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/4N1P7Z53ezwHba7dDV7kLG"
+              },
+              "href": "https://api.spotify.com/v1/albums/4N1P7Z53ezwHba7dDV7kLG",
+              "id": "4N1P7Z53ezwHba7dDV7kLG",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/4e99fc263dc606d00837b3c90b3a3186057663fc",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/09448df42fead92dee3550b6bcb77493c10bf258",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/95dbce2c2c88099bbbe1d6b97227f96d9fd3ad5a",
+                    "width": 64
+                 }
+              ],
+              "name": "MASS GRAVE",
+              "release_date": "2018-09-14",
+              "release_date_precision": "day",
+              "total_tracks": 1,
+              "type": "album",
+              "uri": "spotify:album:4N1P7Z53ezwHba7dDV7kLG"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6FfjnGXMhxSsJTuGLWBDth"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/6FfjnGXMhxSsJTuGLWBDth",
+                 "id": "6FfjnGXMhxSsJTuGLWBDth",
+                 "name": "HEALTH",
+                 "type": "artist",
+                 "uri": "spotify:artist:6FfjnGXMhxSsJTuGLWBDth"
+              },
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                 "id": "4wXchxfTTggLtzkoUhO86Q",
+                 "name": "Soccer Mommy",
+                 "type": "artist",
+                 "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 187240,
+           "explicit": false,
+           "external_ids": {
+              "isrc": "USC4R1802500"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/4DZnD8JMTs7modumcBuEBN"
+           },
+           "href": "https://api.spotify.com/v1/tracks/4DZnD8JMTs7modumcBuEBN",
+           "id": "4DZnD8JMTs7modumcBuEBN",
+           "is_local": false,
+           "is_playable": true,
+           "name": "MASS GRAVE",
+           "popularity": 48,
+           "preview_url": null,
+           "track_number": 1,
+           "type": "track",
+           "uri": "spotify:track:4DZnD8JMTs7modumcBuEBN"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                    "id": "4wXchxfTTggLtzkoUhO86Q",
+                    "name": "Soccer Mommy",
+                    "type": "artist",
+                    "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/36NLDBi2kX7XRHnyLzLOS8"
+              },
+              "href": "https://api.spotify.com/v1/albums/36NLDBi2kX7XRHnyLzLOS8",
+              "id": "36NLDBi2kX7XRHnyLzLOS8",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/d6dcd9fea656f19b6253865d641b39451043245f",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/156650edd15c0596fd044ebe28cf21f8b7053725",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/02c7d8f1966afb962534309db102c5a88587f386",
+                    "width": 64
+                 }
+              ],
+              "name": "Clean",
+              "release_date": "2018-03-02",
+              "release_date_precision": "day",
+              "total_tracks": 10,
+              "type": "album",
+              "uri": "spotify:album:36NLDBi2kX7XRHnyLzLOS8"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                 "id": "4wXchxfTTggLtzkoUhO86Q",
+                 "name": "Soccer Mommy",
+                 "type": "artist",
+                 "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 215100,
+           "explicit": false,
+           "external_ids": {
+              "isrc": "USFP71765206"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/36EPiGjD3gbFllepV67Wet"
+           },
+           "href": "https://api.spotify.com/v1/tracks/36EPiGjD3gbFllepV67Wet",
+           "id": "36EPiGjD3gbFllepV67Wet",
+           "is_local": false,
+           "is_playable": true,
+           "name": "Last Girl",
+           "popularity": 48,
+           "preview_url": "https://p.scdn.co/mp3-preview/7d5cb0eeac87349a65dfaa4c498ed55d5e7ad012?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 6,
+           "type": "track",
+           "uri": "spotify:track:36EPiGjD3gbFllepV67Wet"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                    "id": "4wXchxfTTggLtzkoUhO86Q",
+                    "name": "Soccer Mommy",
+                    "type": "artist",
+                    "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/36NLDBi2kX7XRHnyLzLOS8"
+              },
+              "href": "https://api.spotify.com/v1/albums/36NLDBi2kX7XRHnyLzLOS8",
+              "id": "36NLDBi2kX7XRHnyLzLOS8",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/d6dcd9fea656f19b6253865d641b39451043245f",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/156650edd15c0596fd044ebe28cf21f8b7053725",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/02c7d8f1966afb962534309db102c5a88587f386",
+                    "width": 64
+                 }
+              ],
+              "name": "Clean",
+              "release_date": "2018-03-02",
+              "release_date_precision": "day",
+              "total_tracks": 10,
+              "type": "album",
+              "uri": "spotify:album:36NLDBi2kX7XRHnyLzLOS8"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                 "id": "4wXchxfTTggLtzkoUhO86Q",
+                 "name": "Soccer Mommy",
+                 "type": "artist",
+                 "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 282866,
+           "explicit": false,
+           "external_ids": {
+              "isrc": "USFP71765208"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/4NGfPPgXHRssaWpfbOj6rg"
+           },
+           "href": "https://api.spotify.com/v1/tracks/4NGfPPgXHRssaWpfbOj6rg",
+           "id": "4NGfPPgXHRssaWpfbOj6rg",
+           "is_local": false,
+           "is_playable": true,
+           "name": "Scorpio Rising",
+           "popularity": 46,
+           "preview_url": "https://p.scdn.co/mp3-preview/74eb2657f9775567e64e60bf840b39bf1b0be6ff?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 8,
+           "type": "track",
+           "uri": "spotify:track:4NGfPPgXHRssaWpfbOj6rg"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                    "id": "4wXchxfTTggLtzkoUhO86Q",
+                    "name": "Soccer Mommy",
+                    "type": "artist",
+                    "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/36NLDBi2kX7XRHnyLzLOS8"
+              },
+              "href": "https://api.spotify.com/v1/albums/36NLDBi2kX7XRHnyLzLOS8",
+              "id": "36NLDBi2kX7XRHnyLzLOS8",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/d6dcd9fea656f19b6253865d641b39451043245f",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/156650edd15c0596fd044ebe28cf21f8b7053725",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/02c7d8f1966afb962534309db102c5a88587f386",
+                    "width": 64
+                 }
+              ],
+              "name": "Clean",
+              "release_date": "2018-03-02",
+              "release_date_precision": "day",
+              "total_tracks": 10,
+              "type": "album",
+              "uri": "spotify:album:36NLDBi2kX7XRHnyLzLOS8"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                 "id": "4wXchxfTTggLtzkoUhO86Q",
+                 "name": "Soccer Mommy",
+                 "type": "artist",
+                 "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 241870,
+           "explicit": false,
+           "external_ids": {
+              "isrc": "USFP71765207"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/0wlIm3kjeBOySPapdNuBrM"
+           },
+           "href": "https://api.spotify.com/v1/tracks/0wlIm3kjeBOySPapdNuBrM",
+           "id": "0wlIm3kjeBOySPapdNuBrM",
+           "is_local": false,
+           "is_playable": true,
+           "name": "Skin",
+           "popularity": 46,
+           "preview_url": "https://p.scdn.co/mp3-preview/1a3254f17d17c444bb07ba3d72217aa59657fae8?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 7,
+           "type": "track",
+           "uri": "spotify:track:0wlIm3kjeBOySPapdNuBrM"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                    "id": "4wXchxfTTggLtzkoUhO86Q",
+                    "name": "Soccer Mommy",
+                    "type": "artist",
+                    "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/36NLDBi2kX7XRHnyLzLOS8"
+              },
+              "href": "https://api.spotify.com/v1/albums/36NLDBi2kX7XRHnyLzLOS8",
+              "id": "36NLDBi2kX7XRHnyLzLOS8",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/d6dcd9fea656f19b6253865d641b39451043245f",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/156650edd15c0596fd044ebe28cf21f8b7053725",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/02c7d8f1966afb962534309db102c5a88587f386",
+                    "width": 64
+                 }
+              ],
+              "name": "Clean",
+              "release_date": "2018-03-02",
+              "release_date_precision": "day",
+              "total_tracks": 10,
+              "type": "album",
+              "uri": "spotify:album:36NLDBi2kX7XRHnyLzLOS8"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                 "id": "4wXchxfTTggLtzkoUhO86Q",
+                 "name": "Soccer Mommy",
+                 "type": "artist",
+                 "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 221940,
+           "explicit": false,
+           "external_ids": {
+              "isrc": "USFP71765204"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/6v2vehvBT9iLGSsHfSiESi"
+           },
+           "href": "https://api.spotify.com/v1/tracks/6v2vehvBT9iLGSsHfSiESi",
+           "id": "6v2vehvBT9iLGSsHfSiESi",
+           "is_local": false,
+           "is_playable": true,
+           "name": "Flaw",
+           "popularity": 45,
+           "preview_url": "https://p.scdn.co/mp3-preview/90ed046a0c6b616784ad3e494415032a2f29046e?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 4,
+           "type": "track",
+           "uri": "spotify:track:6v2vehvBT9iLGSsHfSiESi"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                    "id": "4wXchxfTTggLtzkoUhO86Q",
+                    "name": "Soccer Mommy",
+                    "type": "artist",
+                    "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/36NLDBi2kX7XRHnyLzLOS8"
+              },
+              "href": "https://api.spotify.com/v1/albums/36NLDBi2kX7XRHnyLzLOS8",
+              "id": "36NLDBi2kX7XRHnyLzLOS8",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/d6dcd9fea656f19b6253865d641b39451043245f",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/156650edd15c0596fd044ebe28cf21f8b7053725",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/02c7d8f1966afb962534309db102c5a88587f386",
+                    "width": 64
+                 }
+              ],
+              "name": "Clean",
+              "release_date": "2018-03-02",
+              "release_date_precision": "day",
+              "total_tracks": 10,
+              "type": "album",
+              "uri": "spotify:album:36NLDBi2kX7XRHnyLzLOS8"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4wXchxfTTggLtzkoUhO86Q",
+                 "id": "4wXchxfTTggLtzkoUhO86Q",
+                 "name": "Soccer Mommy",
+                 "type": "artist",
+                 "uri": "spotify:artist:4wXchxfTTggLtzkoUhO86Q"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 192142,
+           "explicit": false,
+           "external_ids": {
+              "isrc": "USFP71765205"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/4yhAcg6xUHtZgt731WsFl1"
+           },
+           "href": "https://api.spotify.com/v1/tracks/4yhAcg6xUHtZgt731WsFl1",
+           "id": "4yhAcg6xUHtZgt731WsFl1",
+           "is_local": false,
+           "is_playable": true,
+           "name": "Blossom (Wasting All My Time)",
+           "popularity": 45,
+           "preview_url": "https://p.scdn.co/mp3-preview/da5a6b553563e98453680a170d09f051be65693a?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 5,
+           "type": "track",
+           "uri": "spotify:track:4yhAcg6xUHtZgt731WsFl1"
+        }
+     ]
+  },
+  "headers": {
+     "content-type": "application/json; charset=utf-8",
+     "cache-control": "public, max-age=7200",
+     "access-control-allow-origin": "*",
+     "access-control-allow-headers": "Accept, Authorization, Origin, Content-Type, Retry-After",
+     "access-control-allow-methods": "GET, POST, OPTIONS, PUT, DELETE, PATCH",
+     "access-control-allow-credentials": "true",
+     "access-control-max-age": "604800",
+     "content-encoding": "gzip",
+     "date": "Wed, 03 Oct 2018 03:08:36 GMT",
+     "via": "1.1 google",
+     "alt-svc": "clear",
+     "connection": "close",
+     "transfer-encoding": "chunked"
+  },
+  "statusCode": 200
+}

@@ -1,0 +1,962 @@
+{
+  "body": {
+     "tracks": [
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                    "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                    "name": "Kendrick Lamar",
+                    "type": "artist",
+                    "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY"
+              },
+              "href": "https://api.spotify.com/v1/albums/4eLPsYPBmXABThSJ821sqY",
+              "id": "4eLPsYPBmXABThSJ821sqY",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/4988546859334f9a5a3fa4acedc5aea275929026",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/72a11ced4752d3e6b9106839b650afc696c63d5a",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/dfb5157c64e00894045adf93082fd3d2937f57ef",
+                    "width": 64
+                 }
+              ],
+              "name": "DAMN.",
+              "release_date": "2017-04-14",
+              "release_date_precision": "day",
+              "total_tracks": 14,
+              "type": "album",
+              "uri": "spotify:album:4eLPsYPBmXABThSJ821sqY"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                 "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                 "name": "Kendrick Lamar",
+                 "type": "artist",
+                 "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 177000,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USUM71703085"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/7KXjTSCq5nL1LoYtL7XAwS"
+           },
+           "href": "https://api.spotify.com/v1/tracks/7KXjTSCq5nL1LoYtL7XAwS",
+           "id": "7KXjTSCq5nL1LoYtL7XAwS",
+           "is_local": false,
+           "is_playable": true,
+           "name": "HUMBLE.",
+           "popularity": 86,
+           "preview_url": null,
+           "track_number": 8,
+           "type": "track",
+           "uri": "spotify:track:7KXjTSCq5nL1LoYtL7XAwS"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                    "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                    "name": "Kendrick Lamar",
+                    "type": "artist",
+                    "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+                 },
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1Xyo4u8uXC1ZmMpatF05PJ",
+                    "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+                    "name": "The Weeknd",
+                    "type": "artist",
+                    "uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+                 },
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/7tYKF4w9nC0nq9CsPZTHyP",
+                    "id": "7tYKF4w9nC0nq9CsPZTHyP",
+                    "name": "SZA",
+                    "type": "artist",
+                    "uri": "spotify:artist:7tYKF4w9nC0nq9CsPZTHyP"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/3pLdWdkj83EYfDN6H2N8MR"
+              },
+              "href": "https://api.spotify.com/v1/albums/3pLdWdkj83EYfDN6H2N8MR",
+              "id": "3pLdWdkj83EYfDN6H2N8MR",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/2bd50294b0b2874d3182fa31a6fb825784e6e395",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/844da52d9871ec8fe044eba0746be7717bba838c",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/133d420e24b7236301a968a0011c5fbc3d2365e3",
+                    "width": 64
+                 }
+              ],
+              "name": "Black Panther The Album Music From And Inspired By",
+              "release_date": "2018-02-09",
+              "release_date_precision": "day",
+              "total_tracks": 14,
+              "type": "album",
+              "uri": "spotify:album:3pLdWdkj83EYfDN6H2N8MR"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                 "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                 "name": "Kendrick Lamar",
+                 "type": "artist",
+                 "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+              },
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/7tYKF4w9nC0nq9CsPZTHyP",
+                 "id": "7tYKF4w9nC0nq9CsPZTHyP",
+                 "name": "SZA",
+                 "type": "artist",
+                 "uri": "spotify:artist:7tYKF4w9nC0nq9CsPZTHyP"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 232186,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USUM71713947"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/3GCdLUSnKSMJhs4Tj6CV3s"
+           },
+           "href": "https://api.spotify.com/v1/tracks/3GCdLUSnKSMJhs4Tj6CV3s",
+           "id": "3GCdLUSnKSMJhs4Tj6CV3s",
+           "is_local": false,
+           "is_playable": true,
+           "name": "All The Stars (with SZA)",
+           "popularity": 85,
+           "preview_url": null,
+           "track_number": 2,
+           "type": "track",
+           "uri": "spotify:track:3GCdLUSnKSMJhs4Tj6CV3s"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                    "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                    "name": "Kendrick Lamar",
+                    "type": "artist",
+                    "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+                 },
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1Xyo4u8uXC1ZmMpatF05PJ",
+                    "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+                    "name": "The Weeknd",
+                    "type": "artist",
+                    "uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+                 },
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/7tYKF4w9nC0nq9CsPZTHyP",
+                    "id": "7tYKF4w9nC0nq9CsPZTHyP",
+                    "name": "SZA",
+                    "type": "artist",
+                    "uri": "spotify:artist:7tYKF4w9nC0nq9CsPZTHyP"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/3pLdWdkj83EYfDN6H2N8MR"
+              },
+              "href": "https://api.spotify.com/v1/albums/3pLdWdkj83EYfDN6H2N8MR",
+              "id": "3pLdWdkj83EYfDN6H2N8MR",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/2bd50294b0b2874d3182fa31a6fb825784e6e395",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/844da52d9871ec8fe044eba0746be7717bba838c",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/133d420e24b7236301a968a0011c5fbc3d2365e3",
+                    "width": 64
+                 }
+              ],
+              "name": "Black Panther The Album Music From And Inspired By",
+              "release_date": "2018-02-09",
+              "release_date_precision": "day",
+              "total_tracks": 14,
+              "type": "album",
+              "uri": "spotify:album:3pLdWdkj83EYfDN6H2N8MR"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/1Xyo4u8uXC1ZmMpatF05PJ",
+                 "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+                 "name": "The Weeknd",
+                 "type": "artist",
+                 "uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+              },
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                 "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                 "name": "Kendrick Lamar",
+                 "type": "artist",
+                 "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 211440,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USUM71800001"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/77UjLW8j5UAGAGVGhR5oUK"
+           },
+           "href": "https://api.spotify.com/v1/tracks/77UjLW8j5UAGAGVGhR5oUK",
+           "id": "77UjLW8j5UAGAGVGhR5oUK",
+           "is_local": false,
+           "is_playable": true,
+           "name": "Pray For Me (with Kendrick Lamar)",
+           "popularity": 82,
+           "preview_url": null,
+           "track_number": 14,
+           "type": "track",
+           "uri": "spotify:track:77UjLW8j5UAGAGVGhR5oUK"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                    "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                    "name": "Kendrick Lamar",
+                    "type": "artist",
+                    "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY"
+              },
+              "href": "https://api.spotify.com/v1/albums/4eLPsYPBmXABThSJ821sqY",
+              "id": "4eLPsYPBmXABThSJ821sqY",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/4988546859334f9a5a3fa4acedc5aea275929026",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/72a11ced4752d3e6b9106839b650afc696c63d5a",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/dfb5157c64e00894045adf93082fd3d2937f57ef",
+                    "width": 64
+                 }
+              ],
+              "name": "DAMN.",
+              "release_date": "2017-04-14",
+              "release_date_precision": "day",
+              "total_tracks": 14,
+              "type": "album",
+              "uri": "spotify:album:4eLPsYPBmXABThSJ821sqY"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                 "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                 "name": "Kendrick Lamar",
+                 "type": "artist",
+                 "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+              },
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/3qBKjEOanahMxlRojwCzhI"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/3qBKjEOanahMxlRojwCzhI",
+                 "id": "3qBKjEOanahMxlRojwCzhI",
+                 "name": "Zacari",
+                 "type": "artist",
+                 "uri": "spotify:artist:3qBKjEOanahMxlRojwCzhI"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 213400,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USUM71703088"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/6PGoSes0D9eUDeeAafB2As"
+           },
+           "href": "https://api.spotify.com/v1/tracks/6PGoSes0D9eUDeeAafB2As",
+           "id": "6PGoSes0D9eUDeeAafB2As",
+           "is_local": false,
+           "is_playable": true,
+           "name": "LOVE. FEAT. ZACARI.",
+           "popularity": 82,
+           "preview_url": null,
+           "track_number": 10,
+           "type": "track",
+           "uri": "spotify:track:6PGoSes0D9eUDeeAafB2As"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                    "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                    "name": "Kendrick Lamar",
+                    "type": "artist",
+                    "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY"
+              },
+              "href": "https://api.spotify.com/v1/albums/4eLPsYPBmXABThSJ821sqY",
+              "id": "4eLPsYPBmXABThSJ821sqY",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/4988546859334f9a5a3fa4acedc5aea275929026",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/72a11ced4752d3e6b9106839b650afc696c63d5a",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/dfb5157c64e00894045adf93082fd3d2937f57ef",
+                    "width": 64
+                 }
+              ],
+              "name": "DAMN.",
+              "release_date": "2017-04-14",
+              "release_date_precision": "day",
+              "total_tracks": 14,
+              "type": "album",
+              "uri": "spotify:album:4eLPsYPBmXABThSJ821sqY"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                 "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                 "name": "Kendrick Lamar",
+                 "type": "artist",
+                 "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 185946,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USUM71703079"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/6HZILIRieu8S0iqY8kIKhj"
+           },
+           "href": "https://api.spotify.com/v1/tracks/6HZILIRieu8S0iqY8kIKhj",
+           "id": "6HZILIRieu8S0iqY8kIKhj",
+           "is_local": false,
+           "is_playable": true,
+           "name": "DNA.",
+           "popularity": 82,
+           "preview_url": null,
+           "track_number": 2,
+           "type": "track",
+           "uri": "spotify:track:6HZILIRieu8S0iqY8kIKhj"
+        },
+        {
+           "album": {
+              "album_type": "single",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/28ExwzUQsvgJooOI0X1mr3"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/28ExwzUQsvgJooOI0X1mr3",
+                    "id": "28ExwzUQsvgJooOI0X1mr3",
+                    "name": "Jay Rock",
+                    "type": "artist",
+                    "uri": "spotify:artist:28ExwzUQsvgJooOI0X1mr3"
+                 },
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                    "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                    "name": "Kendrick Lamar",
+                    "type": "artist",
+                    "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+                 },
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/1RyvyyTE3xzB2ZywiAwp0i"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1RyvyyTE3xzB2ZywiAwp0i",
+                    "id": "1RyvyyTE3xzB2ZywiAwp0i",
+                    "name": "Future",
+                    "type": "artist",
+                    "uri": "spotify:artist:1RyvyyTE3xzB2ZywiAwp0i"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/1NXM5lF9YB7a3f1e4R48oH"
+              },
+              "href": "https://api.spotify.com/v1/albums/1NXM5lF9YB7a3f1e4R48oH",
+              "id": "1NXM5lF9YB7a3f1e4R48oH",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/79ea7775ce7b94320a808664a59045a50e5ef7c9",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/d4a6afd50c327f549dda2e112985ee233f5bd908",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/7669af0de1d21cf4eff7e92ab52965fec2354e1a",
+                    "width": 64
+                 }
+              ],
+              "name": "King's Dead (with Kendrick Lamar, Future & James Blake)",
+              "release_date": "2018-01-12",
+              "release_date_precision": "day",
+              "total_tracks": 1,
+              "type": "album",
+              "uri": "spotify:album:1NXM5lF9YB7a3f1e4R48oH"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/28ExwzUQsvgJooOI0X1mr3"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/28ExwzUQsvgJooOI0X1mr3",
+                 "id": "28ExwzUQsvgJooOI0X1mr3",
+                 "name": "Jay Rock",
+                 "type": "artist",
+                 "uri": "spotify:artist:28ExwzUQsvgJooOI0X1mr3"
+              },
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                 "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                 "name": "Kendrick Lamar",
+                 "type": "artist",
+                 "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+              },
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1RyvyyTE3xzB2ZywiAwp0i"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/1RyvyyTE3xzB2ZywiAwp0i",
+                 "id": "1RyvyyTE3xzB2ZywiAwp0i",
+                 "name": "Future",
+                 "type": "artist",
+                 "uri": "spotify:artist:1RyvyyTE3xzB2ZywiAwp0i"
+              },
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/53KwLdlmrlCelAZMaLVZqU"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/53KwLdlmrlCelAZMaLVZqU",
+                 "id": "53KwLdlmrlCelAZMaLVZqU",
+                 "name": "James Blake",
+                 "type": "artist",
+                 "uri": "spotify:artist:53KwLdlmrlCelAZMaLVZqU"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 229670,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USUM71714093"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/51rXHuKN8Loc4sUlKPODgH"
+           },
+           "href": "https://api.spotify.com/v1/tracks/51rXHuKN8Loc4sUlKPODgH",
+           "id": "51rXHuKN8Loc4sUlKPODgH",
+           "is_local": false,
+           "is_playable": true,
+           "name": "King's Dead (with Kendrick Lamar, Future & James Blake)",
+           "popularity": 81,
+           "preview_url": null,
+           "track_number": 1,
+           "type": "track",
+           "uri": "spotify:track:51rXHuKN8Loc4sUlKPODgH"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                    "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                    "name": "Kendrick Lamar",
+                    "type": "artist",
+                    "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY"
+              },
+              "href": "https://api.spotify.com/v1/albums/4eLPsYPBmXABThSJ821sqY",
+              "id": "4eLPsYPBmXABThSJ821sqY",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/4988546859334f9a5a3fa4acedc5aea275929026",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/72a11ced4752d3e6b9106839b650afc696c63d5a",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/dfb5157c64e00894045adf93082fd3d2937f57ef",
+                    "width": 64
+                 }
+              ],
+              "name": "DAMN.",
+              "release_date": "2017-04-14",
+              "release_date_precision": "day",
+              "total_tracks": 14,
+              "type": "album",
+              "uri": "spotify:album:4eLPsYPBmXABThSJ821sqY"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                 "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                 "name": "Kendrick Lamar",
+                 "type": "artist",
+                 "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+              },
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/5pKCCKE2ajJHZ9KAiaK11H"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/5pKCCKE2ajJHZ9KAiaK11H",
+                 "id": "5pKCCKE2ajJHZ9KAiaK11H",
+                 "name": "Rihanna",
+                 "type": "artist",
+                 "uri": "spotify:artist:5pKCCKE2ajJHZ9KAiaK11H"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 227360,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USUM71703086"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/6SwRhMLwNqEi6alNPVG00n"
+           },
+           "href": "https://api.spotify.com/v1/tracks/6SwRhMLwNqEi6alNPVG00n",
+           "id": "6SwRhMLwNqEi6alNPVG00n",
+           "is_local": false,
+           "is_playable": true,
+           "name": "LOYALTY. FEAT. RIHANNA.",
+           "popularity": 77,
+           "preview_url": null,
+           "track_number": 6,
+           "type": "track",
+           "uri": "spotify:track:6SwRhMLwNqEi6alNPVG00n"
+        },
+        {
+           "album": {
+              "album_type": "single",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/5he5w2lnU9x7JFhnwcekXX"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/5he5w2lnU9x7JFhnwcekXX",
+                    "id": "5he5w2lnU9x7JFhnwcekXX",
+                    "name": "Skrillex",
+                    "type": "artist",
+                    "uri": "spotify:artist:5he5w2lnU9x7JFhnwcekXX"
+                 },
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                    "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                    "name": "Kendrick Lamar",
+                    "type": "artist",
+                    "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/1X4aaOIXvs6gWtQZQpln4V"
+              },
+              "href": "https://api.spotify.com/v1/albums/1X4aaOIXvs6gWtQZQpln4V",
+              "id": "1X4aaOIXvs6gWtQZQpln4V",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/30a538ad84f1efa30c5ed1a8113fc18bac3daa9e",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/e0667d9944a54ae53013c8fde96b367413e7aa3a",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/10e769a4c707fdbf1f6fb1de89e042440af7ec36",
+                    "width": 64
+                 }
+              ],
+              "name": "HUMBLE. (SKRILLEX REMIX)",
+              "release_date": "2017-09-29",
+              "release_date_precision": "day",
+              "total_tracks": 1,
+              "type": "album",
+              "uri": "spotify:album:1X4aaOIXvs6gWtQZQpln4V"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/5he5w2lnU9x7JFhnwcekXX"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/5he5w2lnU9x7JFhnwcekXX",
+                 "id": "5he5w2lnU9x7JFhnwcekXX",
+                 "name": "Skrillex",
+                 "type": "artist",
+                 "uri": "spotify:artist:5he5w2lnU9x7JFhnwcekXX"
+              },
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                 "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                 "name": "Kendrick Lamar",
+                 "type": "artist",
+                 "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 156800,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USUM71710562"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/65ES1qwOB577ZnTkizMXJJ"
+           },
+           "href": "https://api.spotify.com/v1/tracks/65ES1qwOB577ZnTkizMXJJ",
+           "id": "65ES1qwOB577ZnTkizMXJJ",
+           "is_local": false,
+           "is_playable": true,
+           "name": "HUMBLE. - SKRILLEX REMIX",
+           "popularity": 77,
+           "preview_url": null,
+           "track_number": 1,
+           "type": "track",
+           "uri": "spotify:track:65ES1qwOB577ZnTkizMXJJ"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                    "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                    "name": "Kendrick Lamar",
+                    "type": "artist",
+                    "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+                 },
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1Xyo4u8uXC1ZmMpatF05PJ",
+                    "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+                    "name": "The Weeknd",
+                    "type": "artist",
+                    "uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+                 },
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/7tYKF4w9nC0nq9CsPZTHyP",
+                    "id": "7tYKF4w9nC0nq9CsPZTHyP",
+                    "name": "SZA",
+                    "type": "artist",
+                    "uri": "spotify:artist:7tYKF4w9nC0nq9CsPZTHyP"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/3pLdWdkj83EYfDN6H2N8MR"
+              },
+              "href": "https://api.spotify.com/v1/albums/3pLdWdkj83EYfDN6H2N8MR",
+              "id": "3pLdWdkj83EYfDN6H2N8MR",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/2bd50294b0b2874d3182fa31a6fb825784e6e395",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/844da52d9871ec8fe044eba0746be7717bba838c",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/133d420e24b7236301a968a0011c5fbc3d2365e3",
+                    "width": 64
+                 }
+              ],
+              "name": "Black Panther The Album Music From And Inspired By",
+              "release_date": "2018-02-09",
+              "release_date_precision": "day",
+              "total_tracks": 14,
+              "type": "album",
+              "uri": "spotify:album:3pLdWdkj83EYfDN6H2N8MR"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                 "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                 "name": "Kendrick Lamar",
+                 "type": "artist",
+                 "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+              },
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/0Y5tJX1MQlPlqiwlOH1tJY",
+                 "id": "0Y5tJX1MQlPlqiwlOH1tJY",
+                 "name": "Travis Scott",
+                 "type": "artist",
+                 "uri": "spotify:artist:0Y5tJX1MQlPlqiwlOH1tJY"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 221826,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USUM71714108"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/5cXg9IQS34FzLVdHhp7hu7"
+           },
+           "href": "https://api.spotify.com/v1/tracks/5cXg9IQS34FzLVdHhp7hu7",
+           "id": "5cXg9IQS34FzLVdHhp7hu7",
+           "is_local": false,
+           "is_playable": true,
+           "name": "Big Shot (with Travis Scott)",
+           "popularity": 76,
+           "preview_url": null,
+           "track_number": 13,
+           "type": "track",
+           "uri": "spotify:track:5cXg9IQS34FzLVdHhp7hu7"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                    "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                    "name": "Kendrick Lamar",
+                    "type": "artist",
+                    "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/7ycBtnsMtyVbbwTfJwRjSP"
+              },
+              "href": "https://api.spotify.com/v1/albums/7ycBtnsMtyVbbwTfJwRjSP",
+              "id": "7ycBtnsMtyVbbwTfJwRjSP",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/5d78516b21c1845a1fc3b2bbb94c745998c19146",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/654fe996160848c7b06895ea2d79f3b6fbbc3914",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/c18232edb98585aac71a0053a4e7a0ddf79371b1",
+                    "width": 64
+                 }
+              ],
+              "name": "To Pimp A Butterfly",
+              "release_date": "2015-03-16",
+              "release_date_precision": "day",
+              "total_tracks": 16,
+              "type": "album",
+              "uri": "spotify:album:7ycBtnsMtyVbbwTfJwRjSP"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                 "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                 "name": "Kendrick Lamar",
+                 "type": "artist",
+                 "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 234693,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USUM71502494"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/0N3W5peJUQtI4eyR6GJT5O"
+           },
+           "href": "https://api.spotify.com/v1/tracks/0N3W5peJUQtI4eyR6GJT5O",
+           "id": "0N3W5peJUQtI4eyR6GJT5O",
+           "is_local": false,
+           "is_playable": true,
+           "name": "King Kunta",
+           "popularity": 75,
+           "preview_url": null,
+           "track_number": 3,
+           "type": "track",
+           "uri": "spotify:track:0N3W5peJUQtI4eyR6GJT5O"
+        }
+     ]
+  },
+  "headers": {
+     "content-type": "application/json; charset=utf-8",
+     "cache-control": "public, max-age=7200",
+     "access-control-allow-origin": "*",
+     "access-control-allow-headers": "Accept, Authorization, Origin, Content-Type, Retry-After",
+     "access-control-allow-methods": "GET, POST, OPTIONS, PUT, DELETE, PATCH",
+     "access-control-allow-credentials": "true",
+     "access-control-max-age": "604800",
+     "content-encoding": "gzip",
+     "date": "Wed, 03 Oct 2018 02:58:19 GMT",
+     "via": "1.1 google",
+     "alt-svc": "clear",
+     "connection": "close",
+     "transfer-encoding": "chunked"
+  },
+  "statusCode": 200
+}

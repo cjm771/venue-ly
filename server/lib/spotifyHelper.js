@@ -37,7 +37,12 @@ module.exports = {
       });
     }
   },
-  fetchTopSongsByArtists: function(artistId) {
+  fetchTopSongsByArtistIdFake: function(artistId) {
+    return Promise.promisify(fs.readFile)(__dirname + '/../data/top_tracks/' + artistId + '.json').then((contents) => {
+      return JSON.parse(contents);
+    });
+  },
+  fetchTopSongsByArtistId: function(artistId) {
     return this.fetchAccessToken().then( () => {
       return spotifyApi.getArtistTopTracks(artistId, 'US');
     });

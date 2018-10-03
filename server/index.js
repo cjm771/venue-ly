@@ -32,7 +32,12 @@ app.use((req, res, next) => {
 });
 
 app.get('/topTracks/:artistId', (req, res) => {
-  // spotifyHelper.fetchTopSongsByArtists
+  // fetchTopSongsByArtistId is real one
+  spotifyHelper.fetchTopSongsByArtistIdFake(req.params.artistId).then((results) => {
+    res.throwSuccess(results);
+  }).catch((error) => {
+    res.throwError(500, error);
+  });
 })
 
 app.get('/artists/:artist', (req, res) => {

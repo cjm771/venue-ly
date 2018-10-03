@@ -1,0 +1,822 @@
+{
+  "body": {
+     "tracks": [
+        {
+           "album": {
+              "album_type": "single",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                    "id": "4O15NlyKLIASxsJ0PrXPfz",
+                    "name": "Lil Uzi Vert",
+                    "type": "artist",
+                    "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/64eE6FnNj7UJ9LEkN4EbvS"
+              },
+              "href": "https://api.spotify.com/v1/albums/64eE6FnNj7UJ9LEkN4EbvS",
+              "id": "64eE6FnNj7UJ9LEkN4EbvS",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/511dc370db10d4ded4bde9742a98b80051fa33c1",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/6cd03e0a212add192512b2b728ec1daba7b08b70",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/4a7afda40f302ed3f49836c07f3ab65ccf74b74d",
+                    "width": 64
+                 }
+              ],
+              "name": "New Patek",
+              "release_date": "2018-09-18",
+              "release_date_precision": "day",
+              "total_tracks": 1,
+              "type": "album",
+              "uri": "spotify:album:64eE6FnNj7UJ9LEkN4EbvS"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                 "id": "4O15NlyKLIASxsJ0PrXPfz",
+                 "name": "Lil Uzi Vert",
+                 "type": "artist",
+                 "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 343099,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USAT21811270"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/0Fpen1PTuEnCmOJtUU9Iud"
+           },
+           "href": "https://api.spotify.com/v1/tracks/0Fpen1PTuEnCmOJtUU9Iud",
+           "id": "0Fpen1PTuEnCmOJtUU9Iud",
+           "is_local": false,
+           "is_playable": true,
+           "name": "New Patek",
+           "popularity": 89,
+           "preview_url": "https://p.scdn.co/mp3-preview/7230641a984e8b5952adf5f49fb991b58ebf835a?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 1,
+           "type": "track",
+           "uri": "spotify:track:0Fpen1PTuEnCmOJtUU9Iud"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                    "id": "4O15NlyKLIASxsJ0PrXPfz",
+                    "name": "Lil Uzi Vert",
+                    "type": "artist",
+                    "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/733e1ZfktLSwj96X5rsMeE"
+              },
+              "href": "https://api.spotify.com/v1/albums/733e1ZfktLSwj96X5rsMeE",
+              "id": "733e1ZfktLSwj96X5rsMeE",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/0ea8577fe124691ddce00bccf9677b16166a21db",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ead73f726959b82d78c41d28ca41edfef92b1c87",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/8bb4e383e30c9f5a938e40fe3d7f36a0dbd7d2f3",
+                    "width": 64
+                 }
+              ],
+              "name": "Luv Is Rage 2",
+              "release_date": "2017-08-25",
+              "release_date_precision": "day",
+              "total_tracks": 16,
+              "type": "album",
+              "uri": "spotify:album:733e1ZfktLSwj96X5rsMeE"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                 "id": "4O15NlyKLIASxsJ0PrXPfz",
+                 "name": "Lil Uzi Vert",
+                 "type": "artist",
+                 "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 182706,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USAT21703440"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/7GX5flRQZVHRAGd6B4TmDO"
+           },
+           "href": "https://api.spotify.com/v1/tracks/7GX5flRQZVHRAGd6B4TmDO",
+           "id": "7GX5flRQZVHRAGd6B4TmDO",
+           "is_local": false,
+           "is_playable": true,
+           "name": "XO TOUR Llif3",
+           "popularity": 88,
+           "preview_url": "https://p.scdn.co/mp3-preview/7add10ee576e9017030c09aa6d8bcaf682714859?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 16,
+           "type": "track",
+           "uri": "spotify:track:7GX5flRQZVHRAGd6B4TmDO"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                    "id": "4O15NlyKLIASxsJ0PrXPfz",
+                    "name": "Lil Uzi Vert",
+                    "type": "artist",
+                    "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/733e1ZfktLSwj96X5rsMeE"
+              },
+              "href": "https://api.spotify.com/v1/albums/733e1ZfktLSwj96X5rsMeE",
+              "id": "733e1ZfktLSwj96X5rsMeE",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/0ea8577fe124691ddce00bccf9677b16166a21db",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ead73f726959b82d78c41d28ca41edfef92b1c87",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/8bb4e383e30c9f5a938e40fe3d7f36a0dbd7d2f3",
+                    "width": 64
+                 }
+              ],
+              "name": "Luv Is Rage 2",
+              "release_date": "2017-08-25",
+              "release_date_precision": "day",
+              "total_tracks": 16,
+              "type": "album",
+              "uri": "spotify:album:733e1ZfktLSwj96X5rsMeE"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                 "id": "4O15NlyKLIASxsJ0PrXPfz",
+                 "name": "Lil Uzi Vert",
+                 "type": "artist",
+                 "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+              },
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/5cIc3SBFuBLVxJz58W2tU9"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/5cIc3SBFuBLVxJz58W2tU9",
+                 "id": "5cIc3SBFuBLVxJz58W2tU9",
+                 "name": "Oh Wonder",
+                 "type": "artist",
+                 "uri": "spotify:artist:5cIc3SBFuBLVxJz58W2tU9"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 221746,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USAT21703429"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/2eAZfqOm4EnOF9VvN50Tyc"
+           },
+           "href": "https://api.spotify.com/v1/tracks/2eAZfqOm4EnOF9VvN50Tyc",
+           "id": "2eAZfqOm4EnOF9VvN50Tyc",
+           "is_local": false,
+           "is_playable": true,
+           "name": "The Way Life Goes (feat. Oh Wonder)",
+           "popularity": 81,
+           "preview_url": "https://p.scdn.co/mp3-preview/4d282cabd448444f2618fdb05302bc1cd8ecc64e?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 5,
+           "type": "track",
+           "uri": "spotify:track:2eAZfqOm4EnOF9VvN50Tyc"
+        },
+        {
+           "album": {
+              "album_type": "single",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Y5tJX1MQlPlqiwlOH1tJY",
+                    "id": "0Y5tJX1MQlPlqiwlOH1tJY",
+                    "name": "Travis Scott",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Y5tJX1MQlPlqiwlOH1tJY"
+                 },
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                    "id": "4O15NlyKLIASxsJ0PrXPfz",
+                    "name": "Lil Uzi Vert",
+                    "type": "artist",
+                    "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/7hVFsGvQ1apmp4EAldMwID"
+              },
+              "href": "https://api.spotify.com/v1/albums/7hVFsGvQ1apmp4EAldMwID",
+              "id": "7hVFsGvQ1apmp4EAldMwID",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/d91a0b311a6b775708b4cdb64a0bbf0640366d66",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/53f467328a1db311d71dfc8cf19eff88acd2dac2",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/658cd20258f0aa9429f33c8d9688037df30eb343",
+                    "width": 64
+                 }
+              ],
+              "name": "Watch (feat. Lil Uzi Vert & Kanye West)",
+              "release_date": "2018-05-04",
+              "release_date_precision": "day",
+              "total_tracks": 1,
+              "type": "album",
+              "uri": "spotify:album:7hVFsGvQ1apmp4EAldMwID"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/0Y5tJX1MQlPlqiwlOH1tJY",
+                 "id": "0Y5tJX1MQlPlqiwlOH1tJY",
+                 "name": "Travis Scott",
+                 "type": "artist",
+                 "uri": "spotify:artist:0Y5tJX1MQlPlqiwlOH1tJY"
+              },
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                 "id": "4O15NlyKLIASxsJ0PrXPfz",
+                 "name": "Lil Uzi Vert",
+                 "type": "artist",
+                 "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+              },
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/5K4W6rqBFWDnAN6FQUkS6x",
+                 "id": "5K4W6rqBFWDnAN6FQUkS6x",
+                 "name": "Kanye West",
+                 "type": "artist",
+                 "uri": "spotify:artist:5K4W6rqBFWDnAN6FQUkS6x"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 217405,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USSM11804504"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/3DoBTwfr8yi2LN08SBpFkN"
+           },
+           "href": "https://api.spotify.com/v1/tracks/3DoBTwfr8yi2LN08SBpFkN",
+           "id": "3DoBTwfr8yi2LN08SBpFkN",
+           "is_local": false,
+           "is_playable": true,
+           "name": "Watch (feat. Lil Uzi Vert & Kanye West)",
+           "popularity": 80,
+           "preview_url": "https://p.scdn.co/mp3-preview/e2591330de6122c98a82ea2f2c7865f5231e8535?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 1,
+           "type": "track",
+           "uri": "spotify:track:3DoBTwfr8yi2LN08SBpFkN"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                    "id": "4O15NlyKLIASxsJ0PrXPfz",
+                    "name": "Lil Uzi Vert",
+                    "type": "artist",
+                    "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/7mgdTKTCdfnLoa1HXHvLYM"
+              },
+              "href": "https://api.spotify.com/v1/albums/7mgdTKTCdfnLoa1HXHvLYM",
+              "id": "7mgdTKTCdfnLoa1HXHvLYM",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/4e3223c720e242f9d1a6675fc552f62e93bfe804",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/a1fe6524bf989f8ed488d73633d939f360a42d4a",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/50c03cd3e89bde34bb8bc8268e751c767de31c26",
+                    "width": 64
+                 }
+              ],
+              "name": "Lil Uzi Vert Vs. The World",
+              "release_date": "2016-05-27",
+              "release_date_precision": "day",
+              "total_tracks": 9,
+              "type": "album",
+              "uri": "spotify:album:7mgdTKTCdfnLoa1HXHvLYM"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                 "id": "4O15NlyKLIASxsJ0PrXPfz",
+                 "name": "Lil Uzi Vert",
+                 "type": "artist",
+                 "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 198944,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USAT21600660"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/0B8QzDH7YWih85V5SEMnyJ"
+           },
+           "href": "https://api.spotify.com/v1/tracks/0B8QzDH7YWih85V5SEMnyJ",
+           "id": "0B8QzDH7YWih85V5SEMnyJ",
+           "is_local": false,
+           "is_playable": true,
+           "name": "Money Longer",
+           "popularity": 80,
+           "preview_url": "https://p.scdn.co/mp3-preview/d3e64e38a6bc9be041fe7b1d6c9a0cacf07e2955?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 3,
+           "type": "track",
+           "uri": "spotify:track:0B8QzDH7YWih85V5SEMnyJ"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                    "id": "4O15NlyKLIASxsJ0PrXPfz",
+                    "name": "Lil Uzi Vert",
+                    "type": "artist",
+                    "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/733e1ZfktLSwj96X5rsMeE"
+              },
+              "href": "https://api.spotify.com/v1/albums/733e1ZfktLSwj96X5rsMeE",
+              "id": "733e1ZfktLSwj96X5rsMeE",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/0ea8577fe124691ddce00bccf9677b16166a21db",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ead73f726959b82d78c41d28ca41edfef92b1c87",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/8bb4e383e30c9f5a938e40fe3d7f36a0dbd7d2f3",
+                    "width": 64
+                 }
+              ],
+              "name": "Luv Is Rage 2",
+              "release_date": "2017-08-25",
+              "release_date_precision": "day",
+              "total_tracks": 16,
+              "type": "album",
+              "uri": "spotify:album:733e1ZfktLSwj96X5rsMeE"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                 "id": "4O15NlyKLIASxsJ0PrXPfz",
+                 "name": "Lil Uzi Vert",
+                 "type": "artist",
+                 "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 207038,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USAT21703427"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/1uL78kFWxhz3umTMWJu8n5"
+           },
+           "href": "https://api.spotify.com/v1/tracks/1uL78kFWxhz3umTMWJu8n5",
+           "id": "1uL78kFWxhz3umTMWJu8n5",
+           "is_local": false,
+           "is_playable": true,
+           "name": "Sauce It Up",
+           "popularity": 77,
+           "preview_url": "https://p.scdn.co/mp3-preview/0347d93ed9de9904c5a4d228902c54c53181b33f?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 3,
+           "type": "track",
+           "uri": "spotify:track:1uL78kFWxhz3umTMWJu8n5"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                    "id": "4O15NlyKLIASxsJ0PrXPfz",
+                    "name": "Lil Uzi Vert",
+                    "type": "artist",
+                    "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/7mgdTKTCdfnLoa1HXHvLYM"
+              },
+              "href": "https://api.spotify.com/v1/albums/7mgdTKTCdfnLoa1HXHvLYM",
+              "id": "7mgdTKTCdfnLoa1HXHvLYM",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/4e3223c720e242f9d1a6675fc552f62e93bfe804",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/a1fe6524bf989f8ed488d73633d939f360a42d4a",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/50c03cd3e89bde34bb8bc8268e751c767de31c26",
+                    "width": 64
+                 }
+              ],
+              "name": "Lil Uzi Vert Vs. The World",
+              "release_date": "2016-05-27",
+              "release_date_precision": "day",
+              "total_tracks": 9,
+              "type": "album",
+              "uri": "spotify:album:7mgdTKTCdfnLoa1HXHvLYM"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                 "id": "4O15NlyKLIASxsJ0PrXPfz",
+                 "name": "Lil Uzi Vert",
+                 "type": "artist",
+                 "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 163944,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USAT21601721"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/2ANLarE8yHVsLWW21nj79M"
+           },
+           "href": "https://api.spotify.com/v1/tracks/2ANLarE8yHVsLWW21nj79M",
+           "id": "2ANLarE8yHVsLWW21nj79M",
+           "is_local": false,
+           "is_playable": true,
+           "name": "You Was Right",
+           "popularity": 75,
+           "preview_url": "https://p.scdn.co/mp3-preview/5e922ed555267f903503958d68ea28879aa7cf71?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 5,
+           "type": "track",
+           "uri": "spotify:track:2ANLarE8yHVsLWW21nj79M"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                    "id": "4O15NlyKLIASxsJ0PrXPfz",
+                    "name": "Lil Uzi Vert",
+                    "type": "artist",
+                    "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/6LX75kNicFqjjiAOeZgN67"
+              },
+              "href": "https://api.spotify.com/v1/albums/6LX75kNicFqjjiAOeZgN67",
+              "id": "6LX75kNicFqjjiAOeZgN67",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/36487b43071aa21fc75e7868852da7f059e9a1e7",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/75d389cc6c34d4fdbfc2eb7d15bc885a228d239a",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/0d966b566f58e088be775f83ce20a53f6fab6af9",
+                    "width": 64
+                 }
+              ],
+              "name": "The Perfect LUV Tape",
+              "release_date": "2016-08-10",
+              "release_date_precision": "day",
+              "total_tracks": 10,
+              "type": "album",
+              "uri": "spotify:album:6LX75kNicFqjjiAOeZgN67"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                 "id": "4O15NlyKLIASxsJ0PrXPfz",
+                 "name": "Lil Uzi Vert",
+                 "type": "artist",
+                 "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 199993,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USAT21602379"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/4uhvMW7ly7tJil31YYscAN"
+           },
+           "href": "https://api.spotify.com/v1/tracks/4uhvMW7ly7tJil31YYscAN",
+           "id": "4uhvMW7ly7tJil31YYscAN",
+           "is_local": false,
+           "is_playable": true,
+           "name": "Erase Your Social",
+           "popularity": 75,
+           "preview_url": "https://p.scdn.co/mp3-preview/e03ee047e0c8df9c576a5f543781d864eb9b83c2?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 8,
+           "type": "track",
+           "uri": "spotify:track:4uhvMW7ly7tJil31YYscAN"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                    "id": "4O15NlyKLIASxsJ0PrXPfz",
+                    "name": "Lil Uzi Vert",
+                    "type": "artist",
+                    "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/733e1ZfktLSwj96X5rsMeE"
+              },
+              "href": "https://api.spotify.com/v1/albums/733e1ZfktLSwj96X5rsMeE",
+              "id": "733e1ZfktLSwj96X5rsMeE",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/0ea8577fe124691ddce00bccf9677b16166a21db",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ead73f726959b82d78c41d28ca41edfef92b1c87",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/8bb4e383e30c9f5a938e40fe3d7f36a0dbd7d2f3",
+                    "width": 64
+                 }
+              ],
+              "name": "Luv Is Rage 2",
+              "release_date": "2017-08-25",
+              "release_date_precision": "day",
+              "total_tracks": 16,
+              "type": "album",
+              "uri": "spotify:album:733e1ZfktLSwj96X5rsMeE"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                 "id": "4O15NlyKLIASxsJ0PrXPfz",
+                 "name": "Lil Uzi Vert",
+                 "type": "artist",
+                 "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 173419,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USAT21703439"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/2ZdCrBA52bb4pIG3tOOZiQ"
+           },
+           "href": "https://api.spotify.com/v1/tracks/2ZdCrBA52bb4pIG3tOOZiQ",
+           "id": "2ZdCrBA52bb4pIG3tOOZiQ",
+           "is_local": false,
+           "is_playable": true,
+           "name": "Dark Queen",
+           "popularity": 75,
+           "preview_url": "https://p.scdn.co/mp3-preview/f51933054640169a15eea5df714b25b7cb978c4d?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 15,
+           "type": "track",
+           "uri": "spotify:track:2ZdCrBA52bb4pIG3tOOZiQ"
+        },
+        {
+           "album": {
+              "album_type": "album",
+              "artists": [
+                 {
+                    "external_urls": {
+                       "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                    "id": "4O15NlyKLIASxsJ0PrXPfz",
+                    "name": "Lil Uzi Vert",
+                    "type": "artist",
+                    "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+                 }
+              ],
+              "external_urls": {
+                 "spotify": "https://open.spotify.com/album/0zicd2mBV8HTzSubByj4vP"
+              },
+              "href": "https://api.spotify.com/v1/albums/0zicd2mBV8HTzSubByj4vP",
+              "id": "0zicd2mBV8HTzSubByj4vP",
+              "images": [
+                 {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/0ea8577fe124691ddce00bccf9677b16166a21db",
+                    "width": 640
+                 },
+                 {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ead73f726959b82d78c41d28ca41edfef92b1c87",
+                    "width": 300
+                 },
+                 {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/8bb4e383e30c9f5a938e40fe3d7f36a0dbd7d2f3",
+                    "width": 64
+                 }
+              ],
+              "name": "Luv Is Rage 2 (Deluxe)",
+              "release_date": "2017-11-17",
+              "release_date_precision": "day",
+              "total_tracks": 20,
+              "type": "album",
+              "uri": "spotify:album:0zicd2mBV8HTzSubByj4vP"
+           },
+           "artists": [
+              {
+                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+                 },
+                 "href": "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+                 "id": "4O15NlyKLIASxsJ0PrXPfz",
+                 "name": "Lil Uzi Vert",
+                 "type": "artist",
+                 "uri": "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+              }
+           ],
+           "disc_number": 1,
+           "duration_ms": 220586,
+           "explicit": true,
+           "external_ids": {
+              "isrc": "USAT21704166"
+           },
+           "external_urls": {
+              "spotify": "https://open.spotify.com/track/0uxSUdBrJy9Un0EYoBowng"
+           },
+           "href": "https://api.spotify.com/v1/tracks/0uxSUdBrJy9Un0EYoBowng",
+           "id": "0uxSUdBrJy9Un0EYoBowng",
+           "is_local": false,
+           "is_playable": true,
+           "name": "20 Min",
+           "popularity": 75,
+           "preview_url": "https://p.scdn.co/mp3-preview/839fb8d9ef7958acb49153a4d8e00d2d7f117d2d?cid=88a2b45bfc264d57ba1a78d9f5b90eb3",
+           "track_number": 20,
+           "type": "track",
+           "uri": "spotify:track:0uxSUdBrJy9Un0EYoBowng"
+        }
+     ]
+  },
+  "headers": {
+     "content-type": "application/json; charset=utf-8",
+     "cache-control": "public, max-age=7200",
+     "access-control-allow-origin": "*",
+     "access-control-allow-headers": "Accept, Authorization, Origin, Content-Type, Retry-After",
+     "access-control-allow-methods": "GET, POST, OPTIONS, PUT, DELETE, PATCH",
+     "access-control-allow-credentials": "true",
+     "access-control-max-age": "604800",
+     "content-encoding": "gzip",
+     "date": "Wed, 03 Oct 2018 03:07:35 GMT",
+     "via": "1.1 google",
+     "alt-svc": "clear",
+     "connection": "close",
+     "transfer-encoding": "chunked"
+  },
+  "statusCode": 200
+}
