@@ -21,11 +21,10 @@ module.exports = {
   },
   sanitizeTracks: function(rawTracks) {
     return rawTracks.map((track) => {
-      debugger;
       return utils.retrieveDataViaMap(track, {
         'title' :  'trackName',
         'album': 'collectionName',
-        'id' :  '1274153124',
+        'id' :  'trackId',
         'type' : {val: 'itunes'},
         'image' : 'artworkUrl100',
         'track_url' : 'trackViewUrl',
