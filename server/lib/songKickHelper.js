@@ -1,5 +1,5 @@
 const fakeData = require('../data/sampleSongKickData.json');
-const {retrieveDataViaMap} = require('./utils.js');
+const  utils = require('./utils.js');
 
 module.exports = {
   getDataFromSongKick: function(location, startTime, endTime) {
@@ -10,7 +10,7 @@ module.exports = {
   },
   formatResults: function(results) {
     if (results.resultsPage && results.resultsPage.results && results.resultsPage.results.event) {
-      return results.resultsPage.results.event.map( (event) => (retrieveDataViaMap(event, {
+      return results.resultsPage.results.event.map( (event) => (utils.retrieveDataViaMap(event, {
         id: 'id',
         name: 'displayName',
         type: 'type',
@@ -20,7 +20,7 @@ module.exports = {
           // delete venue.displayName;
           return venue;
         }},
-        starts_at: {att: 'start', format: (start) => {return start.datetime}},
+        starts_at: 'start.datetime',
         performers: { att: 'performance', 
           format: (performers) => {
             return performers.map((performer) => {

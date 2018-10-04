@@ -21,7 +21,7 @@ app.use((req, res, next) => {
   
   res.throwError = function(status, error) {
     this.status(status);
-    this.end(JSON.stringify(error));
+    this.end(JSON.stringify({error: error}));
     console.log('Error!', error);
   }
 
@@ -62,7 +62,41 @@ app.use((req, res, next) => {
 //   });
 // });
 
-app.get('/topTracks/:artistId', (req, res) => {
+// all artists
+app.get('/topTracks/:artist', (req, res) => {
+  // fetchArtists is real one
+  spotifyHelper.fetchArtistsFake(req.params.artist).then((results) => {
+    // return 1st artist if one else, return empty
+    if (results.length > 0) {
+      return results[0];
+    } else {
+      return false
+    }
+  }).then((artist) => {
+    if (artist) {
+      // ok lets try getting the top tracks for the first artist in both spotify and itunes
+      return spotifyHelper.fetchTopSongsByArtistIdFake(artist.id).then((spotifyTracks) => {
+        artist.topTracks = spotifyTracks;
+        return artist;
+      }).then((artist) => {
+        return itunesHelper.fetchArtistsTopTracksFake(artist.name).then((itunesResults) => {
+          artist.topTracks = artist.topTracks.concat(itunesResults);
+          return res.throwSuccess(artist);
+        })
+      }).catch((error) => {
+        res.throwError(500, error);
+      });
+  
+    } else {
+      return res.throwSuccess(artist);
+    }
+  }).catch((error) => {
+    res.throwError(500, error);
+  });
+});
+
+// spotify artists
+app.get('/topSpotifyTracks/:artistId', (req, res) => {
   // fetchTopSongsByArtistId is real one
   spotifyHelper.fetchTopSongsByArtistIdFake(req.params.artistId).then((results) => {
     res.throwSuccess(results);
@@ -71,8 +105,8 @@ app.get('/topTracks/:artistId', (req, res) => {
   });
 })
 
-//sporify artists
-app.get('/itunesArtists/:artist', (req, res) => {
+//itunes artists
+app.get('/topItunesTracks/:artist', (req, res) => {
   // fetchArtists is real one
   itunesHelper.fetchArtistsTopTracksFake(req.params.artist).then((results) => {
     res.throwSuccess(results);

@@ -1,8 +1,6 @@
 const fs = require('fs');
 const Promise = require('bluebird');
-
-// const fakeData = require('../data/spotify.json');
-const {retrieveDataViaMap} = require('./utils.js');
+const utils = require('./utils.js');
 const SpotifyWebApi = require('spotify-web-api-node');
 
 // credentials are optional
@@ -65,25 +63,63 @@ module.exports = {
   //     return spotifyApi.getArtists(artistIds);
   //   });
   // },
+  sanitizeArtists: function(rawArtists) {
+    return rawArtists.body.artists.items.map((artist) => {
+      return utils.retrieveDataViaMap(artist, {
+        'last_updated': {val: Date.now()},
+        'name' :  'name',
+        'id' :  'id',
+        'type' : {val: 'spotify'},
+        'image' : 'images.0.url',
+        'popularity' : 'popularity',
+        'artist_url' : 'external_urls.spotify',
+        'genres': 'genres',
+        'description': ''
+      });
+    });
+  },
+  sanitizeTracks: function(rawTracks) {
+    return rawTracks.map((track) => {
+      return utils.retrieveDataViaMap(track, {
+        'title' :  'name',
+        'album': 'album.name',
+        'id' :  'id',
+        'type' : {val: 'spotify'},
+        'image' : 'album.images.0.url',
+        'popularity' : 'popularity',
+        'track_url' : 'external_urls.spotify',
+        'preview_url': 'preview_url',
+        'description': ''
+      });
+    });
+  },
   fetchTopSongsByArtistIdFake: function(artistId) {
     return Promise.promisify(fs.readFile)(__dirname + '/../data/top_tracks/' + artistId + '.json').then((contents) => {
       return JSON.parse(contents);
+    }).then(({body}) => {
+      return this.sanitizeTracks(body.tracks);
     });
   },
   fetchTopSongsByArtistId: function(artistId) {
     return this.fetchAccessToken().then( () => {
       return spotifyApi.getArtistTopTracks(artistId, 'US');
+    }).then(({body}) => {
+      return this.sanitizeTracks(body.tracks);
     });
   },
   fetchArtistsFake: function(keyword) {
     return Promise.promisify(fs.readFile)(__dirname + '/../data/spotify_artists/' + keyword.replace(/ /g, '_') + '.json').then((contents) => {
       return JSON.parse(contents);
+    }).then((contents) => {
+      return this.sanitizeArtists(contents)
     });
   },
   fetchArtists: function(keyword) {
     // Search artists whose name contains 'keyword'
     return this.fetchAccessToken().then( () => {
       return spotifyApi.searchArtists(keyword);
+    }).then((contents) => {
+      return this.sanitizeArtists(contents)
     });
   }
 };
