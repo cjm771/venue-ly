@@ -12,7 +12,7 @@ var spotifyApi = new SpotifyWebApi({
 });
 
 module.exports = {
-  refreshTokenTime: 5*60*60*1000,
+  refreshTokenTime: 3600-500,
   token: {
     expires: 0,
     value: null
@@ -37,6 +37,34 @@ module.exports = {
       });
     }
   },
+
+  // fetchTracksByIdsFake: function(trackIds) {
+  //   if (!Array.isArray(trackIds)) {
+  //     trackIds = [trackIds];
+  //   }
+  //   return Promise.promisify(fs.readFile)(__dirname + '/../data/tracks/' + trackIds + '.json').then((contents) => {
+  //     return JSON.parse(contents);
+  //   });
+  // },
+
+  // fetchTracksByIds: function(trackIds) {
+  //   if (!Array.isArray(trackIds)) {
+  //     trackIds = [trackIds];
+  //   }
+  //   return this.fetchAccessToken().then( () => {
+  //     // Get multiple artists
+  //     return spotifyApi.getTracks(trackIds, 'US');
+  //   });
+  // },
+  // fetchArtistsByIds: function(artistIds) {
+  //   if (!Array.isArray(artistIds)) {
+  //     artistIds = [artistIds];
+  //   }
+  //   return this.fetchAccessToken().then( () => {
+  //     // Get multiple artists
+  //     return spotifyApi.getArtists(artistIds);
+  //   });
+  // },
   fetchTopSongsByArtistIdFake: function(artistId) {
     return Promise.promisify(fs.readFile)(__dirname + '/../data/top_tracks/' + artistId + '.json').then((contents) => {
       return JSON.parse(contents);

@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const songKickHelper = require('./lib/songKickHelper');
 const spotifyHelper = require('./lib/spotifyHelper');
+const itunesHelper = require('./lib/itunesHelper');
 
 const app = new express();
 
@@ -31,6 +32,36 @@ app.use((req, res, next) => {
   next();
 });
 
+
+// minght not need
+// app.get('/tracks/:trackIds', (req, res) => {
+//   spotifyHelper.fetchTracksByIdsFake(req.params.trackIds.split(',').map((trackId) => {
+//   return trackId.trim(); 
+//   }).filter((trackId) => {
+//     return trackId !== ''
+//   })).then((results) => {
+//     res.throwSuccess(results);
+//   }).catch((error) => {
+//     res.throwError(500, error);
+//   });
+// });
+
+
+// might not need
+// app.get('/artistsInfo/:artistIds', (req, res) => {
+//   console.log('oh hai..');
+//   debugger;
+//   spotifyHelper.fetchArtistsByIds(req.params.artistIds.split(',').map((artistId) => {
+//   return artistId.trim(); 
+//   }).filter((artistId) => {
+//     return artistId !== ''
+//   })).then((results) => {
+//     res.throwSuccess(results);
+//   }).catch((error) => {
+//     res.throwError(500, error);
+//   });
+// });
+
 app.get('/topTracks/:artistId', (req, res) => {
   // fetchTopSongsByArtistId is real one
   spotifyHelper.fetchTopSongsByArtistIdFake(req.params.artistId).then((results) => {
@@ -39,6 +70,17 @@ app.get('/topTracks/:artistId', (req, res) => {
     res.throwError(500, error);
   });
 })
+
+//sporify artists
+app.get('/itunesArtists/:artist', (req, res) => {
+  // fetchArtists is real one
+  itunesHelper.fetchArtistsTopTracksFake(req.params.artist).then((results) => {
+    res.throwSuccess(results);
+  }).catch((error) => {
+    res.throwError(500, error);
+  });
+});
+
 
 app.get('/artists/:artist', (req, res) => {
   // fetchArtists is real one
