@@ -1,0 +1,33 @@
+{
+  "status": "ok",
+  "code": 200,
+  "messages": null,
+  "build": "1.0",
+  "parameters": {
+    "apiKey": "r4qustj7j4uksj543uwefkfu",
+    "id": "soccer mommy",
+    "format": "json",
+    "country": "US",
+    "language": "English"
+  },
+  "serverName": "tul1csprcs5.corporate.local",
+  "startTime": "2018-10-04T21:01:28Z",
+  "endTime": "2018-10-04T21:01:28Z",
+  "duration": 188,
+  "parentIds": {
+    "amgClassicalId": "Q  3284584",
+    "amgPopId": "P  3331071",
+    "nameId": "MN0003630815"
+  },
+  "musicBio": {
+    "text": "[roviLink=\"MN0003630815\"]Soccer Mommy[/roviLink] is the home-recorded solo project of singer/songwriter [roviLink=\"MN0003630815\"]Sophie Allison[/roviLink]. The Nashville native started uploading her introspective guitar pop songs to music-sharing site Bandcamp as a high-school student in the mid-2010s. Combining updated versions of some of the Bandcamp material and newer unreleased songs, [roviLink=\"MN0003630815\"]Soccer Mommy[/roviLink]'s [roviLink=\"MW0003056969\"]Collection[/roviLink] arrived on [roviLink=\"MN\"]Fat Possum[/roviLink] in the summer of 2017 while the songwriter was enrolled at New York University. Produced and mixed by [roviLink=\"MN0003630815\"]Allison[/roviLink], it was recorded by [roviLink=\"MN0003654935\"]Jacob Corenflos[/roviLink] and followed by a tour supporting acts such as [roviLink=\"MN0002142980\"]the Drums[/roviLink] and [roviLink=\"MN0003516839\"]Jay Som[/roviLink]. The following year [roviLink=\"MN0003630815\"]Allison[/roviLink] returned with the full-length debut record [roviLink=\"MW0003141157\"]Clean[/roviLink], which was produced by [roviLink=\"MN0003040589\"]Gabe Wax[/roviLink] ([roviLink=\"MN0000280897\"]Deerhunter[/roviLink], [roviLink=\"MN0000996795\"]the War on Drugs[/roviLink]). Later that year she released a cover of [roviLink=\"MN0000530745\"]Bruce Springsteen[/roviLink]'s \"I'm on Fire.\" ~ Marcy Donelson",
+    "author": "Marcy Donelson",
+    "musicBioOverview": [
+      {
+        "overview": "Soccer Mommy is the home-recorded solo project of singer/songwriter Sophie Allison. The Nashville native started uploading her introspective guitar pop songs to music-sharing site Bandcamp as a high school student in the mid-2010s. Combining updated versions of some of the Bandcamp material and newer unreleased songs, Soccer Mommy's [roviLink=\"MW0003056969\"]Collection[/roviLink] arrived on Fat Possum in the summer of 2017 while the songwriter was enrolled at New York University. Produced and mixed by Allison, it was recorded by Jacob Corenflos and followed by a tour supporting acts such as the Drums and Jay Som. The following year, Allison returned with the full-length debut record [roviLink=\"MW0003141157\"]Clean[/roviLink]. The album was produced by Gabe Wax (Deerhunter, the War on Drugs), and was preceded by the lead single \"Your Dog.\" ~ Marcy Donelson",
+        "author": "Marcy Donelson",
+        "language": "English"
+      }
+    ]
+  }
+}

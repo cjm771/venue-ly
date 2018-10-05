@@ -3,6 +3,7 @@ const express = require('express');
 const songKickHelper = require('./lib/songKickHelper');
 const spotifyHelper = require('./lib/spotifyHelper');
 const itunesHelper = require('./lib/itunesHelper');
+const roviHelper = require('./lib/roviHelper');
 const utils = require('./lib/utils');
 
 const app = new express();
@@ -69,6 +70,8 @@ app.get('/topTracks/:artist', (req, res) => {
   spotifyHelper.fetchArtistsFake(req.params.artist).then((results) => {
     // return 1st artist if one else, return empty
     if (results.length > 0) {
+      const bestMatch = results[0];
+      bestMatch.otherArtists = results.slice(1);
       return results[0];
     } else {
       return false
@@ -122,6 +125,17 @@ app.get('/topTracks/:artist', (req, res) => {
     res.throwError(500, error);
   });
 });
+
+// rovi artists bios
+app.get('/roviBios/:artist', (req, res) => {
+  // fetchTopSongsByArtistId is real one
+  roviHelper.fetchArtistsBiosFake(req.params.artist).then((results) => {
+    res.throwSuccess(results);
+  }).catch((error) => {
+    res.throwError(500, error);
+  });
+})
+
 
 // spotify artists
 app.get('/topSpotifyTracks/:artistId', (req, res) => {

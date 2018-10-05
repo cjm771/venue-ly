@@ -2,13 +2,6 @@ const fs = require('fs');
 const Promise = require('bluebird');
 const requestPromise = require('request-promise');
 const utils = require('./utils.js');
-
-const opts = {
-    query: {
-        entity: 'musicArtist',
-        limit: 5
-    }
-};
  
 
 module.exports = {

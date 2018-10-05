@@ -1,0 +1,33 @@
+{
+  "status": "ok",
+  "code": 200,
+  "messages": null,
+  "build": "1.0",
+  "parameters": {
+    "apiKey": "r4qustj7j4uksj543uwefkfu",
+    "id": "lil uzi vert",
+    "format": "json",
+    "country": "US",
+    "language": "English"
+  },
+  "serverName": "tul1csprcs7.corporate.local",
+  "startTime": "2018-10-04T20:16:49Z",
+  "endTime": "2018-10-04T20:16:50Z",
+  "duration": 147,
+  "parentIds": {
+    "amgClassicalId": "Q  3118583",
+    "amgPopId": "P  3165477",
+    "nameId": "MN0003463745"
+  },
+  "musicBio": {
+    "text": "A rapper who grew up on the beats of [roviLink=\"MN0000825251\"]Marilyn Manson[/roviLink] and [roviLink=\"MN0000361014\"]Kanye[/roviLink]'s [roviLink=\"MW0000802924\"]808 & Heartbreak[/roviLink], [roviLink=\"MN0003463745\"]Lil Uzi Vert[/roviLink] emerged from North Philadelphia with a relaxed style that connected the dots between [roviLink=\"MN0002068342\"]Young Thug[/roviLink], [roviLink=\"MN0002937107\"]Chief Keef[/roviLink], and [roviLink=\"MN0003176079\"]the A$AP Mob[/roviLink]. Debuting by featuring on some [roviLink=\"MN0002905627\"]DJ Diamond Kuts[/roviLink] tracks, [roviLink=\"MN0003463745\"]Uzi[/roviLink] kicked his career into high gear in 2014 when he dropped \"Dej Loaf,\" a dedication to the Detroit vocalist. [roviLink=\"MN0000865335\"]Don Cannon[/roviLink] hosted his mixtape [roviLink=\"MW\"]The Real Uzi[/roviLink] that same year, then [roviLink=\"MN0001358136\"]DJ Drama[/roviLink] helped broker a deal with [roviLink=\"MN\"]Atlantic Records[/roviLink], which released his [roviLink=\"MW0002905127\"]Luv Is Rage[/roviLink] mixtape late in 2015. [roviLink=\"MN0000865335\"]Don Cannon[/roviLink] was back for the early-2016 mixtape [roviLink=\"MW0002949840\"]Lil Uzi vs. the World[/roviLink], which also featured beats from [roviLink=\"MN0003138395\"]Metro Boomin[/roviLink] and [roviLink=\"MN0003563796\"]Maaly Raw[/roviLink]. Two of its tracks -- \"You Was Right\" and \"Money Longer\" -- crossed over and reached the Billboard Hot 100, while the mixtape itself broke into the Billboard 200 Top 50. Months later, [roviLink=\"MW0002971671\"]The Perfect Luv Tape[/roviLink] was issued, peaking at number 55. By the end of the year, his collaboration with [roviLink=\"MN0003145467\"]Migos[/roviLink] -- the viral hit \"Bad & Boujee\" -- began its ascent to the top of the Billboard Hot 100, hitting number one at the start of 2017. Later that year, [roviLink=\"MN0003463745\"]Uzi[/roviLink] issued the single \"XO Tour Llif3.\" The track climbed into the Top Ten of the Hot 100 and would be the first offering from his chart-topping debut LP, [roviLink=\"MW0003099323\"]Luv Is Rage 2[/roviLink]. The LP featured guests like [roviLink=\"MN0003385218\"]Oh Wonder[/roviLink], [roviLink=\"MN0000275757\"]Pharrell Williams[/roviLink], and [roviLink=\"MN0002674162\"]the Weeknd[/roviLink]. ~ David Jeffries & Neil Z. Yeung",
+    "author": "David Jeffries",
+    "musicBioOverview": [
+      {
+        "overview": "Rapper Lil Uzi Vert came out of North Philadelphia with a relaxed style that connected the dots between Young Thug, Chief Keef, and A$AP Mob. Uzi kicked his career into high gear in 2014 with the mixtape [roviLink=\"MW\"]The Real Uzi[/roviLink], then DJ Drama helped broker a deal with Atlantic, which released [roviLink=\"MW0002905127\"]Luv Is Rage[/roviLink] in 2015. Two of the tracks off 2016's [roviLink=\"MW0002949840\"]Lil Uzi Vert vs. the World[/roviLink] reached the Billboard Hot 100. Months later, [roviLink=\"MW0002971671\"]The Perfect Luv Tape[/roviLink] was issued, peaking at number 55 on the Billboard 200. After he topped the Hot 100 as a featured artist on Migos' \"Bad & Boujee,\" he issued \"XO Tour Llif3,\" another Top Ten pop hit, the first offering from his chart-topping debut LP, [roviLink=\"MW0003099323\"]Luv Is Rage 2[/roviLink]. ~ David Jeffries",
+        "author": "David Jeffries",
+        "language": "English"
+      }
+    ]
+  }
+}
