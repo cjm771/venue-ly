@@ -17,12 +17,32 @@ export default class App extends React.Component {
   }
 
   componentDidMount() {
+    this.fetchEvents();
+  }
+
+  fetchArtistInfo(performer) {
+    fetch('/topTracks/'+encodeURIComponent(performer.name)).then((resp) => {
+      return resp.json();
+    }).then((resp) => {
+      if (resp.error) {
+        throw JSON.stringify(resp.error);
+      } else {
+        console.log('artist obj recieved!:', resp);
+      }
+    }).catch((error) => {
+      console.log(error);
+    });
+  }
+
+  fetchEvents() {
     fetch('/events').then((resp) => {
       return resp.json();
     }).then((events) => {
       this.setState({
         events
       });
+    }).catch((error) => {
+      console.log(error);
     });
   }
 
@@ -48,7 +68,11 @@ export default class App extends React.Component {
         activeEvent: clickedSame ? null : event,
         rightOn: !clickedSame,
         leftOn: false
+      }, () => {
+          // ok here we'll query for our top tracks from artist and get results
+          this.fetchArtistInfo(this.state.activeEvent.performers[0]);
       });
+   
     }
   }
 

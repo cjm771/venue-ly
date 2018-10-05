@@ -71,7 +71,13 @@ app.get('/topTracks/:artist', (req, res) => {
     // return 1st artist if one else, return empty
     if (results.length > 0) {
       const bestMatch = results[0];
-      bestMatch.otherArtists = results.slice(1);
+      bestMatch.otherArtists = results.slice(1).map((artist) => {
+        return utils.retrieveDataViaMap(artist, {
+          'name': 'name', 
+          'id': 'id',
+          'image': 'image'
+        });
+      });
       return results[0];
     } else {
       return false
