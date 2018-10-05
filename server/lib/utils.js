@@ -48,7 +48,6 @@ module.exports = {
       return !opts.filter(obj);
     });
     // and run it through our beforeFinish
-    debugger;
     return opts.beforeFinish(resultArrFiltered, resultArrLeftovers);
   },
   // converts a dot notation string to its data counterpart

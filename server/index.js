@@ -83,35 +83,45 @@ app.get('/topTracks/:artist', (req, res) => {
         artist.topTracks = spotifyTracks;
         return artist;
       }).then((artist) => {
+        // lets get the rovi bio if there is one
+        return roviHelper.fetchArtistsBios(artist.name).then((roviBio) => {
+          if (roviBio && roviBio.bio && roviBio.bio!='') {
+            artist.description = roviBio.bio;
+          }
+          return artist;
+        })
+      }).then((artist) => {
         return itunesHelper.fetchArtistsTopTracksFake(artist.name).then((itunesResults) => {
-          // util to handle two data sources + merge them
-          artist.topTracks = utils.mergePruneFilter(artist.topTracks, itunesResults, {
-            beforeStart: (arr) => {
-              // grab name + remove parenthesis
-              return arr.map((track) => {
-                track['modified_title'] = track['title'].replace(/\((.+)\)/g, '').trim();
-                return track;
-              });
-            },
-            mergeOn: 'modified_title',
-            attsToCopy: ['preview_url', 'track_url'],
-            filter: (obj) => {
-              return (obj.preview_url);
-            },
-            pruneDuplicates: true, 
-            beforeFinish: (filteredArr, unfilteredArr) => {
-              // make sure theyre's @ least 5
-              const amountToHave = 5;
-              filteredArr = filteredArr.slice(0, 5)
-              if (filteredArr.length !== amountToHave) {
-                filteredArr = filteredArr.concat(unfilteredArr.slice(0, 
-                  amountToHave - filteredArr.length));
-                
+          if (Array.isArray(itunesResults) > 0) {
+            // util to handle two data sources + merge them
+            artist.topTracks = utils.mergePruneFilter(artist.topTracks, itunesResults, {
+              beforeStart: (arr) => {
+                // grab name + remove parenthesis
+                return arr.map((track) => {
+                  track['modified_title'] = track['title'].replace(/\((.+)\)/g, '').trim();
+                  return track;
+                });
+              },
+              mergeOn: 'modified_title',
+              attsToCopy: ['preview_url', 'track_url'],
+              filter: (obj) => {
+                return (obj.preview_url);
+              },
+              pruneDuplicates: true, 
+              beforeFinish: (filteredArr, unfilteredArr) => {
+                // make sure theyre's @ least 5
+                const amountToHave = 5;
+                filteredArr = filteredArr.slice(0, 5)
+                if (filteredArr.length !== amountToHave) {
+                  filteredArr = filteredArr.concat(unfilteredArr.slice(0, 
+                    amountToHave - filteredArr.length));
+                  
+                }
+                return filteredArr;
               }
-              return filteredArr;
-            }
-          })
-
+            })
+          }
+    
           return res.throwSuccess(artist);
         })
       }).catch((error) => {

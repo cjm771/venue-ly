@@ -25,7 +25,6 @@ module.exports = {
     return utils.retrieveDataViaMap(rawResp, {
       'artist': 'parameters.id',
       'bio': {att: 'musicBio.text', format: (v) => {
-        debugger;
         return v.replace(/\[roviLink=.+?\](.+?)\[\/roviLink\]/g, '$1');
       }}
     });
