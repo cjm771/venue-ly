@@ -2,8 +2,8 @@ import React from 'react';
 import css from '../../css/style.css';
 import MapView from './Map.js';
 import {Header, MainContent, LeftSlider, RightSlider, SliderLayout} from './SliderLayout.js';
-import { faHeadphonesAlt } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import EventView from './EventView.js';
+import { AudioAnalyzerNode } from './AudioAnalyzerNode';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -12,8 +12,12 @@ export default class App extends React.Component {
       events: [],
       activeEvent: null,
       leftOn: false,
-      rightOn: false
+      rightOn: false,
+      loadingEventView: true,
+      audioPlaying: false,
+      audioUrl: 'https://dancepartyjukebox.now.sh/mp3s/xoxo-813.mp3'
     }
+   
   }
 
   componentDidMount() {
@@ -28,6 +32,10 @@ export default class App extends React.Component {
         throw JSON.stringify(resp.error);
       } else {
         console.log('artist obj recieved!:', resp);
+        this.setState({
+          loadingEventView: false,
+          activeArtist: resp
+        });
       }
     }).catch((error) => {
       console.log(error);
@@ -49,6 +57,7 @@ export default class App extends React.Component {
   onMenuClick() {
     this.setState({
       activeEvent: null,
+      loadingEventView: true,
       rightOn: false,
       leftOn: !this.state.leftOn
     });
@@ -58,6 +67,7 @@ export default class App extends React.Component {
     if (event === null) {
       this.setState({
         activeEvent: null,
+        loadingEventView: true,
         rightOn: false,
         leftOn: false
       });
@@ -76,6 +86,20 @@ export default class App extends React.Component {
     }
   }
 
+  onAudioReady(aa) {
+    // console.log('audio ready!');
+    // setTimeout(() => {
+    //   this.setState({audioPlaying: !this.state.audioPlaying}, () => {
+    //     console.log('audio playing?', this.state.audioPlaying);
+    //   });
+    //   this.onAudioReady(aa);
+    // }, 2000);
+  }
+
+  onAudioAnalyze(level, bars) {
+    console.log('analysis!', level, bars);
+  }
+
   render() {
     return (
       <SliderLayout leftOn={this.state.leftOn} rightOn={this.state.rightOn}>
@@ -89,10 +113,16 @@ export default class App extends React.Component {
             activeEvent={this.state.activeEvent} 
             events={this.state.events}
           />
+          <AudioAnalyzerNode 
+            url={this.state.audioUrl}
+            play={this.state.audioPlaying}
+            onReady={this.onAudioReady.bind(this)}
+            onAnalyze={this.onAudioAnalyze.bind(this)}
+          />
         </MainContent>
       
           <RightSlider >
-          Right bar
+          <EventView event={this.state.activeEvent} artist={this.state.activeArtist} loading={this.state.loadingEventView}/>
         </RightSlider>
       </SliderLayout>
     );

@@ -1,0 +1,96 @@
+/* (<div className='loading'>Loading..</div>) : (
+  <div className='eventInfo'>
+    <div className='mainInfo_wpr'>
+      <div className='artist_profile_img_wpr'>
+        <img  className='artist_profile_img' src={this.props.artist.image}/>
+      </div>
+      <div className='info_wpr'>
+        <div  className='artist_name'>{this.props.artist.name}</div>
+        <div  className='venue_name'>{this.props.event.venue.name}</div>
+        <div  className='date'>{this.props.event.starts_at}</div>
+        <div  className='links'>
+          <a href={this.props.artist.artist_url} target='_blank'>About Artist</a>
+          <a href={this.props.event.url} target='_blank'>Event page</a>
+        </div>
+      </div>
+      <div className='artist_bio'>
+        {this.props.artist.description}
+      </div>
+    </div> */
+
+
+a {
+  color:  #f44242;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(7, 144, 207);
+}
+
+.links a span{
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.artist_bio_wpr {
+    position: relative;
+    margin: 20px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    font-size: 12px;
+   
+    -webkit-box-orient: vertical;  
+}
+
+.artist_bio_content {
+  overflow-y: scroll; 
+  color: #8a8a8a;
+  padding-bottom: 40px;
+}
+
+.artist_bio_wpr .read-more { 
+  position: absolute; 
+  bottom: 0; 
+  left: 0;
+  width: 100%; 
+  text-align: center; 
+  margin: 0; padding: 30px 0; 
+  /* "transparent" only works here because == rgba(0,0,0,0) */
+  background-image: linear-gradient(to bottom, transparent, white);
+}
+
+.artist_profile_img_wpr {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+
+}
+.artist_profile_img{
+  border-radius: 50%;
+  width: 100%;
+}
+.info_wpr {
+  width: 65%;
+  padding-left: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.info_wpr .artist_name{
+  font-size: 24px;
+  font-weight: bold;
+}
+.info_wpr .date{
+  font-size: 14px;
+}
+
+.info_wpr .venue_name{
+  font-size: 14px;
+  font-style: italic;
+}
+
+.info_wpr .links{
+  margin-top: 5px;
+  font-size: 12px;
+}
+
