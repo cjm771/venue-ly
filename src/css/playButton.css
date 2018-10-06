@@ -1,0 +1,11 @@
+.playButton{
+  display: inline-block;
+  padding-right: 15px;
+  color: #333;
+  font-weight: normal;
+  color: #f44242;
+}
+.playButton:hover{
+  color: rgb(7, 144, 207);
+  cursor: pointer;
+}

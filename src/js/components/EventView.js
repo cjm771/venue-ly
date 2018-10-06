@@ -1,5 +1,6 @@
 import React from 'react';
 import css from '../../css/EventInfo.css';
+import TracksList from './TracksList';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapPin, faDrum } from '@fortawesome/free-solid-svg-icons';
 
@@ -8,8 +9,8 @@ export default class EventView extends React.Component{
     super(props);
   }
 
+
   render() {
-    console.log('rendering ..', this.props);
     return (this.props.loading == true) ? 
       (<div className='loading'>Loading..</div>) : (
       <div className='eventInfo'>
@@ -27,13 +28,18 @@ export default class EventView extends React.Component{
             </div>
           </div>
           <div className='artist_bio_wpr'>
-            <h3>Bio</h3>
+            <h3>Bio <span className='disclaimer'>Courtesy of Rivo</span></h3>
             <div className='artist_bio_content'>
               {this.props.artist.description}
             </div>
             <div className ="read-more"></div>
           </div>
         </div>
+        <TracksList 
+          tracks={this.props.artist.topTracks} 
+          activeTrack={this.props.activeTrack} 
+          onSongClick={this.props.onSongClick}
+        />
       </div>
     )
   }

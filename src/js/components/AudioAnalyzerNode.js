@@ -9,37 +9,51 @@ export class AudioAnalyzerNode extends React.Component{
 
   componentDidMount() {
     if (this.props.play && this.props.url) {
-      this.aa = new AudioAnalyzer(this.props.url, () => {
-        // if we get an onready
-        if (this.props.onReady) {
-          this.props.onReady(this.aa);
-        }
-        this.handlePlayPause();
-       
-      });
+      this.handlePlayPause();
+    }
+  }
+
+  destroyIfExists() {
+    if (this.aa && this.aa.source) {
+      this.aa.destroy();
     }
   }
 
   handlePlayPause() {
     if (this.props.play == true) {
-      this.aa.play();
-      this.loop();
+      this.destroyIfExists();
+      this.aa = new AudioAnalyzer(this.props.url, () => {
+        // if we get an onready
+        if (this.props.onReady) {
+          this.props.onReady(this.aa);
+        }
+        // play the dang thing
+        this.aa.play();
+        // start analysis loop
+        this.loop();
+      });
+    
     } else {
-      this.aa.pause();
+      this.destroyIfExists();
     }
   }
 
-  componentDidUpdate() {
-    console.log('did update...',this.props.play);
-    if (this.aa && this.aa.source) {
+  propsChanged(prevProps) {
+    const toCheck = ['url', 'play'];
+    return toCheck.reduce((key) => {
+      prevProps[key] === this.props.key
+    }).length !== 0
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+
+    if (this.propsChanged) {
       this.handlePlayPause();
     }
   }
 
   componentWillUnmount() {
-    if (this.aa) {
-      this.aa.destroy();
-    }
+    this.destroyIfExists();
   }
 
   //analysis loop

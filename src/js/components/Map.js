@@ -25,7 +25,6 @@ const MapView= (props) => (
     {/* event markers */}
     {
       props.events.map((event, index) => {
-      console.log(event);
       return (         
         <Marker 
           onClick={(e) => {props.onMarkerClick(event) }} 

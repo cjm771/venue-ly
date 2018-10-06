@@ -109,7 +109,7 @@ app.get('/topTracks/:artist', (req, res) => {
                 });
               },
               mergeOn: 'modified_title',
-              attsToCopy: ['preview_url', 'track_url'],
+              attsToCopy: ['preview_url', 'track_url', 'type'],
               filter: (obj) => {
                 return (obj.preview_url);
               },

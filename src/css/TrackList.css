@@ -1,0 +1,63 @@
+.tracksList{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 300px;
+  justify-content: left;
+}
+
+.tracksList .trackItem{
+  font-size: 14px;
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+}
+.songPlayer_wpr > .right{
+  width: 65%;
+}
+.tracksList .trackItem > .left {
+  width: 70%;
+}
+
+.tracksList .trackItem > .right {
+  text-align: right;
+  width: 25%;
+}
+
+
+.tracksList .trackItem > .right img{
+  width: 100%;
+  max-width: 50px;
+  height: auto;
+  box-shadow: 2px 2px 3px #c0c0c0;
+}
+
+.tracksList .trackItem .songTitle{
+  display: inline-block;
+}
+.tracksList .trackItem .songTitle,
+.tracksList .trackItem .albumName{
+  text-overflow: ellipsis;
+  WIDTH: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.tracksList .trackItem .songTitle a{
+  color: inherit;
+}
+
+.tracksList .trackItem .songTitle .provider{
+  margin-right: 5px;
+  color: #c0c0c0;
+}
+
+.tracksList .trackItem .albumName{
+  font-size: 12px;
+  color: #c0c0c0;
+}
+
+.songPlayer_wpr > .left,
+.songPlayer_wpr > .right{
+  display: inline-block;
+  vertical-align: top;
+}

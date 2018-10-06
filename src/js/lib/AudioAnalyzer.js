@@ -113,9 +113,8 @@ AudioAnalyzer.prototype.stopMic = function() {
 }
 
 AudioAnalyzer.prototype.destroy = function() {
-  this.pause();
-  this.source.disconnect(this.analyzer);
-  this.source.disconnect(this.audioCtx.destination);
+  // this.source.disconnect(this.analyzer);
+  // this.source.disconnect(this.audioCtx.destination);
   this.audioCtx.close();
 }
 

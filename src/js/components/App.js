@@ -15,7 +15,7 @@ export default class App extends React.Component {
       rightOn: false,
       loadingEventView: true,
       audioPlaying: false,
-      audioUrl: 'https://dancepartyjukebox.now.sh/mp3s/xoxo-813.mp3'
+      activeTrack: null
     }
    
   }
@@ -31,7 +31,6 @@ export default class App extends React.Component {
       if (resp.error) {
         throw JSON.stringify(resp.error);
       } else {
-        console.log('artist obj recieved!:', resp);
         this.setState({
           loadingEventView: false,
           activeArtist: resp
@@ -73,7 +72,6 @@ export default class App extends React.Component {
       });
     } else {
       const clickedSame = (this.state.activeEvent && event.id === this.state.activeEvent.id);
-      console.log("right on?", this.state.rightOn);
       this.setState({
         activeEvent: clickedSame ? null : event,
         rightOn: !clickedSame,
@@ -84,6 +82,15 @@ export default class App extends React.Component {
       });
    
     }
+  }
+
+  onPlayPause(track, wasPlaying) {
+    console.log('happening...');
+    this.setState({
+      audioPlaying: (wasPlaying) ? false : true ,
+      activeTrack: (wasPlaying) ? null : track 
+    });
+    console.log('track clicked!', track, wasPlaying);
   }
 
   onAudioReady(aa) {
@@ -97,9 +104,10 @@ export default class App extends React.Component {
   }
 
   onAudioAnalyze(level, bars) {
-    console.log('analysis!', level, bars);
+    // console.log('analysis!', level, bars);
   }
 
+  
   render() {
     return (
       <SliderLayout leftOn={this.state.leftOn} rightOn={this.state.rightOn}>
@@ -114,15 +122,20 @@ export default class App extends React.Component {
             events={this.state.events}
           />
           <AudioAnalyzerNode 
-            url={this.state.audioUrl}
+            url={(this.state.activeTrack) ? this.state.activeTrack.preview_url : null}
             play={this.state.audioPlaying}
             onReady={this.onAudioReady.bind(this)}
             onAnalyze={this.onAudioAnalyze.bind(this)}
           />
         </MainContent>
-      
           <RightSlider >
-          <EventView event={this.state.activeEvent} artist={this.state.activeArtist} loading={this.state.loadingEventView}/>
+          <EventView 
+            activeTrack={this.state.activeTrack}
+            event={this.state.activeEvent} 
+            artist={this.state.activeArtist} 
+            loading={this.state.loadingEventView}
+            onSongClick={this.onPlayPause.bind(this)}
+          />
         </RightSlider>
       </SliderLayout>
     );
