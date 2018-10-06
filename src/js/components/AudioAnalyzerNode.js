@@ -40,14 +40,13 @@ export class AudioAnalyzerNode extends React.Component{
 
   propsChanged(prevProps) {
     const toCheck = ['url', 'play'];
-    return toCheck.reduce((key) => {
-      prevProps[key] === this.props.key
+    return toCheck.filter((key) => {
+      return prevProps[key] !== this.props[key]
     }).length !== 0
   }
 
   componentDidUpdate(prevProps, prevState) {
-
-    if (this.propsChanged) {
+    if (this.propsChanged(prevProps)) {
       this.handlePlayPause();
     }
   }
