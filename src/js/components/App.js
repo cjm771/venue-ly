@@ -9,13 +9,20 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      // songkick events
       events: [],
+      // event panel
+      loadingEventView: true,
+      // active things
       activeEvent: null,
+      activeArtist: null, 
+      // slider panels
       leftOn: false,
       rightOn: false,
-      loadingEventView: true,
+      // music based stuff
       audioPlaying: false,
-      activeTrack: null
+      activeTrack: null,
+      musicAnalysisBars: null
     }
    
   }
@@ -24,16 +31,28 @@ export default class App extends React.Component {
     this.fetchEvents();
   }
 
-  fetchArtistInfo(performer) {
+  // this helps to identify which event for map animaiton for music
+  attachEventIdToArtistsTracks(event, artist) {
+    artist.topTracks = artist.topTracks.map((track) => {
+      track.associatedEvent = event.id;
+      return track;
+    });
+    return artist;
+  }
+
+  fetchArtistInfo(event, performerIndex=0) {
+    const performer = event.performers[performerIndex];
     fetch('/topTracks/'+encodeURIComponent(performer.name)).then((resp) => {
       return resp.json();
     }).then((resp) => {
       if (resp.error) {
         throw JSON.stringify(resp.error);
       } else {
+        // lets put our event id in artist track data
+        const artist = this.attachEventIdToArtistsTracks(event, resp);
         this.setState({
           loadingEventView: false,
-          activeArtist: resp
+          activeArtist: artist
         });
       }
     }).catch((error) => {
@@ -78,7 +97,7 @@ export default class App extends React.Component {
         leftOn: false
       }, () => {
           // ok here we'll query for our top tracks from artist and get results
-          this.fetchArtistInfo(this.state.activeEvent.performers[0]);
+          this.fetchArtistInfo(this.state.activeEvent, 0);
       });
    
     }
@@ -93,17 +112,24 @@ export default class App extends React.Component {
     console.log('track clicked!', track, wasPlaying);
   }
 
-  onAudioReady(aa) {
-    // console.log('audio ready!');
-    // setTimeout(() => {
-    //   this.setState({audioPlaying: !this.state.audioPlaying}, () => {
-    //     console.log('audio playing?', this.state.audioPlaying);
-    //   });
-    //   this.onAudioReady(aa);
-    // }, 2000);
-  }
 
+// react assigns active but our node will control its css from here
+  adjustMarkerScaleBasedOnMusic(level) {
+      const markers = document.querySelectorAll('.marker_scale_wpr');
+      markers.forEach((marker) => {
+        if (marker.classList.contains('active')) {  
+          marker.style.transform = `scale(${1 + level * 1})`;
+        } else {
+          marker.style.transform = `scale(1)`;
+        }
+      });
+  }
   onAudioAnalyze(level, bars) {
+    this.adjustMarkerScaleBasedOnMusic(level);
+    // this.setState({
+    //   // musicAnalysisAmplitude: level,
+    //   musicAnalysisBars: bars
+    // });
     // console.log('analysis!', level, bars);
   }
 
@@ -119,12 +145,12 @@ export default class App extends React.Component {
           <MapView 
             onMarkerClick={this.onMarkerClick.bind(this)} 
             activeEvent={this.state.activeEvent} 
+            activeTrack={this.state.activeTrack}
             events={this.state.events}
           />
           <AudioAnalyzerNode 
             url={(this.state.activeTrack) ? this.state.activeTrack.preview_url : null}
             play={this.state.audioPlaying}
-            onReady={this.onAudioReady.bind(this)}
             onAnalyze={this.onAudioAnalyze.bind(this)}
           />
         </MainContent>

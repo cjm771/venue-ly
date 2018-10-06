@@ -7,6 +7,13 @@ const Map = ReactMapboxGl({
   accessToken: MAPBOX_ACCESS_TOKEN
 });
 
+const containsActiveTrack = (event, activeTrack) => {
+  if (activeTrack) {
+    return event.id === activeTrack.associatedEvent
+  } 
+  return false
+}
+
 // in render()
 const MapView= (props) => (
 (props.events.length) ? (
@@ -24,13 +31,13 @@ const MapView= (props) => (
 
     {/* event markers */}
     {
-      props.events.map((event, index) => {
+      props.events.map((event) => {
       return (         
         <Marker 
           onClick={(e) => {props.onMarkerClick(event) }} 
           key = {event.id} 
           coordinates={[event.venue.lng, event.venue.lat]}>
-        <Pin />
+        <Pin active={containsActiveTrack(event, props.activeTrack)} />
         </Marker>
       );
     })}
@@ -39,7 +46,7 @@ const MapView= (props) => (
     { (props.activeEvent) ? (
         <Popup 
         coordinates={[props.activeEvent.venue.lng, props.activeEvent.venue.lat]}
-        offset={25}>
+        offset={containsActiveTrack(props.activeEvent, props.activeTrack) ? 50: 25 }>
         <b>
           {props.activeEvent.performers.map((artist) => {return artist.name}).join(', ')}
         </b>

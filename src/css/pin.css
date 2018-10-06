@@ -1,5 +1,15 @@
-/* taken from: https://codepen.io/andreasstorm/pen/ClguF */
+/* pin courtesy of: https://codepen.io/andreasstorm/pen/ClguF */
 
+.marker_scale_wpr {
+  transform-origin: -4px 5px;
+  transform: scale(1);
+  transition: transform .5 ease-in-out;
+}
+
+.marker_scale_wpr.active .rotate_wpr{
+  transform-origin: bottom;
+  /* animation: wiggle 1s ease-in-out both infinite; */
+}
 .notesWpr{
   position: absolute;
   top: -20px;
@@ -26,6 +36,15 @@
       -webkit-transform: translate3d(0,5px,0);
   }
 }
+
+@keyframes wiggle {
+  0% {-webkit-transform: translateX(0em)}
+  25% {-webkit-transform: translateX(-.5em)}
+  50% {-webkit-transform: translateX(.25em)}
+  75% {-webkit-transform: translateX(-.75em)}
+  100% {-webkit-transform: translateX(.25em)}
+}
+
 
 .pin {
   width: 30px;
