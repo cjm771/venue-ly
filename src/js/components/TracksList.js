@@ -2,9 +2,9 @@ import React from 'react';
 import TracksListItem from './TracksListItem';
 import css from '../../css/TrackList.css';
 
-const isPlaying = (track, activeTrack) => {
+const isPlaying = (soundPlaying, track, activeTrack) => {
   if (track && activeTrack) {
-    return (activeTrack.preview_url && track.preview_url === activeTrack.preview_url);
+    return (soundPlaying && activeTrack.preview_url && track.preview_url === activeTrack.preview_url);
   }
 
 } 
@@ -17,7 +17,7 @@ const TracksList = (props) => (
         key={key}  
         something={'foobar'} 
         track={track}
-        isPlaying={ isPlaying(track, props.activeTrack) }
+        isPlaying={ isPlaying(props.soundPlaying, track, props.activeTrack) }
         onSongClick={props.onSongClick} 
       />
     )

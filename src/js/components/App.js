@@ -3,7 +3,8 @@ import css from '../../css/style.css';
 import MapView from './Map.js';
 import {Header, MainContent, LeftSlider, RightSlider, SliderLayout} from './SliderLayout.js';
 import EventView from './EventView.js';
-import { AudioAnalyzerNode } from './AudioAnalyzerNode';
+import  {AudioAnalyzerNode} from './AudioAnalyzerNode';
+import MusicVisualizer from './MusicVisualizer';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -21,10 +22,12 @@ export default class App extends React.Component {
       rightOn: false,
       // music based stuff
       audioPlaying: false,
+      activeTrackEvent: null,
+      activeTrackArtist: null,
       activeTrack: null,
       musicAnalysisBars: null
     }
-   
+    this.onMarkerClick = this.onMarkerClick.bind(this);
   }
 
   componentDidMount() {
@@ -81,19 +84,27 @@ export default class App extends React.Component {
     });
   }
 
+
+  killEventPane() {
+    this.setState({
+      activeEvent: null,
+      loadingEventView: true,
+      rightOn: false,
+      leftOn: false
+    });
+  }
+
   onMarkerClick(event) {
     if (event === null) {
-      this.setState({
-        activeEvent: null,
-        loadingEventView: true,
-        rightOn: false,
-        leftOn: false
-      });
+      // clicked on map
+      this.killEventPane();
+    } else if ((this.state.activeEvent!==null && event.id === this.state.activeEvent.id)) {
+      // clicked same event
+      this.killEventPane();
     } else {
-      const clickedSame = (this.state.activeEvent && event.id === this.state.activeEvent.id);
       this.setState({
-        activeEvent: clickedSame ? null : event,
-        rightOn: !clickedSame,
+        activeEvent: event,
+        rightOn: true,
         leftOn: false
       }, () => {
           // ok here we'll query for our top tracks from artist and get results
@@ -103,13 +114,19 @@ export default class App extends React.Component {
     }
   }
 
-  onPlayPause(track, wasPlaying) {
-    console.log('happening...');
+  onPlayPauseWidget(track, wasPlaying) {
     this.setState({
-      audioPlaying: (wasPlaying) ? false : true ,
-      activeTrack: (wasPlaying) ? null : track 
+      audioPlaying: (wasPlaying) ? false : true
     });
-    console.log('track clicked!', track, wasPlaying);
+  }
+
+  onPlayPause(track, wasPlaying) {
+    this.setState({
+      audioPlaying: (wasPlaying) ? false : true,
+      activeTrack: (wasPlaying) ? null : track,
+      activeTrackArtist: (wasPlaying) ? null : this.state.activeArtist,
+      activeTrackEvent: (wasPlaying) ? null : this.state.activeEvent
+    });
   }
 
 
@@ -117,7 +134,7 @@ export default class App extends React.Component {
   adjustMarkerScaleBasedOnMusic(level) {
       const markers = document.querySelectorAll('.marker_scale_wpr');
       markers.forEach((marker) => {
-        if (marker.classList.contains('active')) {  
+        if (marker.classList.contains('active') && this.state.audioPlaying) {  
           marker.style.transform = `scale(${1 + level * 1})`;
         } else {
           marker.style.transform = `scale(1)`;
@@ -126,11 +143,9 @@ export default class App extends React.Component {
   }
   onAudioAnalyze(level, bars) {
     this.adjustMarkerScaleBasedOnMusic(level);
-    // this.setState({
-    //   // musicAnalysisAmplitude: level,
-    //   musicAnalysisBars: bars
-    // });
-    // console.log('analysis!', level, bars);
+    this.setState({
+      musicAnalysisBars: bars
+    });
   }
 
   
@@ -143,15 +158,24 @@ export default class App extends React.Component {
         </LeftSlider>
         <MainContent leftOn={this.state.leftOn} rightOn={this.state.rightOn}>
           <MapView 
-            onMarkerClick={this.onMarkerClick.bind(this)} 
+            onMarkerClick={this.onMarkerClick} 
             activeEvent={this.state.activeEvent} 
             activeTrack={this.state.activeTrack}
+            isPlaying={this.state.audioPlaying}
             events={this.state.events}
           />
           <AudioAnalyzerNode 
             url={(this.state.activeTrack) ? this.state.activeTrack.preview_url : null}
             play={this.state.audioPlaying}
             onAnalyze={this.onAudioAnalyze.bind(this)}
+          />
+          <MusicVisualizer 
+            track={this.state.activeTrack}
+            artist={this.state.activeTrackArtist}
+            event={this.state.activeTrackEvent}
+            isPlaying={this.state.audioPlaying}
+            analysisBar={this.state.musicAnalysisBars}
+            onSongClick={this.onPlayPauseWidget.bind(this)}
           />
         </MainContent>
           <RightSlider >
@@ -160,6 +184,7 @@ export default class App extends React.Component {
             event={this.state.activeEvent} 
             artist={this.state.activeArtist} 
             loading={this.state.loadingEventView}
+            soundPlaying={this.state.audioPlaying}
             onSongClick={this.onPlayPause.bind(this)}
           />
         </RightSlider>

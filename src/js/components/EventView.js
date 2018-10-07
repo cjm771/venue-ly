@@ -39,6 +39,7 @@ export default class EventView extends React.Component{
           tracks={this.props.artist.topTracks} 
           activeTrack={this.props.activeTrack} 
           onSongClick={this.props.onSongClick}
+          soundPlaying={this.props.soundPlaying}
         />
       </div>
     )

@@ -7,59 +7,82 @@ const Map = ReactMapboxGl({
   accessToken: MAPBOX_ACCESS_TOKEN
 });
 
-const containsActiveTrack = (event, activeTrack) => {
-  if (activeTrack) {
-    return event.id === activeTrack.associatedEvent
-  } 
-  return false
-}
-
 // in render()
-const MapView= (props) => (
-(props.events.length) ? (
-<Map
-  onClick = {(e) => {props.onMarkerClick(null)}}
-  center={(props.activeEvent) ? 
-    [props.activeEvent.venue.lng, props.activeEvent.venue.lat] : 
-    [ props.events[0].venue.lng, props.events[0].venue.lat]
+class MapView extends React.Component{
+
+  constructor(props) {
+    super(props);
   }
-  style="mapbox://styles/mapbox/light-v9"
-  containerStyle={{
-    height: "100vh",
-    width: "100vw"
-  }}>
 
-    {/* event markers */}
-    {
-      props.events.map((event) => {
-      return (         
-        <Marker 
-          onClick={(e) => {props.onMarkerClick(event) }} 
-          key = {event.id} 
-          coordinates={[event.venue.lng, event.venue.lat]}>
-        <Pin active={containsActiveTrack(event, props.activeTrack)} />
-        </Marker>
-      );
-    })}
 
-    {/* active popup  */}
-    { (props.activeEvent) ? (
-        <Popup 
-        coordinates={[props.activeEvent.venue.lng, props.activeEvent.venue.lat]}
-        offset={containsActiveTrack(props.activeEvent, props.activeTrack) ? 50: 25 }>
-        <b>
-          {props.activeEvent.performers.map((artist) => {return artist.name}).join(', ')}
-        </b>
-        <br/>
-        @{props.activeEvent.venue.name }
-      </Popup>)
-      : ''
-    }
+  containsActiveTrack(event, activeTrack) {
+    if (activeTrack) {
+      return event.id === activeTrack.associatedEvent
+    } 
+    return false
+  }
 
-</Map>
-) : (
-  ''
-)
-);
+
+  propsChanged(nextProps) {
+    // const toCheck = ['url', 'play'];
+    // debugger;
+    return Object.keys(this.props).filter((key) => {
+      return nextProps[key] !== this.props[key]
+    }).length !== 0
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    return this.propsChanged(nextProps);
+  }
+
+  render() {
+    return (
+      (this.props.events.length) ? (
+        <Map
+          onClick = {(e) => {this.props.onMarkerClick(null)}}
+          center={(this.props.activeEvent) ? 
+            [this.props.activeEvent.venue.lng, this.props.activeEvent.venue.lat] : 
+            [this.props.events[0].venue.lng, this.props.events[0].venue.lat]
+          }
+          style="mapbox://styles/mapbox/light-v9"
+          containerStyle={{
+            height: "100vh",
+            width: "100vw"
+          }}>
+        
+            {/* event markers */}
+            {
+              this.props.events.map((event) => {
+              return (         
+                <Marker 
+                  onClick={(e) => {this.props.onMarkerClick(event) }} 
+                  key = {event.id} 
+                  coordinates={[event.venue.lng, event.venue.lat]}>
+                <Pin active={this.containsActiveTrack(event, this.props.activeTrack)} />
+                </Marker>
+              );
+            })}
+        
+            {/* active popup  */}
+            { (this.props.activeEvent) ? (
+                <Popup 
+                coordinates={[this.props.activeEvent.venue.lng, this.props.activeEvent.venue.lat]}
+                offset={this.containsActiveTrack(this.props.activeEvent, this.props.activeTrack) && this.props.isPlaying ? 50: 25 }>
+                <b>
+                  {this.props.activeEvent.performers.map((artist) => {return artist.name}).join(', ')}
+                </b>
+                <br/>
+                @{this.props.activeEvent.venue.name }
+              </Popup>)
+              : ''
+            }
+        
+        </Map>
+        ) : (
+          ''
+        )
+    );
+  }
+}
 
 export default MapView;

@@ -1,0 +1,26 @@
+.musicVisualizer_wpr {
+  position: absolute;
+  top: 0;
+  color: rgb(134, 134, 134);
+  right: 0;
+  background: RGBa(255, 255, 255, .75);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 999999999;
+  max-width: 30%;
+}
+
+.musicVisualizer_wpr .songTitle svg{
+  margin-right: 10px;
+}
+
+.musicVisualizer_wpr > .left,
+.musicVisualizer_wpr > .right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.musicVisualizer_wpr > .right a{
+  color: inherit;
+}
