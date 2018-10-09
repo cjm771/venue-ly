@@ -1,0 +1,51 @@
+.beacon{
+  position:absolute;
+  top:50%;
+  left:50%;
+  background-color: rgba(22, 200, 255, 0.65);
+  height:1em;
+  width:1em;
+  border-radius:50%;
+  -webkit-transform:translateX(-50%) translateY(-50%);
+}
+.beacon:before{
+  position:absolute;
+  content:"";
+  height:1em;
+  width:1em;
+  left:0;
+  top:0;
+  background-color:transparent;
+  border-radius:50%;
+  box-shadow:0px 0px 2px 2px #2980b9;
+  -webkit-animation:active 2s infinite linear;
+  animation:active 2s infinite linear;
+}
+
+@-webkit-keyframes active{
+  0%{
+    -webkit-transform:scale(.1);
+    opacity:1;
+  }
+  70%{
+    -webkit-transform:scale(2.5);
+    opacity:0;
+  }
+  100%{
+    opacity:0;
+  }
+}
+
+@keyframes active{
+  0%{
+    transform:scale(.1);
+    opacity:1;
+  }
+  70%{
+    transform:scale(2.5);
+    opacity:0;
+  }
+  100%{
+    opacity:0;
+  }
+}

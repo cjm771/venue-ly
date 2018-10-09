@@ -1,3 +1,24 @@
+.loadingSplash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  z-index: 999999999;
+  align-items: center;
+  justify-content: center;
+}
+
+.loadingMain {
+  font-size: 24px;
+  text-align: center;
+  color: #000;
+  padding: 20px;
+  border-radius: 25%;
+  background-color: rgba(255,255,255,.65);
+}
+
 .sliderLayout{
   height: 100vh;
 }
@@ -10,16 +31,28 @@
   
 }
 
-.sliderLayout .header .menuIcon{
+.sliderLayout .header .icon{
   font-size: 2em;
   z-index: inherit;
   padding: 10px;
   color: #999;
   vertical-align: top;
-  display: inline-block;
+  
 }
 
-.sliderLayout .header .menuIcon:hover{
+
+.sliderLayout .header .locationIcon{
+  margin-top: -15px;
+  
+}
+
+.sliderLayout .header .menuIcon{
+  display: inline-block;
+  
+}
+
+
+.sliderLayout .header .icon:hover{
   cursor: pointer;
   color: #ff0000;
 }

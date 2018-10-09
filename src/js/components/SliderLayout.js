@@ -1,12 +1,18 @@
 import React from 'react';
 import css from '../../css/SliderLayout.css';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faSearchLocation } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import Loading from './Loading';
 
 const Header = (props) => (
   <div className='header'>
-    <FontAwesomeIcon icon={faBars} className='menuIcon' onClick={props.onMenuClick} /><div className='headerText'>{props.children}</div>
+    <FontAwesomeIcon icon={faBars} className='menuIcon icon' onClick={props.onMenuClick} />
+    <div className='headerText'>
+      {props.children}
+      </div>
+      <div className='locationIcon'> 
+      <FontAwesomeIcon className='icon' onClick={props.onLocationClick} icon={faSearchLocation} />
+      </div>
   </div>
 );
 
@@ -16,9 +22,20 @@ const SliderLayout = (props) => (
   </div>
 );
 const MainContent = (props) => (
-  <div className={`mainContent ${props.leftOn ? 'left' : ''} ${props.rightOn ? 'right' : ''}`}>
+  <div className={`mainContent ${props.leftOn ? 'left' : ''} ${props.rightOn ? 'right' : 'right'}`}>
   {props.children}
   </div>
+);
+
+const LoadingScreen = (props) => (
+  props.isLoading ? (
+  <div className='loadingSplash'>
+    <div className='loadingMain'>
+      <Loading />
+      {props.message}
+    </div>
+  </div> ) :
+  ''
 );
 
 class Slider extends React.Component{
@@ -39,7 +56,7 @@ class Slider extends React.Component{
 }
 
 const LeftSlider = (props) => (
-  <Slider className='leftSlider' on={props.on} innerStyle={{paddingTop: '60px'}}>
+  <Slider className='leftSlider' on={props.on} innerStyle={{paddingTop: '100px'}}>
     {props.children}
   </Slider>
 );
@@ -50,4 +67,4 @@ const RightSlider = (props) => (
   </Slider>
 );
 
-export {Header, SliderLayout, MainContent, LeftSlider, RightSlider};
+export {Header, SliderLayout, MainContent, LeftSlider, RightSlider, LoadingScreen};

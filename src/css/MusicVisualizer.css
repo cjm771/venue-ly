@@ -16,11 +16,39 @@
 }
 
 .musicVisualizer_wpr > .left,
-.musicVisualizer_wpr > .right{
+.musicVisualizer_wpr > .right,
+.musicVisualizer_wpr > .rightMore{
   display: inline-block;
   vertical-align: top;
 }
 
+.musicVisualizer_wpr > .left{
+  width: 10%;
+}
+.musicVisualizer_wpr > .right{
+  width: 62%;
+  padding: 0px 10px;
+}
+.musicVisualizer_wpr > .rightMore{
+  width: 20%;
+
+}
+
+.musicVisualizer_wpr > .right a:hover{
+  color: #f44242;
+}
 .musicVisualizer_wpr > .right a{
   color: inherit;
+}
+
+.musicVisualizer_wpr .icon:hover{
+  color: #f44242;
+  cursor: pointer;
+}
+
+.musicVisualizer_wpr .close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
 }

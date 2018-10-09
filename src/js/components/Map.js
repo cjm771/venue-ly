@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactMapboxGl, { Marker, Layer, Feature, Popup } from "react-mapbox-gl";
 import Pin from './Pin';
+import Beacon from './Beacon';
 import {MAPBOX_ACCESS_TOKEN} from '../config/config.json';
 
 const Map = ReactMapboxGl({
@@ -40,17 +41,25 @@ class MapView extends React.Component{
       (this.props.events.length) ? (
         <Map
           onClick = {(e) => {this.props.onMarkerClick(null)}}
-          center={(this.props.activeEvent) ? 
-            [this.props.activeEvent.venue.lng, this.props.activeEvent.venue.lat] : 
-            [this.props.events[0].venue.lng, this.props.events[0].venue.lat]
-          }
+          center={this.props.center}
+          fitBounds={this.props.bounds}
+          fitBoundsOptions={{padding: 100}}
           style="mapbox://styles/mapbox/light-v9"
           containerStyle={{
             height: "100vh",
             width: "100vw"
           }}>
         
-            {/* event markers */}
+            
+            {/* self beacon */}
+            {this.props.beacon ? (
+              <Marker coordinates={this.props.beacon}>
+              <Beacon />
+              </Marker>
+              ) : (
+              ''
+            )}
+           {/* event markers */}
             {
               this.props.events.map((event) => {
               return (         

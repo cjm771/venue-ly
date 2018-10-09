@@ -8,6 +8,9 @@ module.exports = {
       resolve(fakeData);
     });
   },
+
+  
+
   formatResults: function(results) {
     if (results.resultsPage && results.resultsPage.results && results.resultsPage.results.event) {
       return results.resultsPage.results.event.map( (event) => (utils.retrieveDataViaMap(event, {

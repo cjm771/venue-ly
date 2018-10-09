@@ -1,7 +1,7 @@
 import React from 'react';
 import css from '../../css/style.css';
 import MapView from './Map.js';
-import {Header, MainContent, LeftSlider, RightSlider, SliderLayout} from './SliderLayout.js';
+import {Header, MainContent, LeftSlider, RightSlider, SliderLayout, LoadingScreen} from './SliderLayout.js';
 import EventView from './EventView.js';
 import  {AudioAnalyzerNode} from './AudioAnalyzerNode';
 import MusicVisualizer from './MusicVisualizer';
@@ -10,6 +10,9 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      isLoading: false, 
+      // center
+      bounds: null,
       // songkick events
       events: [],
       // event panel
@@ -63,12 +66,32 @@ export default class App extends React.Component {
     });
   }
 
+  getBounds(arr) {
+    console.log(arr);
+    arr = Array.isArray(arr[0]) ? arr : [arr];
+    const bounds =  arr.reduce((acc, [currLng, currLat]) => {
+      // min[0] = lng, min[1]= lat
+      //  min[0] = lng
+      const [[minLng, minLat], [maxLng, maxLat]] = acc;
+      const min = [Math.min(minLng, currLng), Math.min(minLat, currLat)];
+      const max = [Math.max(maxLng, currLng), Math.max(maxLat, currLat)];
+      return [min, max];
+    }, [arr[0], arr[0]]);
+    bounds[0] = [bounds[0][0], bounds[0][1]];
+    console.log(bounds);
+    return bounds;
+  }
+
+
   fetchEvents() {
     fetch('/events').then((resp) => {
       return resp.json();
     }).then((events) => {
       this.setState({
-        events
+        events,
+        bounds: (events.length) ? this.getBounds(events.map((event) => {
+          return [event.venue.lng, event.venue.lat]
+        })) : this.state.bounds,
       });
     }).catch((error) => {
       console.log(error);
@@ -94,6 +117,22 @@ export default class App extends React.Component {
     });
   }
 
+  onLocationClick() {
+    this.setState({
+      isLoading: true
+    }, () => {
+      navigator.geolocation.getCurrentPosition((geoInfo) => {
+        this.setState({
+          bounds: this.getBounds([geoInfo.coords.longitude, geoInfo.coords.latitude]),
+          beacon: [geoInfo.coords.longitude, geoInfo.coords.latitude],
+          isLoading: false
+        });
+        console.log(geoInfo.coords.longitude, geoInfo.coords.latitude);
+      });
+    })
+   
+  }
+
   onMarkerClick(event) {
     if (event === null) {
       // clicked on map
@@ -102,8 +141,10 @@ export default class App extends React.Component {
       // clicked same event
       this.killEventPane();
     } else {
+      // new event!
       this.setState({
         activeEvent: event,
+        center: [event.venue.lng, event.venue.lat],
         rightOn: true,
         leftOn: false
       }, () => {
@@ -117,6 +158,15 @@ export default class App extends React.Component {
   onPlayPauseWidget(track, wasPlaying) {
     this.setState({
       audioPlaying: (wasPlaying) ? false : true
+    });
+  }
+
+  onVizClose() {
+    this.setState({
+      audioPlaying: false,
+      activeTrackEvent: null,
+      activeTrackArtist: null,
+      activeTrack: null
     });
   }
 
@@ -152,12 +202,19 @@ export default class App extends React.Component {
   render() {
     return (
       <SliderLayout leftOn={this.state.leftOn} rightOn={this.state.rightOn}>
-        <Header onMenuClick={this.onMenuClick.bind(this)}>Venuely &#9834;</Header>
+        <LoadingScreen isLoading={this.state.isLoading} message={'Please Wait'}/>
+        <Header 
+          onMenuClick={this.onMenuClick.bind(this)}
+          onLocationClick={this.onLocationClick.bind(this)}
+        >Venuely &#9834;</Header>
         <LeftSlider>
           Left bar
         </LeftSlider>
         <MainContent leftOn={this.state.leftOn} rightOn={this.state.rightOn}>
           <MapView 
+            center={this.state.center}
+            bounds={this.state.bounds}
+            beacon={this.state.beacon}
             onMarkerClick={this.onMarkerClick} 
             activeEvent={this.state.activeEvent} 
             activeTrack={this.state.activeTrack}
@@ -174,8 +231,9 @@ export default class App extends React.Component {
             artist={this.state.activeTrackArtist}
             event={this.state.activeTrackEvent}
             isPlaying={this.state.audioPlaying}
-            analysisBar={this.state.musicAnalysisBars}
+            analysisBars={this.state.musicAnalysisBars}
             onSongClick={this.onPlayPauseWidget.bind(this)}
+            onClose={this.onVizClose.bind(this)}
           />
         </MainContent>
           <RightSlider >
