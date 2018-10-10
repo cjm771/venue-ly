@@ -1,15 +1,71 @@
-const fakeData = require('../data/sampleSongKickData.json');
+const fakeData = require('../data/songkick_events/san_francisco.json');
 const  utils = require('./utils.js');
+const url = require('url');
+const Promise = require('bluebird');
+const requestPromise = require('request-promise');
 
 module.exports = {
-  getDataFromSongKick: function(location, startTime, endTime) {
+  endpoint: 'https://api.songkick.com/api/3.0/',
+  getDataFromSongKickFake: function(location, startTime, endTime) {
 
     return new Promise((resolve) => {
       resolve(fakeData);
     });
   },
 
-  
+  queryApi: function(apiName, queryParams={}) {
+    params = new url.URLSearchParams();
+    params.set('apikey', process.env.SONGKICK_ACCESS_TOKEN);
+    Object.keys(queryParams).forEach((key) => {
+      params.set(key, queryParams[key]);
+    });
+    const final_url = this.endpoint + apiName + '.json?' + params.toString();
+    console.log(final_url);
+    return requestPromise({
+      url: final_url,
+      json: true,
+      gzip: true
+    });
+  },
+
+  getLocationFromKeyword: function(keyword) {
+    return this.queryApi('search/locations', {
+      query: keyword
+    }).then((results) => {
+      results = JSON.parse(results).resultsPage.results.location.filter(({city}) => {
+        return city.lat && city.lng
+      });
+      return results[0];
+    })
+  },
+
+  getDate: function(date=Date.now(), addedDays=0) {
+    debugger;
+    const timestamp =  date + addedDays * (1000*60*60*24);
+    return new Date(timestamp).toISOString().split('T')[0];
+  },
+
+  utf8_to_str: function(a) {
+    for(var i=0, s=''; i<a.length; i++) {
+        var h = a[i].toString(16)
+        if(h.length < 2) h = '0' + h
+        s += '%' + h
+    }
+    return decodeURIComponent(s)
+  },
+
+  getDataFromSongKick: function(location, startTime=this.getDate(), endTime=this.getDate()) {
+    return this.queryApi('events', {
+      min_date: startTime,
+      max_date: endTime,
+      location: 'sk:' + location
+    }).then((results) => {
+      // return this.utf8_to_str(results);
+      return results;
+      // return JSON.parse(results)
+    })
+  },
+
 
   formatResults: function(results) {
     if (results.resultsPage && results.resultsPage.results && results.resultsPage.results.event) {
@@ -20,7 +76,6 @@ module.exports = {
         url: 'url',
         venue:  {att: 'venue', format: (venue) => {
           venue.name = venue.displayName;
-          // delete venue.displayName;
           return venue;
         }},
         starts_at: 'start.datetime',
@@ -35,16 +90,6 @@ module.exports = {
                 id: performer.artist.id
               }
             });
-            // return performers.map((performer) => {
-            //   return retrieveDataViaMap(performer, {
-            //     name: 'name',
-            //     url: {att: 'artist', format: (artist) => {return artist.uri}},
-            //     id: {att: 'artist', format: (artist) => {return artist.id}},
-            //     billing: 'billing',
-            //     billingIndex: 'billingIndex'
-            //   });
-            // });
-          // }
         }}
       })));
     } else {
@@ -52,7 +97,7 @@ module.exports = {
     }
   },
   fetchEvents: function(location, startTime, endTime) {
-    return this.getDataFromSongKick(location, startTime, endTime).then((results) => {
+    return this.getDataFromSongKickFake(location, startTime, endTime).then((results) => {
       return this.formatResults(results);
     })
   }

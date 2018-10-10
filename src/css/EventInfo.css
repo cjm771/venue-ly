@@ -50,12 +50,22 @@ a:hover {
   width: 30%;
   display: inline-block;
   vertical-align: top;
+  padding-right: 10px;
 
 }
 .artist_profile_img{
   border-radius: 50%;
   width: 100%;
 }
+
+.noImg{
+  background: #9e0f4b; /* Old browsers */
+  background: linear-gradient(45deg, #e55474 4%,#4a9b96 57%,#cccccc 100%);
+  border-radius: 50%;
+  width: 100%;
+  padding-bottom: 100%;
+}
+
 .info_wpr {
   width: 65%;
   padding-left: 5px;

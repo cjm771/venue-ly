@@ -67,7 +67,8 @@ app.use((req, res, next) => {
 // all artists
 app.get('/topTracks/:artist', (req, res) => {
   // fetchArtists is real one
-  spotifyHelper.fetchArtistsFake(req.params.artist).then((results) => {
+  spotifyHelper.fetchArtists(req.params.artist).then((results) => {
+  // spotifyHelper.fetchArtistsFake(req.params.artist).then((results) => {
     // return 1st artist if one else, return empty
     if (results.length > 0) {
       const bestMatch = results[0];
@@ -80,12 +81,16 @@ app.get('/topTracks/:artist', (req, res) => {
       });
       return results[0];
     } else {
-      return false
+      return {
+        name: req.params.artist,
+        topTracks: []
+      }
     }
   }).then((artist) => {
-    if (artist) {
+    if (artist && artist.id) {
       // ok lets try getting the top tracks for the first artist in both spotify and itunes
-      return spotifyHelper.fetchTopSongsByArtistIdFake(artist.id).then((spotifyTracks) => {
+      return spotifyHelper.fetchTopSongsByArtistId(artist.id).then((spotifyTracks) => {
+      // return spotifyHelper.fetchTopSongsByArtistIdFake(artist.id).then((spotifyTracks) => {
         artist.topTracks = spotifyTracks;
         return artist;
       }).then((artist) => {
@@ -95,9 +100,14 @@ app.get('/topTracks/:artist', (req, res) => {
             artist.description = roviBio.bio;
           }
           return artist;
+        }).catch(err => {
+          console.log('could not get bio:', err);
+          return artist;
         })
       }).then((artist) => {
-        return itunesHelper.fetchArtistsTopTracksFake(artist.name).then((itunesResults) => {
+
+        return itunesHelper.fetchArtistsTopTracks(artist.name).then((itunesResults) => {
+        // return itunesHelper.fetchArtistsTopTracksFake(artist.name).then((itunesResults) => {
           if (Array.isArray(itunesResults) > 0) {
             // util to handle two data sources + merge them
             artist.topTracks = utils.mergePruneFilter(artist.topTracks, itunesResults, {
@@ -127,6 +137,17 @@ app.get('/topTracks/:artist', (req, res) => {
               }
             })
           }
+
+
+          // if artist doesn't have profile...grab from album art
+          if (artist.image ===  null) {
+            artist.topTracks.forEach((track, index) => {
+              if (track.image) {
+                artist.image = track.image;
+                return;
+              }
+            });
+          }
     
           return res.throwSuccess(artist);
         })
@@ -141,6 +162,16 @@ app.get('/topTracks/:artist', (req, res) => {
     res.throwError(500, error);
   });
 });
+
+// location songkick
+app.get('/location/:keyword', (req, res) => {
+  // fetchTopSongsByArtistId is real one
+  songKickHelper.getLocationFromKeyword(req.params.keyword).then((results) => {
+    res.throwSuccess(results);
+  }).catch((error) => {
+    res.throwError(500, error);
+  });
+})
 
 // rovi artists bios
 app.get('/roviBios/:artist', (req, res) => {
@@ -184,7 +215,7 @@ app.get('/artists/:artist', (req, res) => {
 });
 
 app.get('/events', (req, res) => {
-  songKickHelper.fetchEvents('london', 'today', 'tomorrow').then((events) => {
+  songKickHelper.fetchEvents(26330).then((events) => {
     res.throwSuccess(events);
   }).catch((error) => {
     res.throwError(500, error);

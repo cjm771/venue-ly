@@ -15,8 +15,12 @@ export default class EventView extends React.Component{
       (<div className='loading'>Loading..</div>) : (
       <div className='eventInfo'>
         <div className='mainInfo_wpr'>
-          <div className='artist_profile_img_wpr'>
-            <img  className='artist_profile_img' src={this.props.artist.image} />
+          <div className='artist_profile_img_wpr'> {
+            (this.props.artist.image) ?
+            (<img  className='artist_profile_img' src={this.props.artist.image} />) :
+            (<div className='noImg' />)
+          }
+           
           </div>
           <div className='info_wpr'>
             <div  className='artist_name'>{this.props.artist.name}</div>
@@ -28,9 +32,13 @@ export default class EventView extends React.Component{
             </div>
           </div>
           <div className='artist_bio_wpr'>
-            <h3>Bio <span className='disclaimer'>Courtesy of Rivo</span></h3>
+          <h3>Bio <span className='disclaimer'>Courtesy of Rivo</span></h3>
             <div className='artist_bio_content'>
-              {this.props.artist.description}
+            { (this.props.artist.description) ? 
+            this.props.artist.description
+            : (
+            <i>No bio currently available.</i>
+            )}
             </div>
             <div className ="read-more"></div>
           </div>

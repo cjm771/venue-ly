@@ -5,7 +5,8 @@ import {Header, MainContent, LeftSlider, RightSlider, SliderLayout, LoadingScree
 import EventView from './EventView.js';
 import  {AudioAnalyzerNode} from './AudioAnalyzerNode';
 import MusicVisualizer from './MusicVisualizer';
-
+import {getEndLngLat} from '../lib/utils';
+import { debug } from 'util';
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -35,6 +36,30 @@ export default class App extends React.Component {
 
   componentDidMount() {
     this.fetchEvents();
+  }
+
+  getEndLngLat(coords, angle, distance) {
+    // convert mi to meters
+    distance = 1609.34 * distance;
+    const degToRad = (deg) => {
+      return deg * (Math.PI / 180);
+    };
+    const radToDeg = (rad) => {
+      return rad * 180 / Math.PI
+    }
+    angle = degToRad(angle);
+    coords = coords.map((angle) => {return degToRad(angle)});
+    
+    const [lng1, lat1] = coords;
+    const R = 6378137;
+    const lat2 = Math.asin( Math.sin(lat1)*Math.cos(distance/R) +
+                    Math.cos(lat1)*Math.sin(distance/R)*Math.cos(angle) );
+    const lng2 = lng1 + Math.atan2(Math.sin(angle)*Math.sin(distance/R)*Math.cos(lat1),
+                    Math.cos(distance/R)-Math.sin(lat1)*Math.sin(lat2));
+    coords =  coords.map((rad) => {return radToDeg(rad)});
+    const newCoords = [lng2, lat2].map((rad) => {return radToDeg(rad)});
+    console.log(coords, newCoords);
+    return newCoords;
   }
 
   // this helps to identify which event for map animaiton for music
@@ -77,11 +102,13 @@ export default class App extends React.Component {
       const max = [Math.max(maxLng, currLng), Math.max(maxLat, currLat)];
       return [min, max];
     }, [arr[0], arr[0]]);
-    bounds[0] = [bounds[0][0], bounds[0][1]];
-    console.log(bounds);
     return bounds;
   }
 
+  getBoundsWithNMileRadius(coords, n) {
+    return [this.getEndLngLat(coords, 45, n/2),
+    this.getEndLngLat(coords, 225, n/2)]
+  }
 
   fetchEvents() {
     fetch('/events').then((resp) => {
@@ -123,7 +150,8 @@ export default class App extends React.Component {
     }, () => {
       navigator.geolocation.getCurrentPosition((geoInfo) => {
         this.setState({
-          bounds: this.getBounds([geoInfo.coords.longitude, geoInfo.coords.latitude]),
+          // bounds in 1 mile radius
+          bounds: this.getBoundsWithNMileRadius([geoInfo.coords.longitude, geoInfo.coords.latitude], 1),
           beacon: [geoInfo.coords.longitude, geoInfo.coords.latitude],
           isLoading: false
         });

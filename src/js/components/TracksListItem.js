@@ -9,10 +9,12 @@ const TracksListItem = ({track, onSongClick, isPlaying}) => (
       
       <div className='songPlayer_wpr' >
         <div className='left'>
-          <PlayButton isPlaying={isPlaying} onClick={(e) => {
-            handlePlaybackClick(track, isPlaying, onSongClick)
-            }
-          } />
+          {track.preview_url ? (
+            <PlayButton isPlaying={isPlaying} onClick={(e) => {
+              handlePlaybackClick(track, isPlaying, onSongClick)
+              }}
+            />
+            ) : (<div className='blankIcon' style={{'paddingRight': '27px'}}> </div>)}
           </div>
         <div className='right'>
             <div className='songTitle'> 
