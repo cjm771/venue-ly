@@ -31,12 +31,13 @@ module.exports = {
 
   getLocationFromKeyword: function(keywordOrLocale, type='query') {
     return this.queryApi('search/locations', {
-      query: (type=='query') ? keywordOrLocale : null,
-      location: (type=='location') ? keywordOrLocale : null,
+      query: (type === 'query') ? keywordOrLocale : null,
+      location: (type === 'location') ? keywordOrLocale : null,
     }).then((results) => {
         let resultsObj = {};
         try {
            resultsObj = JSON.parse(results).resultsPage.results;
+
         } catch (e) {
           throw 'JSON Error occurred: ' + e
         }
@@ -45,6 +46,8 @@ module.exports = {
           results = JSON.parse(results).resultsPage.results.location.filter(({city}) => {
             return city.lat && city.lng;
           });
+          results[0].name=`${results[0].metroArea.displayName},${results[0].metroArea.state ? ' ' + 
+          results[0].metroArea.state.displayName + ',' : ''} ${results[0].metroArea.country.displayName}`;
           return results[0];
         } else if (Object.keys(resultsObj).length === 0 ){
           throw 'Location could not be found.'

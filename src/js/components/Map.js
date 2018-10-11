@@ -38,8 +38,8 @@ class MapView extends React.Component{
 
   render() {
     return (
-      (this.props.events.length) ? (
         <Map
+          onMoveEnd = {this.props.onFinishMove}
           onClick = {(e) => {this.props.onMarkerClick(null)}}
           center={this.props.center}
           fitBounds={this.props.bounds}
@@ -60,7 +60,7 @@ class MapView extends React.Component{
               ''
             )}
            {/* event markers */}
-            {
+            { (this.props.events.length > 0 ) ? (
               this.props.events.map((event) => {
               return (         
                 <Marker 
@@ -69,8 +69,9 @@ class MapView extends React.Component{
                   coordinates={[event.venue.lng, event.venue.lat]}>
                 <Pin active={this.containsActiveTrack(event, this.props.activeTrack)} />
                 </Marker>
-              );
-            })}
+              )}))
+               : ''
+            }
         
             {/* active popup  */}
             { (this.props.activeEvent) ? (
@@ -87,9 +88,6 @@ class MapView extends React.Component{
             }
         
         </Map>
-        ) : (
-          ''
-        )
     );
   }
 }

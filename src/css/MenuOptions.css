@@ -1,0 +1,91 @@
+input:focus {
+  color: #f44242;
+  
+}
+
+input::placeholder{
+  color: #c0c0c0;
+}
+.input_wpr {
+  margin: 20px 0;
+}
+
+
+input {
+  border: 0;
+  padding: 10px 0;
+  outline: none !important;
+  border-bottom: 1px solid #d0d0d0;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.menu input[type='submit']:focus{
+  outline: none;
+}
+
+.menu input[type='submit']:hover{
+  color: #fff;
+  background: #f44242;
+  cursor: pointer;
+}
+
+.menu .searchButton{
+  margin: 0px auto;
+  border: 0;
+  text-align: center;
+  background: #bfbfbf;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  width: 30%;
+  display: inline-block;
+ 
+}
+
+.menu h3{
+  font-size: 0.85em;
+  margin-top: 3em;
+}
+
+.menu .currentSearchLocale{
+  color:#f44242;
+}
+
+.searchButton,
+.searchLocation_wpr{
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.searchLocation_wpr{
+  width: 70%;
+  padding-right: 30px;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container{
+  display: block !important;
+}
+
+
+.menu .loadingBox{
+  border: 1px solid #333;
+  color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 10px;
+  background: #d0d0d0;
+}
+
+
+.menu .errorBox{
+  border: 1px solid #f44242;
+  color: #f44242;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 10px;
+  background: #f7e3e3;
+}

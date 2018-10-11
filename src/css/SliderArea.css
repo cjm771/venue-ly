@@ -1,0 +1,28 @@
+.sliderArea{
+  padding: 20px;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  z-index: 9999999;
+  margin-left: 0px;
+  position: absolute;
+}
+
+
+.sliderArea .slider{
+  width: 30%;
+  margin: 0px auto;
+}
+
+.sliderArea .rc-slider-rail{
+  background: #c0c0c0;
+}
+
+
+.sliderArea  .rc-slider-track{
+  background: #f44242;
+}
+.sliderArea .rc-slider-dot-active,
+.sliderArea .rc-slider-handle {
+  border-color: #f44242;
+}
