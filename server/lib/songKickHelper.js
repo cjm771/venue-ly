@@ -17,25 +17,42 @@ module.exports = {
     params = new url.URLSearchParams();
     params.set('apikey', process.env.SONGKICK_ACCESS_TOKEN);
     Object.keys(queryParams).forEach((key) => {
-      params.set(key, queryParams[key]);
+      if (queryParams[key] !== null) {
+        params.set(key, queryParams[key]);
+      }
     });
     const final_url = this.endpoint + apiName + '.json?' + params.toString();
     console.log(final_url);
     return requestPromise({
       url: final_url,
-      json: true,
       gzip: true
     });
   },
 
-  getLocationFromKeyword: function(keyword) {
+  getLocationFromKeyword: function(keywordOrLocale, type='query') {
     return this.queryApi('search/locations', {
-      query: keyword
+      query: (type=='query') ? keywordOrLocale : null,
+      location: (type=='location') ? keywordOrLocale : null,
     }).then((results) => {
-      results = JSON.parse(results).resultsPage.results.location.filter(({city}) => {
-        return city.lat && city.lng
-      });
-      return results[0];
+        let resultsObj = {};
+        try {
+           resultsObj = JSON.parse(results).resultsPage.results;
+        } catch (e) {
+          throw 'JSON Error occurred: ' + e
+        }
+        
+        if ( resultsObj && resultsObj.location) {
+          results = JSON.parse(results).resultsPage.results.location.filter(({city}) => {
+            return city.lat && city.lng;
+          });
+          return results[0];
+        } else if (Object.keys(resultsObj).length === 0 ){
+          throw 'Location could not be found.'
+        } else {
+          throw 'Unknown error with results: ' + JSON.stringify(resultsObj);
+        }
+    }).catch((err) => {
+      throw  err;
     })
   },
 
@@ -61,8 +78,8 @@ module.exports = {
       location: 'sk:' + location
     }).then((results) => {
       // return this.utf8_to_str(results);
-      return results;
-      // return JSON.parse(results)
+      // return results;
+      return JSON.parse(results)
     })
   },
 
@@ -73,7 +90,7 @@ module.exports = {
         id: 'id',
         name: 'displayName',
         type: 'type',
-        url: 'url',
+        url: 'uri',
         venue:  {att: 'venue', format: (venue) => {
           venue.name = venue.displayName;
           return venue;

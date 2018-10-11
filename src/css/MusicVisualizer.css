@@ -8,7 +8,7 @@
   padding: 20px;
   border-radius: 10px;
   z-index: 999999999;
-  max-width: 30%;
+  width: 30%;
 }
 
 .musicVisualizer_wpr .songTitle svg{

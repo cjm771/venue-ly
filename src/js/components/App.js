@@ -5,13 +5,15 @@ import {Header, MainContent, LeftSlider, RightSlider, SliderLayout, LoadingScree
 import EventView from './EventView.js';
 import  {AudioAnalyzerNode} from './AudioAnalyzerNode';
 import MusicVisualizer from './MusicVisualizer';
-import {getEndLngLat} from '../lib/utils';
-import { debug } from 'util';
+import {MenuOptions} from './MenuOptions';
+import SliderArea from './SliderArea';
+
 export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       isLoading: false, 
+      currentSearchLocale: '[Current Location]',
       // center
       bounds: null,
       // songkick events
@@ -49,6 +51,7 @@ export default class App extends React.Component {
     }
     angle = degToRad(angle);
     coords = coords.map((angle) => {return degToRad(angle)});
+    
     
     const [lng1, lat1] = coords;
     const R = 6378137;
@@ -219,12 +222,33 @@ export default class App extends React.Component {
         }
       });
   }
+
   onAudioAnalyze(level, bars) {
     this.adjustMarkerScaleBasedOnMusic(level);
     this.setState({
       musicAnalysisBars: bars
     });
   }
+
+  fetchLocation() {
+    fetch('/location/search/').then((resp) => {
+      return resp.json();
+    }).then((events) => {
+      this.setState({
+        events,
+        bounds: (events.length) ? this.getBounds(events.map((event) => {
+          return [event.venue.lng, event.venue.lat]
+        })) : this.state.bounds,
+      });
+    }).catch((error) => {
+      console.log(error);
+    });
+  }
+  
+  onSearch(keyword, timeStart) {
+    console.log(keyword, ' was searched for ', timeStart);
+  }
+
 
   
   render() {
@@ -233,10 +257,13 @@ export default class App extends React.Component {
         <LoadingScreen isLoading={this.state.isLoading} message={'Please Wait'}/>
         <Header 
           onMenuClick={this.onMenuClick.bind(this)}
-          onLocationClick={this.onLocationClick.bind(this)}
-        >Venuely &#9834;</Header>
+          onLocationClick={this.onLocationClick.bind(this)}>Venuely &#9834;</Header>
         <LeftSlider>
-          Left bar
+          <MenuOptions 
+            onSearch={this.onSearch.bind(this)}
+            menuErrorMessage={this.state.menuErrorMessage}
+            currentSearchLocale={this.state.currentSearchLocale}
+          />
         </LeftSlider>
         <MainContent leftOn={this.state.leftOn} rightOn={this.state.rightOn}>
           <MapView 
@@ -262,6 +289,9 @@ export default class App extends React.Component {
             analysisBars={this.state.musicAnalysisBars}
             onSongClick={this.onPlayPauseWidget.bind(this)}
             onClose={this.onVizClose.bind(this)}
+          />
+          < SliderArea
+
           />
         </MainContent>
           <RightSlider >

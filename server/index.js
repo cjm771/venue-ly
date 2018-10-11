@@ -164,9 +164,19 @@ app.get('/topTracks/:artist', (req, res) => {
 });
 
 // location songkick
-app.get('/location/:keyword', (req, res) => {
+app.get('/location/search/:keyword', (req, res) => {
   // fetchTopSongsByArtistId is real one
   songKickHelper.getLocationFromKeyword(req.params.keyword).then((results) => {
+    res.throwSuccess(results);
+  }).catch((error) => {
+    res.throwError(500, error);
+  });
+})
+
+// location songkick
+app.get('/location/:locale', (req, res) => {
+  // fetchTopSongsByArtistId is real one
+  songKickHelper.getLocationFromKeyword(req.params.locale, 'location').then((results) => {
     res.throwSuccess(results);
   }).catch((error) => {
     res.throwError(500, error);
