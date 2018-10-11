@@ -1,0 +1,2032 @@
+[
+  {
+    "id": 34856399,
+    "name": "Milo Greene and Sharaya Summers with Miles Francis at Elsewhere (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34856399-milo-greene-at-elsewhere?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 3658119,
+      "displayName": "Elsewhere",
+      "uri": "http://www.songkick.com/venues/3658119-elsewhere?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.70948,
+      "lng": -73.92319,
+      "name": "Elsewhere"
+    },
+    "starts_at": "2018-10-11T20:00:00-0400",
+    "performers": [
+      {
+        "name": "Milo Greene",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/947784-milo-greene?utm_source=51192&utm_medium=partner",
+        "id": 947784
+      },
+      {
+        "name": "Sharaya Summers",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/9350219-sharaya-summers?utm_source=51192&utm_medium=partner",
+        "id": 9350219
+      },
+      {
+        "name": "Miles Francis",
+        "billing": "support",
+        "billingIndex": 3,
+        "url": "http://www.songkick.com/artists/8885024-miles-francis?utm_source=51192&utm_medium=partner",
+        "id": 8885024
+      }
+    ]
+  },
+  {
+    "id": 34972949,
+    "name": "The Brevet with Young Thieves and Aberdeen at The Bowery Electric (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34972949-brevet-at-bowery-electric?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 34628,
+      "displayName": "The Bowery Electric",
+      "uri": "http://www.songkick.com/venues/34628-bowery-electric?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.72576,
+      "lng": -73.99182,
+      "name": "The Bowery Electric"
+    },
+    "starts_at": "2018-10-11T19:00:00-0400",
+    "performers": [
+      {
+        "name": "The Brevet",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/3340486-brevet?utm_source=51192&utm_medium=partner",
+        "id": 3340486
+      },
+      {
+        "name": "Young Thieves",
+        "billing": "support",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/9172034-young-thieves?utm_source=51192&utm_medium=partner",
+        "id": 9172034
+      },
+      {
+        "name": "Aberdeen",
+        "billing": "support",
+        "billingIndex": 3,
+        "url": "http://www.songkick.com/artists/125752-aberdeen?utm_source=51192&utm_medium=partner",
+        "id": 125752
+      }
+    ]
+  },
+  {
+    "id": 34879534,
+    "name": "Alex Cameron with Lola Kirke at Warsaw (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34879534-alex-cameron-at-warsaw?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 802,
+      "displayName": "Warsaw",
+      "uri": "http://www.songkick.com/venues/802-warsaw?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.72254,
+      "lng": -73.9484,
+      "name": "Warsaw"
+    },
+    "starts_at": "2018-10-11T20:00:00-0400",
+    "performers": [
+      {
+        "name": "Alex Cameron",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/5680224-alex-cameron?utm_source=51192&utm_medium=partner",
+        "id": 5680224
+      },
+      {
+        "name": "Lola Kirke",
+        "billing": "support",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/8898734-lola-kirke?utm_source=51192&utm_medium=partner",
+        "id": 8898734
+      }
+    ]
+  },
+  {
+    "id": 34970404,
+    "name": "Nathan Xander, Adam Faucett, Quicksilver Daydream, and Pecas at Union Pool (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34970404-nathan-xander-at-union-pool?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 10751,
+      "displayName": "Union Pool",
+      "uri": "http://www.songkick.com/venues/10751-union-pool?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.71494,
+      "lng": -73.95161,
+      "name": "Union Pool"
+    },
+    "starts_at": "2018-10-11T20:00:00-0400",
+    "performers": [
+      {
+        "name": "Nathan Xander",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/1960972-nathan-xander?utm_source=51192&utm_medium=partner",
+        "id": 1960972
+      },
+      {
+        "name": "Adam Faucett",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/866242-adam-faucett?utm_source=51192&utm_medium=partner",
+        "id": 866242
+      },
+      {
+        "name": "Quicksilver Daydream",
+        "billing": "headline",
+        "billingIndex": 3,
+        "url": "http://www.songkick.com/artists/9122949-quicksilver-daydream?utm_source=51192&utm_medium=partner",
+        "id": 9122949
+      },
+      {
+        "name": "Pecas",
+        "billing": "headline",
+        "billingIndex": 4,
+        "url": "http://www.songkick.com/artists/8322388-pecas?utm_source=51192&utm_medium=partner",
+        "id": 8322388
+      }
+    ]
+  },
+  {
+    "id": 35617489,
+    "name": "Barrie with FaltyDL at Baby's All Right (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35617489-barrie-at-babys-all-right?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 2445014,
+      "displayName": "Baby's All Right",
+      "uri": "http://www.songkick.com/venues/2445014-babys-all-right?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.70999,
+      "lng": -73.96347,
+      "name": "Baby's All Right"
+    },
+    "starts_at": "2018-10-11T21:00:00-0400",
+    "performers": [
+      {
+        "name": "Barrie",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/4732763-barrie?utm_source=51192&utm_medium=partner",
+        "id": 4732763
+      },
+      {
+        "name": "FaltyDL",
+        "billing": "support",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/794577-faltydl?utm_source=51192&utm_medium=partner",
+        "id": 794577
+      }
+    ]
+  },
+  {
+    "id": 34834609,
+    "name": "Sinne Eeg and Ken Peplowski at Birdland (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34834609-sinne-eeg-at-birdland?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 10734,
+      "displayName": "Birdland",
+      "uri": "http://www.songkick.com/venues/10734-birdland?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.75919,
+      "lng": -73.9898,
+      "name": "Birdland"
+    },
+    "starts_at": "2018-10-11T17:30:00-0400",
+    "performers": [
+      {
+        "name": "Sinne Eeg",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/19098-sinne-eeg?utm_source=51192&utm_medium=partner",
+        "id": 19098
+      },
+      {
+        "name": "Ken Peplowski",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/399844-ken-peplowski?utm_source=51192&utm_medium=partner",
+        "id": 399844
+      }
+    ]
+  },
+  {
+    "id": 33928569,
+    "name": "Nothing But Thieves, grandson, and Demob Happy at Irving Plaza (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/33928569-nothing-but-thieves-at-irving-plaza?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "Irving Plaza",
+      "lat": 40.734917,
+      "lng": -73.9884469,
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner",
+        "id": 7644,
+        "state": {
+          "displayName": "NY"
+        }
+      },
+      "uri": "http://www.songkick.com/venues/181873-irving-plaza?utm_source=51192&utm_medium=partner",
+      "id": 181873,
+      "name": "Irving Plaza"
+    },
+    "starts_at": "2018-10-11T19:00:00-0400",
+    "performers": [
+      {
+        "name": "Nothing But Thieves",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/4441173-nothing-but-thieves?utm_source=51192&utm_medium=partner",
+        "id": 4441173
+      },
+      {
+        "name": "grandson",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/9072919-grandson?utm_source=51192&utm_medium=partner",
+        "id": 9072919
+      },
+      {
+        "name": "Demob Happy",
+        "billing": "headline",
+        "billingIndex": 3,
+        "url": "http://www.songkick.com/artists/5802689-demob-happy?utm_source=51192&utm_medium=partner",
+        "id": 5802689
+      }
+    ]
+  },
+  {
+    "id": 35006299,
+    "name": "Master Tapes, Murzik, and Tim Atlas at Pianos (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35006299-master-tapes-at-pianos?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 10755,
+      "displayName": "Pianos",
+      "uri": "http://www.songkick.com/venues/10755-pianos?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.72113,
+      "lng": -73.98782,
+      "name": "Pianos"
+    },
+    "starts_at": "2018-10-11T19:00:00-0400",
+    "performers": [
+      {
+        "name": "Master Tapes",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/9411014-master-tapes?utm_source=51192&utm_medium=partner",
+        "id": 9411014
+      },
+      {
+        "name": "Murzik",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/799111-murzik?utm_source=51192&utm_medium=partner",
+        "id": 799111
+      },
+      {
+        "name": "Tim Atlas",
+        "billing": "headline",
+        "billingIndex": 3,
+        "url": "http://www.songkick.com/artists/6990299-tim-atlas?utm_source=51192&utm_medium=partner",
+        "id": 6990299
+      }
+    ]
+  },
+  {
+    "id": 33883179,
+    "name": "White Denim with Rotem Sivan at Brooklyn Bowl (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/33883179-white-denim-at-brooklyn-bowl?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 493846,
+      "displayName": "Brooklyn Bowl",
+      "uri": "http://www.songkick.com/venues/493846-brooklyn-bowl?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.72188,
+      "lng": -73.95739,
+      "name": "Brooklyn Bowl"
+    },
+    "starts_at": "2018-10-11T20:00:00-0400",
+    "performers": [
+      {
+        "name": "White Denim",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/589804-white-denim?utm_source=51192&utm_medium=partner",
+        "id": 589804
+      },
+      {
+        "name": "Rotem Sivan",
+        "billing": "support",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/8616664-rotem-sivan?utm_source=51192&utm_medium=partner",
+        "id": 8616664
+      }
+    ]
+  },
+  {
+    "id": 34612709,
+    "name": "Craig David at Terminal 5 (October 11, 2018) (CANCELLED) ",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34612709-craig-david-at-terminal-5?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 3199,
+      "displayName": "Terminal 5",
+      "uri": "http://www.songkick.com/venues/3199-terminal-5?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.77066,
+      "lng": -73.99427,
+      "name": "Terminal 5"
+    },
+    "starts_at": "2018-10-11T19:00:00-0400",
+    "performers": [
+      {
+        "name": "Craig David",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/2144-craig-david?utm_source=51192&utm_medium=partner",
+        "id": 2144
+      }
+    ]
+  },
+  {
+    "id": 34168364,
+    "name": "Enuff Z'Nuff, Jack Russell's Great White, and BulletBoys at The Stone Pony (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34168364-enuff-znuff-at-stone-pony?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "The Stone Pony",
+      "lat": 40.2199781,
+      "lng": -74.0007193,
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner",
+        "id": 7644,
+        "state": {
+          "displayName": "NY"
+        }
+      },
+      "uri": "http://www.songkick.com/venues/1187-stone-pony?utm_source=51192&utm_medium=partner",
+      "id": 1187,
+      "name": "The Stone Pony"
+    },
+    "starts_at": "2018-10-11T19:00:00-0400",
+    "performers": [
+      {
+        "name": "Enuff Z'Nuff",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/80611-enuff-znuff?utm_source=51192&utm_medium=partner",
+        "id": 80611
+      },
+      {
+        "name": "Jack Russell's Great White",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/5031758-jack-russells-great-white?utm_source=51192&utm_medium=partner",
+        "id": 5031758
+      },
+      {
+        "name": "BulletBoys",
+        "billing": "headline",
+        "billingIndex": 3,
+        "url": "http://www.songkick.com/artists/465683-bulletboys?utm_source=51192&utm_medium=partner",
+        "id": 465683
+      }
+    ]
+  },
+  {
+    "id": 35488834,
+    "name": "A Boogie Wit da Hoodie at Paramount Theatre (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35488834-a-boogie-wit-da-hoodie-at-paramount-theatre?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 1461018,
+      "displayName": "Paramount Theatre",
+      "uri": "http://www.songkick.com/venues/1461018-paramount-theatre?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.86974,
+      "lng": -73.4258,
+      "name": "Paramount Theatre"
+    },
+    "starts_at": "2018-10-11T20:00:00-0400",
+    "performers": [
+      {
+        "name": "A Boogie Wit da Hoodie",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/8869819-a-boogie-wit-da-hoodie?utm_source=51192&utm_medium=partner",
+        "id": 8869819
+      }
+    ]
+  },
+  {
+    "id": 35343649,
+    "name": "Leo Kottke at City Winery - New York (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35343649-leo-kottke-at-city-winery-new-york?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 4011959,
+      "displayName": "City Winery - New York",
+      "uri": "http://www.songkick.com/venues/4011959-city-winery-new-york?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.72179,
+      "lng": -74.00945,
+      "name": "City Winery - New York"
+    },
+    "starts_at": "2018-10-11T20:00:00-0400",
+    "performers": [
+      {
+        "name": "Leo Kottke",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/528023-leo-kottke?utm_source=51192&utm_medium=partner",
+        "id": 528023
+      }
+    ]
+  },
+  {
+    "id": 34289104,
+    "name": "Nicki Minaj at Barclays Center (October 11, 2018) (CANCELLED) ",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34289104-nicki-minaj-at-barclays-center?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 1656338,
+      "displayName": "Barclays Center",
+      "uri": "http://www.songkick.com/venues/1656338-barclays-center?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.68349,
+      "lng": -73.97603,
+      "name": "Barclays Center"
+    },
+    "starts_at": "2018-10-11T19:30:00-0400",
+    "performers": [
+      {
+        "name": "Nicki Minaj",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/1435335-nicki-minaj?utm_source=51192&utm_medium=partner",
+        "id": 1435335
+      }
+    ]
+  },
+  {
+    "id": 35089014,
+    "name": "Lady Leshurr at Music Hall of Williamsburg (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35089014-lady-leshurr-at-music-hall-of-williamsburg?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 16246,
+      "displayName": "Music Hall of Williamsburg",
+      "uri": "http://www.songkick.com/venues/16246-music-hall-of-williamsburg?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.71928,
+      "lng": -73.96171,
+      "name": "Music Hall of Williamsburg"
+    },
+    "starts_at": "2018-10-11T20:00:00-0400",
+    "performers": [
+      {
+        "name": "Lady Leshurr",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/3356691-lady-leshurr?utm_source=51192&utm_medium=partner",
+        "id": 3356691
+      }
+    ]
+  },
+  {
+    "id": 34601509,
+    "name": "MOD SUN at S.O.B.'s (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34601509-mod-sun-at-sobs?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "S.O.B.'s",
+      "lat": 40.7284492,
+      "lng": -74.0051241,
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner",
+        "id": 7644,
+        "state": {
+          "displayName": "NY"
+        }
+      },
+      "uri": "http://www.songkick.com/venues/48772-sobs?utm_source=51192&utm_medium=partner",
+      "id": 48772,
+      "name": "S.O.B.'s"
+    },
+    "starts_at": "2018-10-11T17:00:00-0400",
+    "performers": [
+      {
+        "name": "MOD SUN",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/2924541-mod-sun?utm_source=51192&utm_medium=partner",
+        "id": 2924541
+      }
+    ]
+  },
+  {
+    "id": 34888074,
+    "name": "Emily Kinney with Paul McDonald at Public Arts (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34888074-emily-kinney-at-public-arts?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 3605669,
+      "displayName": "Public Arts",
+      "uri": "http://www.songkick.com/venues/3605669-public-arts?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.72307,
+      "lng": -73.99203,
+      "name": "Public Arts"
+    },
+    "starts_at": "2018-10-11T20:00:00-0400",
+    "performers": [
+      {
+        "name": "Emily Kinney",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/4993693-emily-kinney?utm_source=51192&utm_medium=partner",
+        "id": 4993693
+      },
+      {
+        "name": "Paul McDonald",
+        "billing": "support",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/4249466-paul-mcdonald?utm_source=51192&utm_medium=partner",
+        "id": 4249466
+      }
+    ]
+  },
+  {
+    "id": 34027369,
+    "name": "Doyle at Wonder Bar (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34027369-doyle-at-wonder-bar?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "Wonder Bar",
+      "lat": 40.223312,
+      "lng": -73.999432,
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner",
+        "id": 7644,
+        "state": {
+          "displayName": "NY"
+        }
+      },
+      "uri": "http://www.songkick.com/venues/2540-wonder-bar?utm_source=51192&utm_medium=partner",
+      "id": 2540,
+      "name": "Wonder Bar"
+    },
+    "starts_at": "2018-10-11T19:00:00-0400",
+    "performers": [
+      {
+        "name": "Doyle",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/385289-doyle?utm_source=51192&utm_medium=partner",
+        "id": 385289
+      }
+    ]
+  },
+  {
+    "id": 35031764,
+    "name": "Valley Maker at Coney Island Baby (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35031764-valley-maker-at-coney-island-baby?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 3853944,
+      "displayName": "Coney Island Baby",
+      "uri": "http://www.songkick.com/venues/3853944-coney-island-baby?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.72833,
+      "lng": -73.9822,
+      "name": "Coney Island Baby"
+    },
+    "starts_at": "2018-10-11T19:30:00-0400",
+    "performers": [
+      {
+        "name": "Valley Maker",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/3829441-valley-maker?utm_source=51192&utm_medium=partner",
+        "id": 3829441
+      }
+    ]
+  },
+  {
+    "id": 34788644,
+    "name": "Abhi The Nomad and Harrison Sands at Mercury Lounge (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34788644-abhi-the-nomad-at-mercury-lounge?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 364,
+      "displayName": "Mercury Lounge",
+      "uri": "http://www.songkick.com/venues/364-mercury-lounge?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.72216,
+      "lng": -73.98671,
+      "name": "Mercury Lounge"
+    },
+    "starts_at": "2018-10-11T18:30:00-0400",
+    "performers": [
+      {
+        "name": "Abhi The Nomad",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/9350584-abhi-the-nomad?utm_source=51192&utm_medium=partner",
+        "id": 9350584
+      },
+      {
+        "name": "Harrison Sands",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/9164759-harrison-sands?utm_source=51192&utm_medium=partner",
+        "id": 9164759
+      }
+    ]
+  },
+  {
+    "id": 34563644,
+    "name": "Amyl and The Sniffers with Signal and Dirty Fences at Baby's All Right (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34563644-amyl-and-the-sniffers-at-babys-all-right?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 2445014,
+      "displayName": "Baby's All Right",
+      "uri": "http://www.songkick.com/venues/2445014-babys-all-right?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.70999,
+      "lng": -73.96347,
+      "name": "Baby's All Right"
+    },
+    "starts_at": "2018-10-11T20:00:00-0400",
+    "performers": [
+      {
+        "name": "Amyl and The Sniffers",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/8796449-amyl-and-the-sniffers?utm_source=51192&utm_medium=partner",
+        "id": 8796449
+      },
+      {
+        "name": "Signal",
+        "billing": "support",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/517989-signal?utm_source=51192&utm_medium=partner",
+        "id": 517989
+      },
+      {
+        "name": "Dirty Fences",
+        "billing": "support",
+        "billingIndex": 3,
+        "url": "http://www.songkick.com/artists/2511176-dirty-fences?utm_source=51192&utm_medium=partner",
+        "id": 2511176
+      }
+    ]
+  },
+  {
+    "id": 35543539,
+    "name": "Moullinex at 53 Scott (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35543539-moullinex-at-53-scott?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 4034454,
+      "displayName": "53 Scott",
+      "uri": "http://www.songkick.com/venues/4034454-53-scott?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.70962,
+      "lng": -73.92277,
+      "name": "53 Scott"
+    },
+    "performers": [
+      {
+        "name": "Moullinex",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/3038671-moullinex?utm_source=51192&utm_medium=partner",
+        "id": 3038671
+      }
+    ]
+  },
+  {
+    "id": 34788659,
+    "name": "Josh Rouse and Grant-Lee Phillips at Murmrr Ballroom (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34788659-josh-rouse-at-murmrr-ballroom?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 3597064,
+      "displayName": "Murmrr Ballroom",
+      "uri": "http://www.songkick.com/venues/3597064-murmrr-ballroom?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.67339,
+      "lng": -73.96804,
+      "name": "Murmrr Ballroom"
+    },
+    "starts_at": "2018-10-11T21:00:00-0400",
+    "performers": [
+      {
+        "name": "Josh Rouse",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/269093-josh-rouse?utm_source=51192&utm_medium=partner",
+        "id": 269093
+      },
+      {
+        "name": "Grant-Lee Phillips",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/3350606-grantlee-phillips?utm_source=51192&utm_medium=partner",
+        "id": 3350606
+      }
+    ]
+  },
+  {
+    "id": 34712699,
+    "name": "Joyce Manor with Vundabar and Big Eyes at Brooklyn Steel (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34712699-joyce-manor-at-brooklyn-steel?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 3457684,
+      "displayName": "Brooklyn Steel",
+      "uri": "http://www.songkick.com/venues/3457684-brooklyn-steel?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.71936,
+      "lng": -73.93878,
+      "name": "Brooklyn Steel"
+    },
+    "starts_at": "2018-10-11T19:00:00-0400",
+    "performers": [
+      {
+        "name": "Joyce Manor",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/2401868-joyce-manor?utm_source=51192&utm_medium=partner",
+        "id": 2401868
+      },
+      {
+        "name": "Vundabar",
+        "billing": "support",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/5880734-vundabar?utm_source=51192&utm_medium=partner",
+        "id": 5880734
+      },
+      {
+        "name": "Big Eyes",
+        "billing": "support",
+        "billingIndex": 3,
+        "url": "http://www.songkick.com/artists/162438-big-eyes?utm_source=51192&utm_medium=partner",
+        "id": 162438
+      }
+    ]
+  },
+  {
+    "id": 34252049,
+    "name": "Spiritualized at Kings Theatre (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34252049-spiritualized-at-kings-theatre?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "Kings Theatre",
+      "lat": 40.6458782,
+      "lng": -73.9580839,
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner",
+        "id": 7644,
+        "state": {
+          "displayName": "NY"
+        }
+      },
+      "uri": "http://www.songkick.com/venues/2447194-kings-theatre?utm_source=51192&utm_medium=partner",
+      "id": 2447194,
+      "name": "Kings Theatre"
+    },
+    "starts_at": "2018-10-11T19:00:00-0400",
+    "performers": [
+      {
+        "name": "Spiritualized",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/65094-spiritualized?utm_source=51192&utm_medium=partner",
+        "id": 65094
+      }
+    ]
+  },
+  {
+    "id": 34585779,
+    "name": "FM-84 with The Bad Dreamers at Rough Trade NYC (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34585779-fm84-at-rough-trade-nyc?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 2469314,
+      "displayName": "Rough Trade NYC",
+      "uri": "http://www.songkick.com/venues/2469314-rough-trade-nyc?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.72099,
+      "lng": -73.95985,
+      "name": "Rough Trade NYC"
+    },
+    "starts_at": "2018-10-11T20:00:00-0400",
+    "performers": [
+      {
+        "name": "FM-84",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/9123239-fm84?utm_source=51192&utm_medium=partner",
+        "id": 9123239
+      },
+      {
+        "name": "The Bad Dreamers",
+        "billing": "support",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/9365639-bad-dreamers?utm_source=51192&utm_medium=partner",
+        "id": 9365639
+      }
+    ]
+  },
+  {
+    "id": 33528264,
+    "name": "The Revolution (MN) at Sony Hall (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/33528264-revolution-mn-at-sony-hall?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "Sony Hall",
+      "lat": 40.7595877,
+      "lng": -73.9869977,
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner",
+        "id": 7644,
+        "state": {
+          "displayName": "NY"
+        }
+      },
+      "uri": "http://www.songkick.com/venues/3841499-sony-hall?utm_source=51192&utm_medium=partner",
+      "id": 3841499,
+      "name": "Sony Hall"
+    },
+    "performers": [
+      {
+        "name": "The Revolution (MN)",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/9002194-revolution-mn?utm_source=51192&utm_medium=partner",
+        "id": 9002194
+      }
+    ]
+  },
+  {
+    "id": 35133104,
+    "name": "Molten, Summer Cannibals, and Francie Moon with Mr. Payday and 1 moreâ€¦ at El Cortez Safari Room (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35133104-molten-at-el-cortez-safari-room?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 3484159,
+      "displayName": "El Cortez Safari Room",
+      "uri": "http://www.songkick.com/venues/3484159-el-cortez-safari-room?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.7071,
+      "lng": -73.93308,
+      "name": "El Cortez Safari Room"
+    },
+    "starts_at": "2018-10-11T19:00:00-0400",
+    "performers": [
+      {
+        "name": "Molten",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/9271994-molten?utm_source=51192&utm_medium=partner",
+        "id": 9271994
+      },
+      {
+        "name": "Summer Cannibals",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/6235549-summer-cannibals?utm_source=51192&utm_medium=partner",
+        "id": 6235549
+      },
+      {
+        "name": "Francie Moon",
+        "billing": "headline",
+        "billingIndex": 3,
+        "url": "http://www.songkick.com/artists/7502969-francie-moon?utm_source=51192&utm_medium=partner",
+        "id": 7502969
+      },
+      {
+        "name": "Mr. Payday",
+        "billing": "support",
+        "billingIndex": 4,
+        "url": "http://www.songkick.com/artists/6396574-mr-payday?utm_source=51192&utm_medium=partner",
+        "id": 6396574
+      },
+      {
+        "name": "Desert Sharks",
+        "billing": "support",
+        "billingIndex": 5,
+        "url": "http://www.songkick.com/artists/4971143-desert-sharks?utm_source=51192&utm_medium=partner",
+        "id": 4971143
+      }
+    ]
+  },
+  {
+    "id": 35373304,
+    "name": "Mark Sultan with VERY SPECIAL GUESTS at Berlin (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35373304-mark-sultan-at-berlin?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 3045529,
+      "displayName": "Berlin",
+      "uri": "http://www.songkick.com/venues/3045529-berlin?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.72301,
+      "lng": -73.98606,
+      "name": "Berlin"
+    },
+    "starts_at": "2018-10-11T20:00:00-0400",
+    "performers": [
+      {
+        "name": "Mark Sultan",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/1894913-mark-sultan?utm_source=51192&utm_medium=partner",
+        "id": 1894913
+      },
+      {
+        "name": "VERY SPECIAL GUESTS",
+        "billing": "support",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/8301808-very-special-guests?utm_source=51192&utm_medium=partner",
+        "id": 8301808
+      }
+    ]
+  },
+  {
+    "id": 34614484,
+    "name": "MOD SUN at S.O.B.'s (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34614484-mod-sun-at-sobs?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "S.O.B.'s",
+      "lat": 40.7284492,
+      "lng": -74.0051241,
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner",
+        "id": 7644,
+        "state": {
+          "displayName": "NY"
+        }
+      },
+      "uri": "http://www.songkick.com/venues/48772-sobs?utm_source=51192&utm_medium=partner",
+      "id": 48772,
+      "name": "S.O.B.'s"
+    },
+    "starts_at": "2018-10-11T20:00:00-0400",
+    "performers": [
+      {
+        "name": "MOD SUN",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/2924541-mod-sun?utm_source=51192&utm_medium=partner",
+        "id": 2924541
+      }
+    ]
+  },
+  {
+    "id": 35299624,
+    "name": "Quantic, Underground System Afrobeat, and Underground System at Good Room (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35299624-quantic-at-good-room?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 2818918,
+      "displayName": "Good Room",
+      "uri": "http://www.songkick.com/venues/2818918-good-room?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.72688,
+      "lng": -73.95301,
+      "name": "Good Room"
+    },
+    "starts_at": "2018-10-11T22:00:00-0400",
+    "performers": [
+      {
+        "name": "Quantic",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/412964-quantic?utm_source=51192&utm_medium=partner",
+        "id": 412964
+      },
+      {
+        "name": "Underground System Afrobeat",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/3473836-underground-system-afrobeat?utm_source=51192&utm_medium=partner",
+        "id": 3473836
+      },
+      {
+        "name": "Underground System",
+        "billing": "headline",
+        "billingIndex": 3,
+        "url": "http://www.songkick.com/artists/3123306-underground-system?utm_source=51192&utm_medium=partner",
+        "id": 3123306
+      }
+    ]
+  },
+  {
+    "id": 35301249,
+    "name": "Pantha du Prince at Resolute (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35301249-pantha-du-prince-at-resolute?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 927971,
+      "displayName": "Resolute",
+      "uri": "http://www.songkick.com/venues/927971-resolute?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": null,
+      "lng": null,
+      "name": "Resolute"
+    },
+    "performers": [
+      {
+        "name": "Pantha du Prince",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/318700-pantha-du-prince?utm_source=51192&utm_medium=partner",
+        "id": 318700
+      }
+    ]
+  },
+  {
+    "id": 35589289,
+    "name": "Summer Cannibals at El Cortez (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35589289-summer-cannibals-at-el-cortez?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 3073059,
+      "displayName": "El Cortez",
+      "uri": "http://www.songkick.com/venues/3073059-el-cortez?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.7071,
+      "lng": -73.93308,
+      "name": "El Cortez"
+    },
+    "performers": [
+      {
+        "name": "Summer Cannibals",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/6235549-summer-cannibals?utm_source=51192&utm_medium=partner",
+        "id": 6235549
+      }
+    ]
+  },
+  {
+    "id": 34452304,
+    "name": "CloZee with Ihf at The Bowery Ballroom (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34452304-clozee-at-bowery-ballroom?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 316,
+      "displayName": "The Bowery Ballroom",
+      "uri": "http://www.songkick.com/venues/316-bowery-ballroom?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.72036,
+      "lng": -73.99354,
+      "name": "The Bowery Ballroom"
+    },
+    "starts_at": "2018-10-11T21:00:00-0400",
+    "performers": [
+      {
+        "name": "CloZee",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/6216809-clozee?utm_source=51192&utm_medium=partner",
+        "id": 6216809
+      },
+      {
+        "name": "Ihf",
+        "billing": "support",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/2319311-ihf?utm_source=51192&utm_medium=partner",
+        "id": 2319311
+      }
+    ]
+  },
+  {
+    "id": 34532644,
+    "name": "The Black Lillies at City Winery (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34532644-black-lillies-at-city-winery?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "City Winery",
+      "lat": 40.7263091,
+      "lng": -74.0058243,
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner",
+        "id": 7644,
+        "state": {
+          "displayName": "NY"
+        }
+      },
+      "uri": "http://www.songkick.com/venues/48781-city-winery?utm_source=51192&utm_medium=partner",
+      "id": 48781,
+      "name": "City Winery"
+    },
+    "performers": [
+      {
+        "name": "The Black Lillies",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/2426471-black-lillies?utm_source=51192&utm_medium=partner",
+        "id": 2426471
+      }
+    ]
+  },
+  {
+    "id": 35564719,
+    "name": "Robert Glasper Trio with Yasiin Bey (FKA Mos Def) at Unknown venue (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35564719-robert-glasper-trio-at-unknown-venue?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": null,
+      "displayName": "Unknown venue",
+      "uri": null,
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.71278,
+      "lng": -74.00594,
+      "name": "Unknown venue"
+    },
+    "starts_at": "2018-10-11T18:00:00-0400",
+    "performers": [
+      {
+        "name": "Robert Glasper Trio",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/111351-robert-glasper-trio?utm_source=51192&utm_medium=partner",
+        "id": 111351
+      },
+      {
+        "name": "Yasiin Bey (FKA Mos Def)",
+        "billing": "support",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/9506219-yasiin-bey-fka-mos-def?utm_source=51192&utm_medium=partner",
+        "id": 9506219
+      }
+    ]
+  },
+  {
+    "id": 35292144,
+    "name": "Hoodrich Pablo Juan at Market Hotel (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35292144-hoodrich-pablo-juan-at-market-hotel?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 33121,
+      "displayName": "Market Hotel",
+      "uri": "http://www.songkick.com/venues/33121-market-hotel?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.69706,
+      "lng": -73.93461,
+      "name": "Market Hotel"
+    },
+    "starts_at": "2018-10-11T20:00:00-0400",
+    "performers": [
+      {
+        "name": "Hoodrich Pablo Juan",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/9200539-hoodrich-pablo-juan?utm_source=51192&utm_medium=partner",
+        "id": 9200539
+      }
+    ]
+  },
+  {
+    "id": 35334074,
+    "name": "Gabriel GarzÃ³n-Montano at National Sawdust (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35334074-gabriel-garzonmontano-at-national-sawdust?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 3083784,
+      "displayName": "National Sawdust",
+      "uri": "http://www.songkick.com/venues/3083784-national-sawdust?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.71888,
+      "lng": -73.96136,
+      "name": "National Sawdust"
+    },
+    "starts_at": "2018-10-11T20:00:00-0400",
+    "performers": [
+      {
+        "name": "Gabriel GarzÃ³n-Montano",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/6969044-gabriel-garzonmontano?utm_source=51192&utm_medium=partner",
+        "id": 6969044
+      }
+    ]
+  },
+  {
+    "id": 34961244,
+    "name": "Kite Base with Jackie Mendoza and VERDIGRLS at Zone One, Elsewhere (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34961244-kite-base-at-zone-one-elsewhere?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 3660404,
+      "displayName": "Zone One, Elsewhere",
+      "uri": "http://www.songkick.com/venues/3660404-zone-one-elsewhere?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.70948,
+      "lng": -73.92319,
+      "name": "Zone One, Elsewhere"
+    },
+    "starts_at": "2018-10-11T20:00:00-0400",
+    "performers": [
+      {
+        "name": "Kite Base",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/8582224-kite-base?utm_source=51192&utm_medium=partner",
+        "id": 8582224
+      },
+      {
+        "name": "Jackie Mendoza",
+        "billing": "support",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/8904444-jackie-mendoza?utm_source=51192&utm_medium=partner",
+        "id": 8904444
+      },
+      {
+        "name": "VERDIGRLS",
+        "billing": "support",
+        "billingIndex": 3,
+        "url": "http://www.songkick.com/artists/6915854-verdigrls?utm_source=51192&utm_medium=partner",
+        "id": 6915854
+      }
+    ]
+  },
+  {
+    "id": 35467039,
+    "name": "London On Da Track at Adelphi University (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35467039-london-on-da-track-at-adelphi-university?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 202838,
+      "displayName": "Adelphi University",
+      "uri": "http://www.songkick.com/venues/202838-adelphi-university?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.72207,
+      "lng": -73.65062,
+      "name": "Adelphi University"
+    },
+    "performers": [
+      {
+        "name": "London On Da Track",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/9095544-london-on-da-track?utm_source=51192&utm_medium=partner",
+        "id": 9095544
+      }
+    ]
+  },
+  {
+    "id": 34636929,
+    "name": "The Beths with Poppies at Mercury Lounge (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34636929-beths-at-mercury-lounge?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 364,
+      "displayName": "Mercury Lounge",
+      "uri": "http://www.songkick.com/venues/364-mercury-lounge?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.72216,
+      "lng": -73.98671,
+      "name": "Mercury Lounge"
+    },
+    "starts_at": "2018-10-11T21:30:00-0400",
+    "performers": [
+      {
+        "name": "The Beths",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/8923484-beths?utm_source=51192&utm_medium=partner",
+        "id": 8923484
+      },
+      {
+        "name": "Poppies",
+        "billing": "support",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/481504-poppies?utm_source=51192&utm_medium=partner",
+        "id": 481504
+      }
+    ]
+  },
+  {
+    "id": 33618124,
+    "name": "Nicholas Payton at Birdland (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/33618124-nicholas-payton-at-birdland?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 10734,
+      "displayName": "Birdland",
+      "uri": "http://www.songkick.com/venues/10734-birdland?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.75919,
+      "lng": -73.9898,
+      "name": "Birdland"
+    },
+    "starts_at": "2018-10-11T20:30:00-0400",
+    "performers": [
+      {
+        "name": "Nicholas Payton",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/286803-nicholas-payton?utm_source=51192&utm_medium=partner",
+        "id": 286803
+      }
+    ]
+  },
+  {
+    "id": 35403459,
+    "name": "DJ Skribble at Schimanski (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35403459-dj-skribble-at-schimanski?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 3435719,
+      "displayName": "Schimanski",
+      "uri": "http://www.songkick.com/venues/3435719-schimanski?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.72218,
+      "lng": -73.95905,
+      "name": "Schimanski"
+    },
+    "starts_at": "2018-10-11T22:00:00-0400",
+    "performers": [
+      {
+        "name": "DJ Skribble",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/167789-dj-skribble?utm_source=51192&utm_medium=partner",
+        "id": 167789
+      }
+    ]
+  },
+  {
+    "id": 34675849,
+    "name": "Karol G and Piso 21 at United Palace (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34675849-karol-g-at-united-palace?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 800311,
+      "displayName": "United Palace",
+      "uri": "http://www.songkick.com/venues/800311-united-palace?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.84644,
+      "lng": -73.93787,
+      "name": "United Palace"
+    },
+    "starts_at": "2018-10-11T20:00:00-0400",
+    "performers": [
+      {
+        "name": "Karol G",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/9254044-karol-g?utm_source=51192&utm_medium=partner",
+        "id": 9254044
+      },
+      {
+        "name": "Piso 21",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/5738909-piso-21?utm_source=51192&utm_medium=partner",
+        "id": 5738909
+      }
+    ]
+  },
+  {
+    "id": 34828554,
+    "name": "Perez and Cohen with Larry Grenadier at Jazz Standard (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34828554-perez-at-jazz-standard?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 217,
+      "displayName": "Jazz Standard",
+      "uri": "http://www.songkick.com/venues/217-jazz-standard?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.74236,
+      "lng": -73.98373,
+      "name": "Jazz Standard"
+    },
+    "starts_at": "2018-10-11T19:30:00-0400",
+    "performers": [
+      {
+        "name": "Perez",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/345521-perez?utm_source=51192&utm_medium=partner",
+        "id": 345521
+      },
+      {
+        "name": "Cohen",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/291290-cohen?utm_source=51192&utm_medium=partner",
+        "id": 291290
+      },
+      {
+        "name": "Larry Grenadier",
+        "billing": "support",
+        "billingIndex": 3,
+        "url": "http://www.songkick.com/artists/2349729-larry-grenadier?utm_source=51192&utm_medium=partner",
+        "id": 2349729
+      }
+    ]
+  },
+  {
+    "id": 34600474,
+    "name": "Watsky at Asbury Lanes (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34600474-watsky-at-asbury-lanes?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "Asbury Lanes",
+      "lat": 40.2228784,
+      "lng": -74.0020056,
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner",
+        "id": 7644,
+        "state": {
+          "displayName": "NY"
+        }
+      },
+      "uri": "http://www.songkick.com/venues/2961-asbury-lanes?utm_source=51192&utm_medium=partner",
+      "id": 2961,
+      "name": "Asbury Lanes"
+    },
+    "starts_at": "2018-10-11T19:00:00-0400",
+    "performers": [
+      {
+        "name": "Watsky",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/5257648-watsky?utm_source=51192&utm_medium=partner",
+        "id": 5257648
+      }
+    ]
+  },
+  {
+    "id": 35603999,
+    "name": "?uestlove at Output (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35603999-uestlove-at-output?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 2139279,
+      "displayName": "Output",
+      "uri": "http://www.songkick.com/venues/2139279-output?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.72233,
+      "lng": -73.95772,
+      "name": "Output"
+    },
+    "starts_at": "2018-10-11T22:00:00-0400",
+    "performers": [
+      {
+        "name": "?uestlove",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/581964-uestlove?utm_source=51192&utm_medium=partner",
+        "id": 581964
+      }
+    ]
+  },
+  {
+    "id": 34220894,
+    "name": "Bonnie 'Prince' Billy with The Other Years at Murmrr Theatre (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34220894-bonnie-prince-billy-at-murmrr-theatre?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "Murmrr Theatre",
+      "lat": 40.6733985,
+      "lng": -73.9678568,
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner",
+        "id": 7644,
+        "state": {
+          "displayName": "NY"
+        }
+      },
+      "uri": "http://www.songkick.com/venues/3585134-murmrr-theatre?utm_source=51192&utm_medium=partner",
+      "id": 3585134,
+      "name": "Murmrr Theatre"
+    },
+    "starts_at": "2018-10-11T20:00:00-0400",
+    "performers": [
+      {
+        "name": "Bonnie 'Prince' Billy",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/219341-bonnie-prince-billy?utm_source=51192&utm_medium=partner",
+        "id": 219341
+      },
+      {
+        "name": "The Other Years",
+        "billing": "support",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/9090904-other-years?utm_source=51192&utm_medium=partner",
+        "id": 9090904
+      }
+    ]
+  },
+  {
+    "id": 35123894,
+    "name": "Diet Cig at Dr. Martens Store (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35123894-diet-cig-at-dr-martens-store?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 4017554,
+      "displayName": "Dr. Martens Store",
+      "uri": "http://www.songkick.com/venues/4017554-dr-martens-store?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": null,
+      "lng": null,
+      "name": "Dr. Martens Store"
+    },
+    "performers": [
+      {
+        "name": "Diet Cig",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/8391543-diet-cig?utm_source=51192&utm_medium=partner",
+        "id": 8391543
+      }
+    ]
+  },
+  {
+    "id": 34805844,
+    "name": "Every Time I Die at The Liberty Belle - Rocks Off Concert Cruise (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34805844-every-time-i-die-at-liberty-belle-rocks-off-concert-cruise?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 3365689,
+      "displayName": "The Liberty Belle - Rocks Off Concert Cruise",
+      "uri": "http://www.songkick.com/venues/3365689-liberty-belle-rocks-off-concert-cruise?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "New York",
+        "country": {
+          "displayName": "US"
+        },
+        "state": {
+          "displayName": "NY"
+        },
+        "id": 7644,
+        "uri": "http://www.songkick.com/metro_areas/7644-us-new-york?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 40.70656,
+      "lng": -74.00371,
+      "name": "The Liberty Belle - Rocks Off Concert Cruise"
+    },
+    "starts_at": "2018-10-11T20:00:00-0400",
+    "performers": [
+      {
+        "name": "Every Time I Die",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/279699-every-time-i-die?utm_source=51192&utm_medium=partner",
+        "id": 279699
+      }
+    ]
+  }
+]

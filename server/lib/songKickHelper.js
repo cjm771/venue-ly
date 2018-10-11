@@ -1,4 +1,4 @@
-const fakeData = require('../data/songkick_events/san_francisco.json');
+const fs = require('fs');
 const  utils = require('./utils.js');
 const url = require('url');
 const Promise = require('bluebird');
@@ -7,10 +7,9 @@ const requestPromise = require('request-promise');
 module.exports = {
   endpoint: 'https://api.songkick.com/api/3.0/',
   getDataFromSongKickFake: function(location, startTime, endTime) {
-
-    return new Promise((resolve) => {
-      resolve(fakeData);
-    });
+    return Promise.promisify(fs.readFile)(__dirname + '/../data/songkick_events/' + location + '.json').then((contents) => {
+      return JSON.parse(contents);
+    })
   },
 
   queryApi: function(apiName, queryParams={}) {
@@ -74,7 +73,8 @@ module.exports = {
     return decodeURIComponent(s)
   },
 
-  getDataFromSongKick: function(location, startTime=this.getDate(), endTime=this.getDate()) {
+  getDataFromSongKick: function(location, startTime=this.getDate(), endTime=null) {
+    endTime = (endTime === null) ? startTime : endTime;
     return this.queryApi('events', {
       min_date: startTime,
       max_date: endTime,
@@ -88,7 +88,7 @@ module.exports = {
 
 
   formatResults: function(results) {
-    if (results.resultsPage && results.resultsPage.results && results.resultsPage.results.event) {
+    if (results.resultsPage && results.resultsPage.results && results.resultsPage.results.event) { 
       return results.resultsPage.results.event.map( (event) => (utils.retrieveDataViaMap(event, {
         id: 'id',
         name: 'displayName',
@@ -113,12 +113,20 @@ module.exports = {
         }}
       })));
     } else {
-      throw "Results object does not have proper format! check  data source.";
+      if ( results.resultsPage && results.resultsPage.results && Object.keys(results.resultsPage.results)) {
+        return [];
+      } else {
+        throw "Results object does not have proper format! check  data source.";
+      }
     }
   },
   fetchEvents: function(location, startTime, endTime) {
     return this.getDataFromSongKickFake(location, startTime, endTime).then((results) => {
-      return this.formatResults(results);
+      if (Array.isArray(results)) {
+        return results;
+      } else {
+        return this.formatResults(results);
+      }
     })
   }
 }

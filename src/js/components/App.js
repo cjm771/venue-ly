@@ -26,6 +26,7 @@ export default class App extends React.Component {
       menuLoadingMessage: false,
       isLoading: false, 
       currentSearchLocale: currLocaleInfo,
+      rangeFilter: null, // filter for timing
       // center
       bounds: this.getBoundsWithNMileRadius(currLocaleInfo.coords, 5),
       // songkick events
@@ -130,7 +131,8 @@ export default class App extends React.Component {
   }
 
   fetchEvents(metroAreaId, date) {
-    fetch(`/events/${metroAreaId}`).then((resp) => {
+    
+    fetch(`/events/${metroAreaId}/${new Moment(date).format('YYYY-MM-DD')}`).then((resp) => {
       return resp.json();
     }).then((events) => {
       this.setState({
@@ -167,13 +169,18 @@ export default class App extends React.Component {
     this.setState({
       isLoading: true
     }, () => {
-      navigator.geolocation.getCurrentPosition((geoInfo) => {
+      navigator.geolocation.getCurrentPosition((geoInfo, error) => {
+        if (error) {
+          this.setState({
+            isLoading: false
+          });
+          console.log('could not do the thing');
+        }
         this.setState({
           // bounds in 1 mile radius
           bounds: this.getBoundsWithNMileRadius([geoInfo.coords.longitude, geoInfo.coords.latitude], 1),
           beacon: [geoInfo.coords.longitude, geoInfo.coords.latitude],
-          isLoading: false,
-          queueEventFetch: true
+          isLoading: false
         });
         console.log(geoInfo.coords.longitude, geoInfo.coords.latitude);
         this.onSearch([geoInfo.coords.longitude, geoInfo.coords.latitude], true);
@@ -305,9 +312,20 @@ export default class App extends React.Component {
     this.saveLocaleToLocalStorage({date});
     this.setState({
       currentSearchLocale: this.loadLocaleFromLocalStorage()
-    })
+    }, () => {
+      this.fetchEvents(this.state.currentSearchLocale.id, this.state.currentSearchLocale.date);
+    });
   }
   
+  onTimeSliderChange(range) {
+    range = range.map((num) => {
+      return new Moment(this.state.currentSearchLocale.date + ' ' + num + ':00', 'MM/DD/YYYY HH:mm').unix()
+    })
+    this.setState({
+      rangeFilter: range
+    })
+  }
+
   onSearch(keywordOrCoords, latLng=false) {
     if (latLng===false && keywordOrCoords.trim() === '') {
       this.setState({
@@ -318,18 +336,22 @@ export default class App extends React.Component {
       this.fetchLocation(keywordOrCoords, latLng).then((localeData) => {
         // save localStorage
         this.saveLocaleToLocalStorage({
-          coords: (latLng) ? keywordOrCoords : [localeData.metroArea.lng, localeData.metroArea.lat],
+          coords: (latLng) ? keywordOrCoords : [localeData.city.lng, localeData.city.lat],
           descriptor: (latLng) ? '[Current Location]' : localeData.name, 
           id: localeData.metroArea.id
         });
-        // set state
         this.setState({
-          menuErrorMessage: '',
-          currentSearchLocale: this.loadLocaleFromLocalStorage(),
-          bounds: (latLng) ? this.state.bounds : this.getBoundsWithNMileRadius([localeData.city.lng, localeData.city.lat], 3)
+          events: [] // clear events first
         }, () => {
-        
-        });
+            // set state
+            this.setState({
+              menuErrorMessage: '',
+              queueEventFetch: true,
+              currentSearchLocale: this.loadLocaleFromLocalStorage(),
+              bounds: (latLng) ? this.state.bounds : this.getBoundsWithNMileRadius([localeData.city.lng, localeData.city.lat], 3)
+            });
+        })
+     
       }).catch((error) => {
         this.setState({
           menuLoadingMessage: false,
@@ -367,6 +389,7 @@ export default class App extends React.Component {
             activeEvent={this.state.activeEvent} 
             activeTrack={this.state.activeTrack}
             isPlaying={this.state.audioPlaying}
+            rangeFilter={this.state.rangeFilter}
             events={this.state.events}
           />
           <AudioAnalyzerNode 
@@ -384,7 +407,8 @@ export default class App extends React.Component {
             onClose={this.onVizClose.bind(this)}
           />
           < SliderArea
-
+            onChange={this.onTimeSliderChange.bind(this)}
+            date={this.state.currentSearchLocale.date}
           />
         </MainContent>
           <RightSlider >

@@ -3,6 +3,7 @@ import css from '../../css/EventInfo.css';
 import TracksList from './TracksList';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapPin, faDrum } from '@fortawesome/free-solid-svg-icons';
+import Moment from 'moment';
 
 export default class EventView extends React.Component{
   constructor(props) {
@@ -25,7 +26,9 @@ export default class EventView extends React.Component{
           <div className='info_wpr'>
             <div  className='artist_name'>{this.props.artist.name}</div>
             <div  className='venue_name'>{this.props.event.venue.name}</div>
-            <div  className='date'>{this.props.event.starts_at}</div>
+            <div  className='date'>
+            {(this.props.event.starts_at) ? new Moment(this.props.event.starts_at).format('MMM DD, hh:mm A') : 'Time Unknown'}
+            </div>
             <div  className='links'>
               <a href={this.props.artist.artist_url} target='_blank'><FontAwesomeIcon icon={faDrum} /> <span>About Artist</span></a> 
               <a href={this.props.event.url} target='_blank'><FontAwesomeIcon icon={faMapPin} /> <span>About Event</span></a>

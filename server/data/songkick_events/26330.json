@@ -1,0 +1,1903 @@
+{
+  "resultsPage": {
+    "status": "ok",
+    "results": {
+      "event": [
+        {
+          "id": 35227694,
+          "displayName": "dj heyLove* with // PRIVATE EVENT at Terra Gallery & Event Venue (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/35227694-dj-heylove-at-terra-gallery-and-event-venue?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.000023,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": null,
+            "time": null
+          },
+          "performance": [
+            {
+              "id": 67451144,
+              "displayName": "dj heyLove*",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 6423169,
+                "displayName": "dj heyLove*",
+                "uri": "http://www.songkick.com/artists/6423169-dj-heylove?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            },
+            {
+              "id": 67451149,
+              "displayName": "// PRIVATE EVENT",
+              "billing": "support",
+              "billingIndex": 2,
+              "artist": {
+                "id": 8281758,
+                "displayName": "// PRIVATE EVENT",
+                "uri": "http://www.songkick.com/artists/8281758-private-event?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 1508728,
+            "displayName": "Terra Gallery & Event Venue",
+            "uri": "http://www.songkick.com/venues/1508728-terra-gallery-and-event-venue?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.7855,
+            "lng": -122.39301
+          },
+          "location": {
+            "city": "San Francisco, CA, US",
+            "lat": 37.7855,
+            "lng": -122.39301
+          }
+        },
+        {
+          "id": 35051489,
+          "displayName": "Dylan Schneider with Jay Allen at Club Rodeo (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/35051489-dylan-schneider-at-club-rodeo?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.003975,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": "2018-10-09T19:00:00-0700",
+            "time": "19:00:00"
+          },
+          "performance": [
+            {
+              "id": 67157099,
+              "displayName": "Dylan Schneider",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 8876229,
+                "displayName": "Dylan Schneider",
+                "uri": "http://www.songkick.com/artists/8876229-dylan-schneider?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "db1f6549-096a-4add-8486-52f95cf0f332",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:db1f6549-096a-4add-8486-52f95cf0f332.json"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 67483639,
+              "displayName": "Jay Allen",
+              "billing": "support",
+              "billingIndex": 2,
+              "artist": {
+                "id": 3854826,
+                "displayName": "Jay Allen",
+                "uri": "http://www.songkick.com/artists/3854826-jay-allen?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "dc32659c-eb90-44a9-98cf-4cc8b45b67e4",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:dc32659c-eb90-44a9-98cf-4cc8b45b67e4.json"
+                  }
+                ]
+              }
+            }
+          ],
+          "ageRestriction": "18+",
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 33595,
+            "displayName": "Club Rodeo",
+            "uri": "http://www.songkick.com/venues/33595-club-rodeo?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.34114,
+            "lng": -121.90819
+          },
+          "location": {
+            "city": "San Jose, CA, US",
+            "lat": 37.34114,
+            "lng": -121.90819
+          }
+        },
+        {
+          "id": 34834579,
+          "displayName": "Grieves with Greater Than at Cornerstone Berkeley (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/34834579-grieves-at-cornerstone-berkeley?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.014685,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": "2018-10-09T19:30:00-0700",
+            "time": "19:30:00"
+          },
+          "performance": [
+            {
+              "id": 66771659,
+              "displayName": "Grieves",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 976162,
+                "displayName": "Grieves",
+                "uri": "http://www.songkick.com/artists/976162-grieves?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "c0bfa680-6c3f-4b79-8034-dacc23b929a7",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:c0bfa680-6c3f-4b79-8034-dacc23b929a7.json"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 66771664,
+              "displayName": "Greater Than",
+              "billing": "support",
+              "billingIndex": 2,
+              "artist": {
+                "id": 1167543,
+                "displayName": "Greater Than",
+                "uri": "http://www.songkick.com/artists/1167543-greater-than?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "5e72a9ae-266e-47be-8e98-d48e34b436be",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:5e72a9ae-266e-47be-8e98-d48e34b436be.json"
+                  }
+                ]
+              }
+            }
+          ],
+          "ageRestriction": "All Ages",
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 3530389,
+            "displayName": "Cornerstone Berkeley",
+            "uri": "http://www.songkick.com/venues/3530389-cornerstone-berkeley?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.86635,
+            "lng": -122.2672
+          },
+          "location": {
+            "city": "Berkeley, CA, US",
+            "lat": 37.86635,
+            "lng": -122.2672
+          }
+        },
+        {
+          "id": 33660349,
+          "displayName": "Screaming Females with Kitten Forever and SOAR (US) at Rickshaw Stop (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/33660349-screaming-females-at-rickshaw-stop?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.005893,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": "2018-10-09T20:00:00-0700",
+            "time": "20:00:00"
+          },
+          "performance": [
+            {
+              "id": 64712859,
+              "displayName": "Screaming Females",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 55424,
+                "displayName": "Screaming Females",
+                "uri": "http://www.songkick.com/artists/55424-screaming-females?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "b0f12d25-6175-4652-baca-b99a106cf2b5",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:b0f12d25-6175-4652-baca-b99a106cf2b5.json"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 64712854,
+              "displayName": "Kitten Forever",
+              "billing": "support",
+              "billingIndex": 2,
+              "artist": {
+                "id": 892371,
+                "displayName": "Kitten Forever",
+                "uri": "http://www.songkick.com/artists/892371-kitten-forever?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "e8582adc-a2d9-4b2d-903d-77899066f25e",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:e8582adc-a2d9-4b2d-903d-77899066f25e.json"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 67228759,
+              "displayName": "SOAR (US)",
+              "billing": "support",
+              "billingIndex": 3,
+              "artist": {
+                "id": 8769879,
+                "displayName": "SOAR (US)",
+                "uri": "http://www.songkick.com/artists/8769879-soar-us?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 14791,
+            "displayName": "Rickshaw Stop",
+            "uri": "http://www.songkick.com/venues/14791-rickshaw-stop?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.77596,
+            "lng": -122.42042
+          },
+          "location": {
+            "city": "San Francisco, CA, US",
+            "lat": 37.77596,
+            "lng": -122.42042
+          }
+        },
+        {
+          "type": "Concert",
+          "popularity": 0.005398,
+          "displayName": "Dark Funeral with Destruction at Club Peppers (October 9, 2018)",
+          "status": "ok",
+          "performance": [
+            {
+              "displayName": "Dark Funeral",
+              "billingIndex": 1,
+              "billing": "headline",
+              "artist": {
+                "displayName": "Dark Funeral",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:7561ff6c-2ab7-4776-9a9a-662f23b2effc.json",
+                    "mbid": "7561ff6c-2ab7-4776-9a9a-662f23b2effc"
+                  }
+                ],
+                "uri": "http://www.songkick.com/artists/354443-dark-funeral?utm_source=51192&utm_medium=partner",
+                "id": 354443
+              },
+              "id": 66342569
+            },
+            {
+              "displayName": "Destruction",
+              "billingIndex": 2,
+              "billing": "support",
+              "artist": {
+                "displayName": "Destruction",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:371f152d-1643-4b54-b32b-dd13d4c23442.json",
+                    "mbid": "371f152d-1643-4b54-b32b-dd13d4c23442"
+                  }
+                ],
+                "uri": "http://www.songkick.com/artists/133379-destruction?utm_source=51192&utm_medium=partner",
+                "id": 133379
+              },
+              "id": 66342574
+            }
+          ],
+          "ageRestriction": null,
+          "start": {
+            "datetime": null,
+            "time": null,
+            "date": "2018-10-09"
+          },
+          "location": {
+            "city": "San Jose, CA, US",
+            "lat": 37.3393857,
+            "lng": -121.8949555
+          },
+          "uri": "http://www.songkick.com/concerts/34589904-dark-funeral-at-club-peppers?utm_source=51192&utm_medium=partner",
+          "id": 34589904,
+          "venue": {
+            "displayName": "Club Peppers",
+            "lat": 37.3393857,
+            "lng": -121.8949555,
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner",
+              "id": 26330,
+              "state": {
+                "displayName": "CA"
+              }
+            },
+            "uri": "http://www.songkick.com/venues/2555524-club-peppers?utm_source=51192&utm_medium=partner",
+            "id": 2555524
+          }
+        },
+        {
+          "id": 35538684,
+          "displayName": "Choked Up, Eve's Peach, Practicing Sincerity, Yufiâ¶â´, and 1 moreâ€¦ at Mayfair Community Center (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/35538684-choked-up-at-mayfair-community-center?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.000004,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": "2018-10-09T19:00:00-0700",
+            "time": "19:00:00"
+          },
+          "performance": [
+            {
+              "id": 67975034,
+              "displayName": "Choked Up",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 9148829,
+                "displayName": "Choked Up",
+                "uri": "http://www.songkick.com/artists/9148829-choked-up?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            },
+            {
+              "id": 67975039,
+              "displayName": "Eve's Peach",
+              "billing": "headline",
+              "billingIndex": 2,
+              "artist": {
+                "id": 9110824,
+                "displayName": "Eve's Peach",
+                "uri": "http://www.songkick.com/artists/9110824-eves-peach?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            },
+            {
+              "id": 67975044,
+              "displayName": "Practicing Sincerity",
+              "billing": "headline",
+              "billingIndex": 3,
+              "artist": {
+                "id": 8638674,
+                "displayName": "Practicing Sincerity",
+                "uri": "http://www.songkick.com/artists/8638674-practicing-sincerity?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            },
+            {
+              "id": 67975049,
+              "displayName": "Yufiâ¶â´",
+              "billing": "headline",
+              "billingIndex": 4,
+              "artist": {
+                "id": 9071514,
+                "displayName": "Yufiâ¶â´",
+                "uri": "http://www.songkick.com/artists/9071514-yufi64?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            },
+            {
+              "id": 67975054,
+              "displayName": "Chanel Beads",
+              "billing": "headline",
+              "billingIndex": 5,
+              "artist": {
+                "id": 9685174,
+                "displayName": "Chanel Beads",
+                "uri": "http://www.songkick.com/artists/9685174-chanel-beads?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 4055379,
+            "displayName": "Mayfair Community Center",
+            "uri": "http://www.songkick.com/venues/4055379-mayfair-community-center?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.35141,
+            "lng": -121.84392
+          },
+          "location": {
+            "city": "San Jose, CA, US",
+            "lat": 37.35141,
+            "lng": -121.84392
+          }
+        },
+        {
+          "id": 35600464,
+          "displayName": "Exchange at Envelop (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/35600464-exchange-at-envelop?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.000537,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": "2018-10-09T19:00:00-0700",
+            "time": "19:00:00"
+          },
+          "performance": [
+            {
+              "id": 68079264,
+              "displayName": "Exchange",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 444186,
+                "displayName": "Exchange",
+                "uri": "http://www.songkick.com/artists/444186-exchange?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "072dbb9a-7d11-4975-8582-ce963cc70c14",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:072dbb9a-7d11-4975-8582-ce963cc70c14.json"
+                  },
+                  {
+                    "mbid": "2c477ebf-1fa0-43ef-a713-5acc08d33a20",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:2c477ebf-1fa0-43ef-a713-5acc08d33a20.json"
+                  },
+                  {
+                    "mbid": "1dd55739-fff6-4acf-99cb-7b18a7e53306",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:1dd55739-fff6-4acf-99cb-7b18a7e53306.json"
+                  },
+                  {
+                    "mbid": "0e770cd6-8ef5-494e-a3b6-76802bded646",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:0e770cd6-8ef5-494e-a3b6-76802bded646.json"
+                  }
+                ]
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 3551549,
+            "displayName": "Envelop",
+            "uri": "http://www.songkick.com/venues/3551549-envelop?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.74945,
+            "lng": -122.38602
+          },
+          "location": {
+            "city": "San Francisco, CA, US",
+            "lat": 37.74945,
+            "lng": -122.38602
+          }
+        },
+        {
+          "id": 32742199,
+          "displayName": "Gary Clark Jr. at The Fillmore (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/32742199-gary-clark-jr-at-fillmore?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.064025,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": "2018-10-09T20:00:00-0700",
+            "time": "20:00:00"
+          },
+          "performance": [
+            {
+              "id": 63017369,
+              "displayName": "Gary Clark Jr.",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 309236,
+                "displayName": "Gary Clark Jr.",
+                "uri": "http://www.songkick.com/artists/309236-gary-clark-jr?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "c733c4e6-22a2-499d-ace7-17b832356aff",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:c733c4e6-22a2-499d-ace7-17b832356aff.json"
+                  },
+                  {
+                    "mbid": "0c15371a-a7dd-474f-8092-2e13619ee239",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:0c15371a-a7dd-474f-8092-2e13619ee239.json"
+                  }
+                ]
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 6239,
+            "displayName": "The Fillmore",
+            "uri": "http://www.songkick.com/venues/6239-fillmore?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.78426,
+            "lng": -122.4333
+          },
+          "location": {
+            "city": "San Francisco, CA, US",
+            "lat": 37.78426,
+            "lng": -122.4333
+          }
+        },
+        {
+          "type": "Concert",
+          "popularity": 0.015241,
+          "displayName": "A Place To Bury Strangers with Kraus at Starline Social Club (October 9, 2018)",
+          "status": "ok",
+          "performance": [
+            {
+              "displayName": "A Place To Bury Strangers",
+              "billingIndex": 1,
+              "billing": "headline",
+              "artist": {
+                "displayName": "A Place To Bury Strangers",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:99fe4613-84ec-4f48-bb4f-f036880ed2ac.json",
+                    "mbid": "99fe4613-84ec-4f48-bb4f-f036880ed2ac"
+                  }
+                ],
+                "uri": "http://www.songkick.com/artists/178407-a-place-to-bury-strangers?utm_source=51192&utm_medium=partner",
+                "id": 178407
+              },
+              "id": 66068464
+            },
+            {
+              "displayName": "Kraus",
+              "billingIndex": 2,
+              "billing": "support",
+              "artist": {
+                "displayName": "Kraus",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:bcb1a32e-4577-4789-88c5-68519aba7cae.json",
+                    "mbid": "bcb1a32e-4577-4789-88c5-68519aba7cae"
+                  }
+                ],
+                "uri": "http://www.songkick.com/artists/556023-kraus?utm_source=51192&utm_medium=partner",
+                "id": 556023
+              },
+              "id": 66068469
+            }
+          ],
+          "ageRestriction": null,
+          "start": {
+            "datetime": null,
+            "time": null,
+            "date": "2018-10-09"
+          },
+          "location": {
+            "city": "Oakland, CA, US",
+            "lat": 37.8122828,
+            "lng": -122.2725291
+          },
+          "uri": "http://www.songkick.com/concerts/34435369-a-place-to-bury-strangers-at-starline-social-club?utm_source=51192&utm_medium=partner",
+          "id": 34435369,
+          "venue": {
+            "displayName": "Starline Social Club",
+            "lat": 37.8122828,
+            "lng": -122.2725291,
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner",
+              "id": 26330,
+              "state": {
+                "displayName": "CA"
+              }
+            },
+            "uri": "http://www.songkick.com/venues/1522398-starline-social-club?utm_source=51192&utm_medium=partner",
+            "id": 1522398
+          }
+        },
+        {
+          "id": 34128099,
+          "displayName": "Alina Baraz with Lolo ZouaÃ¯ at The Warfield (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/34128099-alina-baraz-at-warfield?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.047878,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": null,
+            "time": null
+          },
+          "performance": [
+            {
+              "id": 65543744,
+              "displayName": "Alina Baraz",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 8269513,
+                "displayName": "Alina Baraz",
+                "uri": "http://www.songkick.com/artists/8269513-alina-baraz?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "7fedfdaf-4146-4996-9e2a-a7e39080c329",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:7fedfdaf-4146-4996-9e2a-a7e39080c329.json"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 65783014,
+              "displayName": "Lolo ZouaÃ¯",
+              "billing": "support",
+              "billingIndex": 2,
+              "artist": {
+                "id": 9465904,
+                "displayName": "Lolo ZouaÃ¯",
+                "uri": "http://www.songkick.com/artists/9465904-lolo-zouai?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "692d7021-5520-4e26-903f-98696bd51772",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:692d7021-5520-4e26-903f-98696bd51772.json"
+                  }
+                ]
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 949,
+            "displayName": "The Warfield",
+            "uri": "http://www.songkick.com/venues/949-warfield?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.78266,
+            "lng": -122.41018
+          },
+          "location": {
+            "city": "San Francisco, CA, US",
+            "lat": 37.78266,
+            "lng": -122.41018
+          }
+        },
+        {
+          "id": 35238979,
+          "displayName": "J. Lately at Cornerstone Berkeley (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/35238979-j-lately-at-cornerstone-berkeley?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.000058,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": "2018-10-09T19:30:00-0700",
+            "time": "19:30:00"
+          },
+          "performance": [
+            {
+              "id": 67470134,
+              "displayName": "J. Lately",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 4991949,
+                "displayName": "J. Lately",
+                "uri": "http://www.songkick.com/artists/4991949-j-lately?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "e3a4f034-08e0-4e48-afb1-40c508298adf",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:e3a4f034-08e0-4e48-afb1-40c508298adf.json"
+                  }
+                ]
+              }
+            }
+          ],
+          "ageRestriction": "All Ages",
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 3530389,
+            "displayName": "Cornerstone Berkeley",
+            "uri": "http://www.songkick.com/venues/3530389-cornerstone-berkeley?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.86635,
+            "lng": -122.2672
+          },
+          "location": {
+            "city": "Berkeley, CA, US",
+            "lat": 37.86635,
+            "lng": -122.2672
+          }
+        },
+        {
+          "type": "Concert",
+          "popularity": 0.006974,
+          "displayName": "Jesse Cook at Golden State Theatre (October 9, 2018)",
+          "status": "ok",
+          "performance": [
+            {
+              "displayName": "Jesse Cook",
+              "billingIndex": 1,
+              "billing": "headline",
+              "artist": {
+                "displayName": "Jesse Cook",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:6e5490ff-714c-4e8c-9e7c-89a9f37bf9df.json",
+                    "mbid": "6e5490ff-714c-4e8c-9e7c-89a9f37bf9df"
+                  }
+                ],
+                "uri": "http://www.songkick.com/artists/134753-jesse-cook?utm_source=51192&utm_medium=partner",
+                "id": 134753
+              },
+              "id": 65666944
+            }
+          ],
+          "ageRestriction": null,
+          "start": {
+            "datetime": null,
+            "time": null,
+            "date": "2018-10-09"
+          },
+          "location": {
+            "city": "Monterey, CA, US",
+            "lat": 36.5995257,
+            "lng": -121.894354
+          },
+          "uri": "http://www.songkick.com/concerts/34204224-jesse-cook-at-golden-state-theatre?utm_source=51192&utm_medium=partner",
+          "id": 34204224,
+          "venue": {
+            "displayName": "Golden State Theatre",
+            "lat": 36.5995257,
+            "lng": -121.894354,
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner",
+              "id": 26330,
+              "state": {
+                "displayName": "CA"
+              }
+            },
+            "uri": "http://www.songkick.com/venues/4729-golden-state-theatre?utm_source=51192&utm_medium=partner",
+            "id": 4729
+          }
+        },
+        {
+          "id": 35038949,
+          "displayName": "Dream Wife with Russo at CafÃ© du Nord, Swedish-American Hall (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/35038949-dream-wife-at-cafe-du-nord-swedishamerican-hall?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.002827,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": "2018-10-09T19:30:00-0700",
+            "time": "19:30:00"
+          },
+          "performance": [
+            {
+              "id": 67134924,
+              "displayName": "Dream Wife",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 7831569,
+                "displayName": "Dream Wife",
+                "uri": "http://www.songkick.com/artists/7831569-dream-wife?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "e83563e8-c8b2-4282-b960-6a7721acdbbb",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:e83563e8-c8b2-4282-b960-6a7721acdbbb.json"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 67134929,
+              "displayName": "Russo",
+              "billing": "support",
+              "billingIndex": 2,
+              "artist": {
+                "id": 8233,
+                "displayName": "Russo",
+                "uri": "http://www.songkick.com/artists/8233-russo?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "976cb688-ff44-408a-92fd-d74e05f647e8",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:976cb688-ff44-408a-92fd-d74e05f647e8.json"
+                  },
+                  {
+                    "mbid": "057ff22f-a5d3-4e34-a8c8-0dbdd3e80981",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:057ff22f-a5d3-4e34-a8c8-0dbdd3e80981.json"
+                  }
+                ]
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 555661,
+            "displayName": "CafÃ© du Nord, Swedish-American Hall",
+            "uri": "http://www.songkick.com/venues/555661-cafe-du-nord-swedishamerican-hall?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.76653,
+            "lng": -122.43049
+          },
+          "location": {
+            "city": "San Francisco, CA, US",
+            "lat": 37.76653,
+            "lng": -122.43049
+          }
+        },
+        {
+          "type": "Concert",
+          "popularity": 0.000088,
+          "displayName": "The Simon and Garfunkel Story at Rio Theatre (October 9, 2018)",
+          "status": "ok",
+          "performance": [
+            {
+              "displayName": "The Simon and Garfunkel Story",
+              "billingIndex": 1,
+              "billing": "headline",
+              "artist": {
+                "displayName": "The Simon and Garfunkel Story",
+                "identifier": [],
+                "uri": "http://www.songkick.com/artists/8457648-simon-and-garfunkel-story?utm_source=51192&utm_medium=partner",
+                "id": 8457648
+              },
+              "id": 65344829
+            }
+          ],
+          "ageRestriction": null,
+          "start": {
+            "datetime": "2018-10-09T21:00:00-0700",
+            "time": "21:00:00",
+            "date": "2018-10-09"
+          },
+          "location": {
+            "city": "Santa Cruz, CA, US",
+            "lat": 36.9799223,
+            "lng": -122.0104863
+          },
+          "uri": "http://www.songkick.com/concerts/34015274-simon-and-garfunkel-story-at-rio-theatre?utm_source=51192&utm_medium=partner",
+          "id": 34015274,
+          "venue": {
+            "displayName": "Rio Theatre",
+            "lat": 36.9799223,
+            "lng": -122.0104863,
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner",
+              "id": 26330,
+              "state": {
+                "displayName": "CA"
+              }
+            },
+            "uri": "http://www.songkick.com/venues/2649-rio-theatre?utm_source=51192&utm_medium=partner",
+            "id": 2649
+          }
+        },
+        {
+          "id": 34957139,
+          "displayName": "Lindsey Buckingham and J.S. Ondara at Palace of Fine Arts (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/34957139-lindsey-buckingham-at-palace-of-fine-arts?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.012199,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": "2018-10-09T20:00:00-0700",
+            "time": "20:00:00"
+          },
+          "performance": [
+            {
+              "id": 66992789,
+              "displayName": "Lindsey Buckingham",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 369870,
+                "displayName": "Lindsey Buckingham",
+                "uri": "http://www.songkick.com/artists/369870-lindsey-buckingham?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "5d12875c-a197-43b2-8f29-41dc0ad895c3",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:5d12875c-a197-43b2-8f29-41dc0ad895c3.json"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 67045994,
+              "displayName": "J.S. Ondara",
+              "billing": "headline",
+              "billingIndex": 2,
+              "artist": {
+                "id": 9243014,
+                "displayName": "J.S. Ondara",
+                "uri": "http://www.songkick.com/artists/9243014-js-ondara?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "46b8e29c-0ea5-45a9-a068-4313097c86ff",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:46b8e29c-0ea5-45a9-a068-4313097c86ff.json"
+                  }
+                ]
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 33807,
+            "displayName": "Palace of Fine Arts",
+            "uri": "http://www.songkick.com/venues/33807-palace-of-fine-arts?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.80283,
+            "lng": -122.44839
+          },
+          "location": {
+            "city": "San Francisco, CA, US",
+            "lat": 37.80283,
+            "lng": -122.44839
+          }
+        },
+        {
+          "id": 35225054,
+          "displayName": "Austin Lucas at Bottom of the Hill (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/35225054-austin-lucas-at-bottom-of-the-hill?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.001467,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": "2018-10-09T20:00:00-0700",
+            "time": "20:00:00"
+          },
+          "performance": [
+            {
+              "id": 67446344,
+              "displayName": "Austin Lucas",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 114521,
+                "displayName": "Austin Lucas",
+                "uri": "http://www.songkick.com/artists/114521-austin-lucas?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "4bf8ce64-2ad6-4e89-a68e-84194d7eaba0",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:4bf8ce64-2ad6-4e89-a68e-84194d7eaba0.json"
+                  }
+                ]
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 248,
+            "displayName": "Bottom of the Hill",
+            "uri": "http://www.songkick.com/venues/248-bottom-of-the-hill?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.76496,
+            "lng": -122.39644
+          },
+          "location": {
+            "city": "San Francisco, CA, US",
+            "lat": 37.76496,
+            "lng": -122.39644
+          }
+        },
+        {
+          "id": 35435854,
+          "displayName": "Choked Up, Eve's Peach, and Practicing Sincerity at Salon SJ (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/35435854-choked-up-at-salon-sj?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.000004,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": null,
+            "time": null
+          },
+          "performance": [
+            {
+              "id": 67804719,
+              "displayName": "Choked Up",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 9148829,
+                "displayName": "Choked Up",
+                "uri": "http://www.songkick.com/artists/9148829-choked-up?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            },
+            {
+              "id": 67804724,
+              "displayName": "Eve's Peach",
+              "billing": "headline",
+              "billingIndex": 2,
+              "artist": {
+                "id": 9110824,
+                "displayName": "Eve's Peach",
+                "uri": "http://www.songkick.com/artists/9110824-eves-peach?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            },
+            {
+              "id": 67804729,
+              "displayName": "Practicing Sincerity",
+              "billing": "headline",
+              "billingIndex": 3,
+              "artist": {
+                "id": 8638674,
+                "displayName": "Practicing Sincerity",
+                "uri": "http://www.songkick.com/artists/8638674-practicing-sincerity?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 4046139,
+            "displayName": "Salon SJ",
+            "uri": "http://www.songkick.com/venues/4046139-salon-sj?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.36588,
+            "lng": -121.90024
+          },
+          "location": {
+            "city": "San Jose, CA, US",
+            "lat": 37.36588,
+            "lng": -121.90024
+          }
+        },
+        {
+          "id": 35381429,
+          "displayName": "Dakha Brakha at The Ritz (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/35381429-dakha-brakha-at-ritz?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.000977,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": "2018-10-09T19:00:00-0700",
+            "time": "19:00:00"
+          },
+          "performance": [
+            {
+              "id": 67713034,
+              "displayName": "Dakha Brakha",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 4750548,
+                "displayName": "Dakha Brakha",
+                "uri": "http://www.songkick.com/artists/4750548-dakha-brakha?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "208334a1-abf0-4791-9705-b45838244b29",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:208334a1-abf0-4791-9705-b45838244b29.json"
+                  }
+                ]
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 2907168,
+            "displayName": "The Ritz",
+            "uri": "http://www.songkick.com/venues/2907168-ritz?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.33005,
+            "lng": -121.88554
+          },
+          "location": {
+            "city": "San Jose, CA, US",
+            "lat": 37.33005,
+            "lng": -121.88554
+          }
+        },
+        {
+          "id": 35383104,
+          "displayName": "skeler with Djedi at Monarch (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/35383104-skeler-at-monarch?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.000017,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": null,
+            "time": null
+          },
+          "performance": [
+            {
+              "id": 67716104,
+              "displayName": "skeler",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 9682004,
+                "displayName": "skeler",
+                "uri": "http://www.songkick.com/artists/9682004-skeler?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            },
+            {
+              "id": 67716764,
+              "displayName": "Djedi",
+              "billing": "support",
+              "billingIndex": 2,
+              "artist": {
+                "id": 5753419,
+                "displayName": "Djedi",
+                "uri": "http://www.songkick.com/artists/5753419-djedi?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 1595753,
+            "displayName": "Monarch",
+            "uri": "http://www.songkick.com/venues/1595753-monarch?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.78099,
+            "lng": -122.40851
+          },
+          "location": {
+            "city": "San Francisco, CA, US",
+            "lat": 37.78099,
+            "lng": -122.40851
+          }
+        },
+        {
+          "id": 33859454,
+          "displayName": "The Buttertones at Slim's (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/33859454-buttertones-at-slims?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.005026,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": "2018-10-09T19:00:00-0700",
+            "time": "19:00:00"
+          },
+          "performance": [
+            {
+              "id": 65060114,
+              "displayName": "The Buttertones",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 7476454,
+                "displayName": "The Buttertones",
+                "uri": "http://www.songkick.com/artists/7476454-buttertones?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "1edd13da-435b-4fb1-a0df-cf0d14eefc0c",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:1edd13da-435b-4fb1-a0df-cf0d14eefc0c.json"
+                  }
+                ]
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 1489,
+            "displayName": "Slim's",
+            "uri": "http://www.songkick.com/venues/1489-slims?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.77152,
+            "lng": -122.41326
+          },
+          "location": {
+            "city": "San Francisco, CA, US",
+            "lat": 37.77152,
+            "lng": -122.41326
+          }
+        },
+        {
+          "id": 35179499,
+          "displayName": "Black Zeppelin at Sweetwater Music Hall (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/35179499-black-zeppelin-at-sweetwater-music-hall?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.000003,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": "2018-10-09T20:00:00-0700",
+            "time": "20:00:00"
+          },
+          "performance": [
+            {
+              "id": 67374424,
+              "displayName": "Black Zeppelin",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 9035204,
+                "displayName": "Black Zeppelin",
+                "uri": "http://www.songkick.com/artists/9035204-black-zeppelin?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 1633868,
+            "displayName": "Sweetwater Music Hall",
+            "uri": "http://www.songkick.com/venues/1633868-sweetwater-music-hall?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.90702,
+            "lng": -122.54794
+          },
+          "location": {
+            "city": "Mill Valley, CA, US",
+            "lat": 37.90702,
+            "lng": -122.54794
+          }
+        },
+        {
+          "id": 34585844,
+          "displayName": "We Were Promised Jetpacks with Jenn Champion at Great American Music Hall (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/34585844-we-were-promised-jetpacks-at-great-american-music-hall?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.026236,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": "2018-10-09T19:00:00-0700",
+            "time": "19:00:00"
+          },
+          "performance": [
+            {
+              "id": 66335619,
+              "displayName": "We Were Promised Jetpacks",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 587119,
+                "displayName": "We Were Promised Jetpacks",
+                "uri": "http://www.songkick.com/artists/587119-we-were-promised-jetpacks?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "8f0e0596-5a39-4bd5-9dfa-f2b12030ffdc",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:8f0e0596-5a39-4bd5-9dfa-f2b12030ffdc.json"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 67479659,
+              "displayName": "Jenn Champion",
+              "billing": "support",
+              "billingIndex": 2,
+              "artist": {
+                "id": 8770774,
+                "displayName": "Jenn Champion",
+                "uri": "http://www.songkick.com/artists/8770774-jenn-champion?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 1261,
+            "displayName": "Great American Music Hall",
+            "uri": "http://www.songkick.com/venues/1261-great-american-music-hall?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.7851,
+            "lng": -122.41876
+          },
+          "location": {
+            "city": "San Francisco, CA, US",
+            "lat": 37.7851,
+            "lng": -122.41876
+          }
+        },
+        {
+          "id": 35540019,
+          "displayName": "Carroll Glenn, Jeff Cotton's Gin Joint, Jj Schultz, and Marie Danielle at Hotel Utah Saloon (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/35540019-carroll-glenn-at-hotel-utah-saloon?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.00002,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": "2018-10-09T20:00:00-0700",
+            "time": "20:00:00"
+          },
+          "performance": [
+            {
+              "id": 67977359,
+              "displayName": "Carroll Glenn",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 2356023,
+                "displayName": "Carroll Glenn",
+                "uri": "http://www.songkick.com/artists/2356023-carroll-glenn?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            },
+            {
+              "id": 68002879,
+              "displayName": "Jeff Cotton's Gin Joint",
+              "billing": "headline",
+              "billingIndex": 2,
+              "artist": {
+                "id": 2348396,
+                "displayName": "Jeff Cotton's Gin Joint",
+                "uri": "http://www.songkick.com/artists/2348396-jeff-cottons-gin-joint?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            },
+            {
+              "id": 68002884,
+              "displayName": "Jj Schultz",
+              "billing": "headline",
+              "billingIndex": 3,
+              "artist": {
+                "id": 152298,
+                "displayName": "Jj Schultz",
+                "uri": "http://www.songkick.com/artists/152298-jj-schultz?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            },
+            {
+              "id": 68002889,
+              "displayName": "Marie Danielle",
+              "billing": "headline",
+              "billingIndex": 4,
+              "artist": {
+                "id": 8702748,
+                "displayName": "Marie Danielle",
+                "uri": "http://www.songkick.com/artists/8702748-marie-danielle?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "baa85449-6a1a-446b-932e-b33519118592",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:baa85449-6a1a-446b-932e-b33519118592.json"
+                  }
+                ]
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 328,
+            "displayName": "Hotel Utah Saloon",
+            "uri": "http://www.songkick.com/venues/328-hotel-utah-saloon?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.77956,
+            "lng": -122.39802
+          },
+          "location": {
+            "city": "San Francisco, CA, US",
+            "lat": 37.77956,
+            "lng": -122.39802
+          }
+        },
+        {
+          "id": 35256414,
+          "displayName": "Lone Kodiak and Swerve (Band) at Brick & Mortar Music Hall (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/35256414-lone-kodiak-at-brick-and-mortar-music-hall?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.000005,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": "2018-10-09T20:00:00-0700",
+            "time": "20:00:00"
+          },
+          "performance": [
+            {
+              "id": 67499979,
+              "displayName": "Lone Kodiak",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 9354419,
+                "displayName": "Lone Kodiak",
+                "uri": "http://www.songkick.com/artists/9354419-lone-kodiak?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            },
+            {
+              "id": 67830324,
+              "displayName": "Swerve (Band)",
+              "billing": "headline",
+              "billingIndex": 2,
+              "artist": {
+                "id": 8586064,
+                "displayName": "Swerve (Band)",
+                "uri": "http://www.songkick.com/artists/8586064-swerve-band?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 1296241,
+            "displayName": "Brick & Mortar Music Hall",
+            "uri": "http://www.songkick.com/venues/1296241-brick-and-mortar-music-hall?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.76969,
+            "lng": -122.42016
+          },
+          "location": {
+            "city": "San Francisco, CA, US",
+            "lat": 37.76969,
+            "lng": -122.42016
+          }
+        },
+        {
+          "id": 34805164,
+          "displayName": "Tennis with Matt Costa at The Chapel (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/34805164-tennis-at-chapel?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.044564,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": "2018-10-09T20:00:00-0700",
+            "time": "20:00:00"
+          },
+          "performance": [
+            {
+              "id": 66720574,
+              "displayName": "Tennis",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 365837,
+                "displayName": "Tennis",
+                "uri": "http://www.songkick.com/artists/365837-tennis?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "c1b3e591-7851-4b27-8534-4d22329a7b06",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:c1b3e591-7851-4b27-8534-4d22329a7b06.json"
+                  },
+                  {
+                    "mbid": "854cc3ee-7f3a-4924-8a20-3c22ea526740",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:854cc3ee-7f3a-4924-8a20-3c22ea526740.json"
+                  },
+                  {
+                    "mbid": "a8982cb0-7886-4e60-9f6a-3b71baa370e6",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:a8982cb0-7886-4e60-9f6a-3b71baa370e6.json"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 66590019,
+              "displayName": "Matt Costa",
+              "billing": "support",
+              "billingIndex": 2,
+              "artist": {
+                "id": 396691,
+                "displayName": "Matt Costa",
+                "uri": "http://www.songkick.com/artists/396691-matt-costa?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "fa7ed4fb-fa39-4820-8ae1-5fe98bc2ef8d",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:fa7ed4fb-fa39-4820-8ae1-5fe98bc2ef8d.json"
+                  }
+                ]
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "venue": {
+            "id": 2029634,
+            "displayName": "The Chapel",
+            "uri": "http://www.songkick.com/venues/2029634-chapel?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.76057,
+            "lng": -122.42119
+          },
+          "location": {
+            "city": "San Francisco, CA, US",
+            "lat": 37.76057,
+            "lng": -122.42119
+          }
+        },
+        {
+          "id": 35554174,
+          "displayName": "Freddy Clarke's Wobbly World at Black Cat (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/35554174-freddy-clarkes-wobbly-world-at-black-cat?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": null,
+            "time": null
+          },
+          "performance": [
+            {
+              "id": 68001449,
+              "displayName": "Freddy Clarke's Wobbly World",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 3187646,
+                "displayName": "Freddy Clarke's Wobbly World",
+                "uri": "http://www.songkick.com/artists/3187646-freddy-clarkes-wobbly-world?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 488261,
+            "displayName": "Black Cat",
+            "uri": "http://www.songkick.com/venues/488261-black-cat?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.78384,
+            "lng": -122.41449
+          },
+          "location": {
+            "city": "San Francisco, CA, US",
+            "lat": 37.78384,
+            "lng": -122.41449
+          }
+        },
+        {
+          "id": 35399704,
+          "displayName": "Taste Nate and Oscar Goldman with The I. M. F., Alwa Gordon, and 1 moreâ€¦ at Winter's Tavern (October 9, 2018)",
+          "type": "Concert",
+          "uri": "http://www.songkick.com/concerts/35399704-taste-nate-at-winters-tavern?utm_source=51192&utm_medium=partner",
+          "status": "ok",
+          "popularity": 0.000044,
+          "start": {
+            "date": "2018-10-09",
+            "datetime": "2018-10-09T21:00:00-0700",
+            "time": "21:00:00"
+          },
+          "performance": [
+            {
+              "id": 67744499,
+              "displayName": "Taste Nate",
+              "billing": "headline",
+              "billingIndex": 1,
+              "artist": {
+                "id": 8564324,
+                "displayName": "Taste Nate",
+                "uri": "http://www.songkick.com/artists/8564324-taste-nate?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            },
+            {
+              "id": 67744504,
+              "displayName": "Oscar Goldman",
+              "billing": "headline",
+              "billingIndex": 2,
+              "artist": {
+                "id": 4620763,
+                "displayName": "Oscar Goldman",
+                "uri": "http://www.songkick.com/artists/4620763-oscar-goldman?utm_source=51192&utm_medium=partner",
+                "identifier": [
+                  {
+                    "mbid": "7bf3c6fb-a2e1-444d-8487-824cb7429b1f",
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:7bf3c6fb-a2e1-444d-8487-824cb7429b1f.json"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 67744509,
+              "displayName": "The I. M. F.",
+              "billing": "support",
+              "billingIndex": 3,
+              "artist": {
+                "id": 4823083,
+                "displayName": "The I. M. F.",
+                "uri": "http://www.songkick.com/artists/4823083-i-m-f?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            },
+            {
+              "id": 67744514,
+              "displayName": "Alwa Gordon",
+              "billing": "support",
+              "billingIndex": 4,
+              "artist": {
+                "id": 7105749,
+                "displayName": "Alwa Gordon",
+                "uri": "http://www.songkick.com/artists/7105749-alwa-gordon?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            },
+            {
+              "id": 67744519,
+              "displayName": "Ersatz Splynter",
+              "billing": "support",
+              "billingIndex": 5,
+              "artist": {
+                "id": 8741189,
+                "displayName": "Ersatz Splynter",
+                "uri": "http://www.songkick.com/artists/8741189-ersatz-splynter?utm_source=51192&utm_medium=partner",
+                "identifier": []
+              }
+            }
+          ],
+          "ageRestriction": null,
+          "flaggedAsEnded": false,
+          "venue": {
+            "id": 1540323,
+            "displayName": "Winter's Tavern",
+            "uri": "http://www.songkick.com/venues/1540323-winters-tavern?utm_source=51192&utm_medium=partner",
+            "metroArea": {
+              "displayName": "SF Bay Area",
+              "country": {
+                "displayName": "US"
+              },
+              "state": {
+                "displayName": "CA"
+              },
+              "id": 26330,
+              "uri": "http://www.songkick.com/metro_areas/26330-us-sf-bay-area?utm_source=51192&utm_medium=partner"
+            },
+            "lat": 37.63663,
+            "lng": -122.49043
+          },
+          "location": {
+            "city": "Pacifica, CA, US",
+            "lat": 37.63663,
+            "lng": -122.49043
+          }
+        }
+      ]
+    },
+    "perPage": 50,
+    "page": 1,
+    "totalEntries": 27
+  }
+}

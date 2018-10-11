@@ -224,8 +224,8 @@ app.get('/artists/:artist', (req, res) => {
   });
 });
 
-app.get('/events', (req, res) => {
-  songKickHelper.fetchEvents(26330).then((events) => {
+app.get('/events/:metroAreaId/:startTime', (req, res) => {
+  songKickHelper.fetchEvents(req.params.metroAreaId, req.params.startTime).then((events) => {
     res.throwSuccess(events);
   }).catch((error) => {
     res.throwError(500, error);

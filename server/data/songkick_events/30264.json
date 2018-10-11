@@ -1,0 +1,48 @@
+[
+  {
+    "id": 35153069,
+    "name": "Iceland Symphony Orchestra, Klaus MÃ¤kelÃ¤, and Violin Sayaka Shoji at Eldborg Hall, Harpa (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35153069-iceland-symphony-orchestra-at-eldborg-hall-harpa?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 1434123,
+      "displayName": "Eldborg Hall, Harpa",
+      "uri": "http://www.songkick.com/venues/1434123-eldborg-hall-harpa?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "ReykjavÃ­k",
+        "country": {
+          "displayName": "Iceland"
+        },
+        "id": 30264,
+        "uri": "http://www.songkick.com/metro_areas/30264-iceland-reykjavik?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 64.1494,
+      "lng": -21.93722,
+      "name": "Eldborg Hall, Harpa"
+    },
+    "starts_at": "2018-10-11T19:30:00+0000",
+    "performers": [
+      {
+        "name": "Iceland Symphony Orchestra",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/21171-iceland-symphony-orchestra?utm_source=51192&utm_medium=partner",
+        "id": 21171
+      },
+      {
+        "name": "Klaus MÃ¤kelÃ¤",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/9658764-klaus-makela?utm_source=51192&utm_medium=partner",
+        "id": 9658764
+      },
+      {
+        "name": "Violin Sayaka Shoji",
+        "billing": "headline",
+        "billingIndex": 3,
+        "url": "http://www.songkick.com/artists/5676079-violin-sayaka-shoji?utm_source=51192&utm_medium=partner",
+        "id": 5676079
+      }
+    ]
+  }
+]

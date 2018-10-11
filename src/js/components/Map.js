@@ -3,6 +3,7 @@ import ReactMapboxGl, { Marker, Layer, Feature, Popup } from "react-mapbox-gl";
 import Pin from './Pin';
 import Beacon from './Beacon';
 import {MAPBOX_ACCESS_TOKEN} from '../config/config.json';
+import Moment from 'moment';
 
 const Map = ReactMapboxGl({
   accessToken: MAPBOX_ACCESS_TOKEN
@@ -36,6 +37,20 @@ class MapView extends React.Component{
     return this.propsChanged(nextProps);
   }
 
+  withinTimeFilterRange(starts_at) {
+    if (starts_at && this.props.rangeFilter) {
+      const [start, end] = this.props.rangeFilter;
+      const eventTime = new Moment(starts_at).unix();
+      if (start <= eventTime && eventTime <= end) {
+        return true;
+      } else{
+        return false;
+      }
+    } else {
+      return true;
+    }
+  }
+
   render() {
     return (
         <Map
@@ -62,13 +77,16 @@ class MapView extends React.Component{
            {/* event markers */}
             { (this.props.events.length > 0 ) ? (
               this.props.events.map((event) => {
-              return (         
+              
+
+              return (this.withinTimeFilterRange(event.starts_at) ? (
                 <Marker 
                   onClick={(e) => {this.props.onMarkerClick(event) }} 
                   key = {event.id} 
                   coordinates={[event.venue.lng, event.venue.lat]}>
                 <Pin active={this.containsActiveTrack(event, this.props.activeTrack)} />
                 </Marker>
+              ) : ''
               )}))
                : ''
             }
@@ -83,6 +101,8 @@ class MapView extends React.Component{
                 </b>
                 <br/>
                 @{this.props.activeEvent.venue.name }
+                <br/>
+                {(this.props.activeEvent.starts_at) ? new Moment(this.props.activeEvent.starts_at).format('hh:mm A') : 'Time Unknown'}
               </Popup>)
               : ''
             }

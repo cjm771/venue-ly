@@ -1,0 +1,1396 @@
+[
+  {
+    "id": 35002174,
+    "name": "Cory Seznec at Le Comptoir (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35002174-cory-seznec-at-le-comptoir?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 1267161,
+      "displayName": "Le Comptoir",
+      "uri": "http://www.songkick.com/venues/1267161-le-comptoir?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.85026,
+      "lng": 2.46056,
+      "name": "Le Comptoir"
+    },
+    "starts_at": "2018-10-11T20:45:00+0200",
+    "performers": [
+      {
+        "name": "Cory Seznec",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/7136449-cory-seznec?utm_source=51192&utm_medium=partner",
+        "id": 7136449
+      }
+    ]
+  },
+  {
+    "id": 35147499,
+    "name": "Rival Consoles at Badaboum (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35147499-rival-consoles-at-badaboum?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 2445919,
+      "displayName": "Badaboum",
+      "uri": "http://www.songkick.com/venues/2445919-badaboum?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.85343,
+      "lng": 2.3757,
+      "name": "Badaboum"
+    },
+    "starts_at": "2018-10-11T19:30:00+0200",
+    "performers": [
+      {
+        "name": "Rival Consoles",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/483204-rival-consoles?utm_source=51192&utm_medium=partner",
+        "id": 483204
+      }
+    ]
+  },
+  {
+    "id": 33804089,
+    "name": "Satellite Stories with LCMDF at Supersonic (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/33804089-satellite-stories-at-supersonic?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 3187064,
+      "displayName": "Supersonic",
+      "uri": "http://www.songkick.com/venues/3187064-supersonic?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.85033,
+      "lng": 2.36971,
+      "name": "Supersonic"
+    },
+    "starts_at": "2018-10-11T20:00:00+0200",
+    "performers": [
+      {
+        "name": "Satellite Stories",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/3706531-satellite-stories?utm_source=51192&utm_medium=partner",
+        "id": 3706531
+      },
+      {
+        "name": "LCMDF",
+        "billing": "support",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/8748059-lcmdf?utm_source=51192&utm_medium=partner",
+        "id": 8748059
+      }
+    ]
+  },
+  {
+    "id": 35571179,
+    "name": "Massimiliano Pagliara at Le Silencio (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35571179-massimiliano-pagliara-at-le-silencio?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 1479268,
+      "displayName": "Le Silencio",
+      "uri": "http://www.songkick.com/venues/1479268-le-silencio?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.86903,
+      "lng": 2.34328,
+      "name": "Le Silencio"
+    },
+    "starts_at": "2018-10-11T22:00:00+0200",
+    "performers": [
+      {
+        "name": "Massimiliano Pagliara",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/704885-massimiliano-pagliara?utm_source=51192&utm_medium=partner",
+        "id": 704885
+      }
+    ]
+  },
+  {
+    "id": 33738959,
+    "name": "Against the Current at YOYO (Palais de Tokyo) (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/33738959-against-the-current-at-yoyo?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 2450314,
+      "displayName": "YOYO (Palais de Tokyo)",
+      "uri": "http://www.songkick.com/venues/2450314-yoyo?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.86457,
+      "lng": 2.29637,
+      "name": "YOYO (Palais de Tokyo)"
+    },
+    "starts_at": "2018-10-11T20:00:00+0200",
+    "performers": [
+      {
+        "name": "Against the Current",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/5415303-against-the-current?utm_source=51192&utm_medium=partner",
+        "id": 5415303
+      }
+    ]
+  },
+  {
+    "id": 35620854,
+    "name": "Bigyuki and Marcus Gilmore at Duc des Lombards (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35620854-bigyuki-at-duc-des-lombards?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 53912,
+      "displayName": "Duc des Lombards",
+      "uri": "http://www.songkick.com/venues/53912-duc-des-lombards?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.85972,
+      "lng": 2.3486,
+      "name": "Duc des Lombards"
+    },
+    "starts_at": "2018-10-11T21:30:00+0200",
+    "performers": [
+      {
+        "name": "Bigyuki",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/8249078-bigyuki?utm_source=51192&utm_medium=partner",
+        "id": 8249078
+      },
+      {
+        "name": "Marcus Gilmore",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/2349442-marcus-gilmore?utm_source=51192&utm_medium=partner",
+        "id": 2349442
+      }
+    ]
+  },
+  {
+    "id": 34753899,
+    "name": "Mokado at Berliner Pigalle (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34753899-mokado-at-berliner-pigalle?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 3857614,
+      "displayName": "Berliner Pigalle",
+      "uri": "http://www.songkick.com/venues/3857614-berliner-pigalle?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.88175,
+      "lng": 2.3374,
+      "name": "Berliner Pigalle"
+    },
+    "starts_at": "2018-10-11T20:00:00+0200",
+    "performers": [
+      {
+        "name": "Mokado",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/9459994-mokado?utm_source=51192&utm_medium=partner",
+        "id": 9459994
+      }
+    ]
+  },
+  {
+    "id": 31382834,
+    "name": "Clara Luciani at La GaÃ®tÃ© Lyrique (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/31382834-clara-luciani-at-la-gaite-lyrique?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 1227421,
+      "displayName": "La GaÃ®tÃ© Lyrique",
+      "uri": "http://www.songkick.com/venues/1227421-la-gaite-lyrique?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.86674,
+      "lng": 2.35383,
+      "name": "La GaÃ®tÃ© Lyrique"
+    },
+    "starts_at": "2018-10-11T19:30:00+0200",
+    "performers": [
+      {
+        "name": "Clara Luciani",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/8838259-clara-luciani?utm_source=51192&utm_medium=partner",
+        "id": 8838259
+      }
+    ]
+  },
+  {
+    "id": 34611039,
+    "name": "Slim Paul and Tanika Charles at Centre Culturel Paul Bailliart (Paul B.) (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34611039-slim-paul-at-centre-culturel-paul-bailliart?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 382296,
+      "displayName": "Centre Culturel Paul Bailliart (Paul B.)",
+      "uri": "http://www.songkick.com/venues/382296-centre-culturel-paul-bailliart?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.72956,
+      "lng": 2.28406,
+      "name": "Centre Culturel Paul Bailliart (Paul B.)"
+    },
+    "starts_at": "2018-10-11T20:30:00+0200",
+    "performers": [
+      {
+        "name": "Slim Paul",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/9313344-slim-paul?utm_source=51192&utm_medium=partner",
+        "id": 9313344
+      },
+      {
+        "name": "Tanika Charles",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/3820096-tanika-charles?utm_source=51192&utm_medium=partner",
+        "id": 3820096
+      }
+    ]
+  },
+  {
+    "id": 35620869,
+    "name": "Marcus Gilmore and Bigyuki at Duc des Lombards (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35620869-marcus-gilmore-at-duc-des-lombards?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 53912,
+      "displayName": "Duc des Lombards",
+      "uri": "http://www.songkick.com/venues/53912-duc-des-lombards?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.85972,
+      "lng": 2.3486,
+      "name": "Duc des Lombards"
+    },
+    "starts_at": "2018-10-11T19:30:00+0200",
+    "performers": [
+      {
+        "name": "Marcus Gilmore",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/2349442-marcus-gilmore?utm_source=51192&utm_medium=partner",
+        "id": 2349442
+      },
+      {
+        "name": "Bigyuki",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/8249078-bigyuki?utm_source=51192&utm_medium=partner",
+        "id": 8249078
+      }
+    ]
+  },
+  {
+    "id": 35618834,
+    "name": "Lukmil Perez at Sunset/Sunside (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35618834-lukmil-perez-at-sunsetsunside?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 779421,
+      "displayName": "Sunset/Sunside",
+      "uri": "http://www.songkick.com/venues/779421-sunsetsunside?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.85979,
+      "lng": 2.34777,
+      "name": "Sunset/Sunside"
+    },
+    "starts_at": "2018-10-11T21:30:00+0200",
+    "performers": [
+      {
+        "name": "Lukmil Perez",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/4498268-lukmil-perez?utm_source=51192&utm_medium=partner",
+        "id": 4498268
+      }
+    ]
+  },
+  {
+    "id": 35619089,
+    "name": "Yuli at Les Disquaires (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35619089-yuli-at-les-disquaires?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 508861,
+      "displayName": "Les Disquaires",
+      "uri": "http://www.songkick.com/venues/508861-les-disquaires?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.85388,
+      "lng": 2.37551,
+      "name": "Les Disquaires"
+    },
+    "starts_at": "2018-10-11T20:00:00+0200",
+    "performers": [
+      {
+        "name": "Yuli",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/8819564-yuli?utm_source=51192&utm_medium=partner",
+        "id": 8819564
+      }
+    ]
+  },
+  {
+    "id": 33200784,
+    "name": "Pierce Brothers with Soham De at Point EphÃ©mÃ¨re (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/33200784-pierce-brothers-at-point-ephemere?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 32683,
+      "displayName": "Point EphÃ©mÃ¨re",
+      "uri": "http://www.songkick.com/venues/32683-point-ephemere?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.88006,
+      "lng": 2.36711,
+      "name": "Point EphÃ©mÃ¨re"
+    },
+    "starts_at": "2018-10-11T19:30:00+0200",
+    "performers": [
+      {
+        "name": "Pierce Brothers",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/1195624-pierce-brothers?utm_source=51192&utm_medium=partner",
+        "id": 1195624
+      },
+      {
+        "name": "Soham De",
+        "billing": "support",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/8632144-soham-de?utm_source=51192&utm_medium=partner",
+        "id": 8632144
+      }
+    ]
+  },
+  {
+    "id": 35621359,
+    "name": "Laurence Wasser, It's Everyone Else, Elmapi, and Makata-o at L'International (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35621359-laurence-wasser-at-linternational?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 595451,
+      "displayName": "L'International",
+      "uri": "http://www.songkick.com/venues/595451-linternational?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.86681,
+      "lng": 2.37987,
+      "name": "L'International"
+    },
+    "starts_at": "2018-10-11T19:00:00+0200",
+    "performers": [
+      {
+        "name": "Laurence Wasser",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/9199064-laurence-wasser?utm_source=51192&utm_medium=partner",
+        "id": 9199064
+      },
+      {
+        "name": "It's Everyone Else",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/4026626-its-everyone-else?utm_source=51192&utm_medium=partner",
+        "id": 4026626
+      },
+      {
+        "name": "Elmapi",
+        "billing": "headline",
+        "billingIndex": 3,
+        "url": "http://www.songkick.com/artists/9170354-elmapi?utm_source=51192&utm_medium=partner",
+        "id": 9170354
+      },
+      {
+        "name": "Makata-o",
+        "billing": "headline",
+        "billingIndex": 4,
+        "url": "http://www.songkick.com/artists/8354478-makatao?utm_source=51192&utm_medium=partner",
+        "id": 8354478
+      }
+    ]
+  },
+  {
+    "id": 34871444,
+    "name": "JONES at La Boule Noire (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34871444-jones-at-la-boule-noire?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 46999,
+      "displayName": "La Boule Noire",
+      "uri": "http://www.songkick.com/venues/46999-la-boule-noire?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.8822,
+      "lng": 2.34014,
+      "name": "La Boule Noire"
+    },
+    "starts_at": "2018-10-11T20:00:00+0200",
+    "performers": [
+      {
+        "name": "JONES",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/141540-jones?utm_source=51192&utm_medium=partner",
+        "id": 141540
+      }
+    ]
+  },
+  {
+    "id": 35330234,
+    "name": "Samuele at Le Bar Commun (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35330234-samuele-at-le-bar-commun?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 4036214,
+      "displayName": "Le Bar Commun",
+      "uri": "http://www.songkick.com/venues/4036214-le-bar-commun?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.89523,
+      "lng": 2.35272,
+      "name": "Le Bar Commun"
+    },
+    "performers": [
+      {
+        "name": "Samuele",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/4715123-samuele?utm_source=51192&utm_medium=partner",
+        "id": 4715123
+      }
+    ]
+  },
+  {
+    "id": 35621134,
+    "name": "Barry Johnson at CafÃ© Oz ChÃ¢telet (October 11, 2018) (CANCELLED) ",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35621134-barry-johnson-at-cafe-oz-chatelet?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 2461054,
+      "displayName": "CafÃ© Oz ChÃ¢telet",
+      "uri": "http://www.songkick.com/venues/2461054-cafe-oz-chatelet?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.85938,
+      "lng": 2.34796,
+      "name": "CafÃ© Oz ChÃ¢telet"
+    },
+    "starts_at": "2018-10-11T20:00:00+0200",
+    "performers": [
+      {
+        "name": "Barry Johnson",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/4811898-barry-johnson?utm_source=51192&utm_medium=partner",
+        "id": 4811898
+      }
+    ]
+  },
+  {
+    "id": 35620544,
+    "name": "DJ Kisa at L'Alimentation GÃ©nÃ©rale (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35620544-dj-kisa-at-lalimentation-generale?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 103835,
+      "displayName": "L'Alimentation GÃ©nÃ©rale",
+      "uri": "http://www.songkick.com/venues/103835-lalimentation-generale?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.8668,
+      "lng": 2.37424,
+      "name": "L'Alimentation GÃ©nÃ©rale"
+    },
+    "starts_at": "2018-10-11T23:30:00+0200",
+    "performers": [
+      {
+        "name": "DJ Kisa",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/7581399-dj-kisa?utm_source=51192&utm_medium=partner",
+        "id": 7581399
+      }
+    ]
+  },
+  {
+    "id": 33664169,
+    "name": "One Tail, One Head, Taake, Orkan, and BÃ¶lzer at Petit Bain (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/33664169-one-tail-one-head-at-petit-bain?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 1370651,
+      "displayName": "Petit Bain",
+      "uri": "http://www.songkick.com/venues/1370651-petit-bain?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.82976,
+      "lng": 2.38658,
+      "name": "Petit Bain"
+    },
+    "starts_at": "2018-10-11T18:30:00+0200",
+    "performers": [
+      {
+        "name": "One Tail, One Head",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/4200641-one-tail-one-head?utm_source=51192&utm_medium=partner",
+        "id": 4200641
+      },
+      {
+        "name": "Taake",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/2915-taake?utm_source=51192&utm_medium=partner",
+        "id": 2915
+      },
+      {
+        "name": "Orkan",
+        "billing": "headline",
+        "billingIndex": 3,
+        "url": "http://www.songkick.com/artists/3365416-orkan?utm_source=51192&utm_medium=partner",
+        "id": 3365416
+      },
+      {
+        "name": "BÃ¶lzer",
+        "billing": "headline",
+        "billingIndex": 4,
+        "url": "http://www.songkick.com/artists/6712324-bolzer?utm_source=51192&utm_medium=partner",
+        "id": 6712324
+      }
+    ]
+  },
+  {
+    "id": 35621159,
+    "name": "Lilith, Salmon, and Clair at La Java (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35621159-lilith-at-la-java?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 80175,
+      "displayName": "La Java",
+      "uri": "http://www.songkick.com/venues/80175-la-java?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.87093,
+      "lng": 2.37391,
+      "name": "La Java"
+    },
+    "starts_at": "2018-10-11T23:00:00+0200",
+    "performers": [
+      {
+        "name": "Lilith",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/16945-lilith?utm_source=51192&utm_medium=partner",
+        "id": 16945
+      },
+      {
+        "name": "Salmon",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/86298-salmon?utm_source=51192&utm_medium=partner",
+        "id": 86298
+      },
+      {
+        "name": "Clair",
+        "billing": "headline",
+        "billingIndex": 3,
+        "url": "http://www.songkick.com/artists/255401-clair?utm_source=51192&utm_medium=partner",
+        "id": 255401
+      }
+    ]
+  },
+  {
+    "id": 35264349,
+    "name": "Estelle Meyer at Centre Fleury Goutte d'Or (FGO) Barbara (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35264349-estelle-meyer-at-centre-fleury-goutte-dor-barbara?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 491226,
+      "displayName": "Centre Fleury Goutte d'Or (FGO) Barbara",
+      "uri": "http://www.songkick.com/venues/491226-centre-fleury-goutte-dor-barbara?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.88421,
+      "lng": 2.35402,
+      "name": "Centre Fleury Goutte d'Or (FGO) Barbara"
+    },
+    "starts_at": "2018-10-11T20:00:00+0200",
+    "performers": [
+      {
+        "name": "Estelle Meyer",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/7786174-estelle-meyer?utm_source=51192&utm_medium=partner",
+        "id": 7786174
+      }
+    ]
+  },
+  {
+    "id": 33876214,
+    "name": "Col3trane at Le Pop-Up du Label (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/33876214-col3trane-at-le-popup-du-label?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 2514694,
+      "displayName": "Le Pop-Up du Label",
+      "uri": "http://www.songkick.com/venues/2514694-le-popup-du-label?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.84763,
+      "lng": 2.37568,
+      "name": "Le Pop-Up du Label"
+    },
+    "starts_at": "2018-10-11T19:00:00+0200",
+    "performers": [
+      {
+        "name": "Col3trane",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/9137569-col3trane?utm_source=51192&utm_medium=partner",
+        "id": 9137569
+      }
+    ]
+  },
+  {
+    "id": 34599979,
+    "name": "Tamikrest and Imidiwen at Le Tamanoir (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34599979-tamikrest-at-le-tamanoir?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 381461,
+      "displayName": "Le Tamanoir",
+      "uri": "http://www.songkick.com/venues/381461-le-tamanoir?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.93352,
+      "lng": 2.28748,
+      "name": "Le Tamanoir"
+    },
+    "starts_at": "2018-10-11T20:30:00+0200",
+    "performers": [
+      {
+        "name": "Tamikrest",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/1950330-tamikrest?utm_source=51192&utm_medium=partner",
+        "id": 1950330
+      },
+      {
+        "name": "Imidiwen",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/4510778-imidiwen?utm_source=51192&utm_medium=partner",
+        "id": 4510778
+      }
+    ]
+  },
+  {
+    "id": 33829224,
+    "name": "Sauti Sol at O'Sullivan's Backstage by the Mill (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/33829224-sauti-sol-at-osullivans-backstage-by-the-mill?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "O'Sullivan's Backstage by the Mill",
+      "lat": 48.8842209,
+      "lng": 2.3320056,
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner",
+        "id": 28909
+      },
+      "uri": "http://www.songkick.com/venues/902561-osullivans-backstage-by-the-mill?utm_source=51192&utm_medium=partner",
+      "id": 902561,
+      "name": "O'Sullivan's Backstage by the Mill"
+    },
+    "starts_at": "2018-10-11T20:30:00+0200",
+    "performers": [
+      {
+        "name": "Sauti Sol",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/8905864-sauti-sol?utm_source=51192&utm_medium=partner",
+        "id": 8905864
+      }
+    ]
+  },
+  {
+    "id": 34482924,
+    "name": "Thomas Enhco and David Enhco at ThÃ©Ã¢tre Jean Arp (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34482924-thomas-enhco-at-theatre-jean-arp?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "ThÃ©Ã¢tre Jean Arp",
+      "lat": 48.8029457,
+      "lng": 2.2642155,
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner",
+        "id": 28909
+      },
+      "uri": "http://www.songkick.com/venues/756806-theatre-jean-arp?utm_source=51192&utm_medium=partner",
+      "id": 756806,
+      "name": "ThÃ©Ã¢tre Jean Arp"
+    },
+    "starts_at": "2018-10-11T20:30:00+0200",
+    "performers": [
+      {
+        "name": "Thomas Enhco",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/2701281-thomas-enhco?utm_source=51192&utm_medium=partner",
+        "id": 2701281
+      },
+      {
+        "name": "David Enhco",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/5971714-david-enhco?utm_source=51192&utm_medium=partner",
+        "id": 5971714
+      }
+    ]
+  },
+  {
+    "id": 34194994,
+    "name": "Jowee Omicil at New Morning (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34194994-jowee-omicil-at-new-morning?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "New Morning",
+      "lat": 48.8732106,
+      "lng": 2.3532524,
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner",
+        "id": 28909
+      },
+      "uri": "http://www.songkick.com/venues/20868-new-morning?utm_source=51192&utm_medium=partner",
+      "id": 20868,
+      "name": "New Morning"
+    },
+    "starts_at": "2018-10-11T20:30:00+0200",
+    "performers": [
+      {
+        "name": "Jowee Omicil",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/1062359-jowee-omicil?utm_source=51192&utm_medium=partner",
+        "id": 1062359
+      }
+    ]
+  },
+  {
+    "id": 35619169,
+    "name": "Ian Bostridge, Daniel Harding, and Orchestre De Paris at Philharmonie De Paris (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35619169-ian-bostridge-at-philharmonie-de-paris?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 2682348,
+      "displayName": "Philharmonie De Paris",
+      "uri": "http://www.songkick.com/venues/2682348-philharmonie-de-paris?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.88917,
+      "lng": 2.39361,
+      "name": "Philharmonie De Paris"
+    },
+    "starts_at": "2018-10-11T20:30:00+0200",
+    "performers": [
+      {
+        "name": "Ian Bostridge",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/376276-ian-bostridge?utm_source=51192&utm_medium=partner",
+        "id": 376276
+      },
+      {
+        "name": "Daniel Harding",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/160601-daniel-harding?utm_source=51192&utm_medium=partner",
+        "id": 160601
+      },
+      {
+        "name": "Orchestre De Paris",
+        "billing": "headline",
+        "billingIndex": 3,
+        "url": "http://www.songkick.com/artists/390336-orchestre-de-paris?utm_source=51192&utm_medium=partner",
+        "id": 390336
+      }
+    ]
+  },
+  {
+    "id": 34062994,
+    "name": "Makaroff at La Cigale (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34062994-makaroff-at-la-cigale?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "La Cigale",
+      "lat": 48.8821952,
+      "lng": 2.3401413,
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner",
+        "id": 28909
+      },
+      "uri": "http://www.songkick.com/venues/30931-la-cigale?utm_source=51192&utm_medium=partner",
+      "id": 30931,
+      "name": "La Cigale"
+    },
+    "starts_at": "2018-10-11T20:30:00+0200",
+    "performers": [
+      {
+        "name": "Makaroff",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/7851419-makaroff?utm_source=51192&utm_medium=partner",
+        "id": 7851419
+      }
+    ]
+  },
+  {
+    "id": 33689454,
+    "name": "Desiigner at Le Trabendo (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/33689454-desiigner-at-le-trabendo?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 34666,
+      "displayName": "Le Trabendo",
+      "uri": "http://www.songkick.com/venues/34666-le-trabendo?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.88909,
+      "lng": 2.39443,
+      "name": "Le Trabendo"
+    },
+    "starts_at": "2018-10-11T19:30:00+0200",
+    "performers": [
+      {
+        "name": "Desiigner",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/8761459-desiigner?utm_source=51192&utm_medium=partner",
+        "id": 8761459
+      }
+    ]
+  },
+  {
+    "id": 34064329,
+    "name": "Billet d'humeur at Les Ã‰toiles (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34064329-billet-dhumeur-at-les-etoiles?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 89882,
+      "displayName": "Les Ã‰toiles",
+      "uri": "http://www.songkick.com/venues/89882-les-etoiles?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.87232,
+      "lng": 2.35522,
+      "name": "Les Ã‰toiles"
+    },
+    "starts_at": "2018-10-11T20:00:00+0200",
+    "performers": [
+      {
+        "name": "Billet d'humeur",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/9262099-billet-dhumeur?utm_source=51192&utm_medium=partner",
+        "id": 9262099
+      }
+    ]
+  },
+  {
+    "id": 34443544,
+    "name": "Caravaggio at Le Triton (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34443544-caravaggio-at-le-triton?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "Le Triton",
+      "lat": 48.8785655,
+      "lng": 2.4148793,
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner",
+        "id": 28909
+      },
+      "uri": "http://www.songkick.com/venues/367776-le-triton?utm_source=51192&utm_medium=partner",
+      "id": 367776,
+      "name": "Le Triton"
+    },
+    "starts_at": "2018-10-11T20:30:00+0200",
+    "performers": [
+      {
+        "name": "Caravaggio",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/4277801-caravaggio?utm_source=51192&utm_medium=partner",
+        "id": 4277801
+      }
+    ]
+  },
+  {
+    "id": 34965579,
+    "name": "LE FESTIVAL DE L 2018",
+    "type": "Festival",
+    "url": "http://www.songkick.com/festivals/2566784-le-de-l/id/34965579-le-festival-de-l-2018?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 596836,
+      "displayName": "ThÃ©Ã¢tre Du Garde Chasse",
+      "uri": "http://www.songkick.com/venues/596836-theatre-du-garde-chasse?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.88101,
+      "lng": 2.41985,
+      "name": "ThÃ©Ã¢tre Du Garde Chasse"
+    },
+    "starts_at": "2018-10-11T20:30:00+0200",
+    "performers": []
+  },
+  {
+    "id": 35272574,
+    "name": "DJ Jazzy Jeff at Reebok Megastore (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35272574-dj-jazzy-jeff-at-reebok-megastore?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 4031529,
+      "displayName": "Reebok Megastore",
+      "uri": "http://www.songkick.com/venues/4031529-reebok-megastore?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.86752,
+      "lng": 2.33334,
+      "name": "Reebok Megastore"
+    },
+    "performers": [
+      {
+        "name": "DJ Jazzy Jeff",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/405698-dj-jazzy-jeff?utm_source=51192&utm_medium=partner",
+        "id": 405698
+      }
+    ]
+  },
+  {
+    "id": 32147594,
+    "name": "Hamza at L'Olympia (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/32147594-hamza-at-lolympia?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "L'Olympia",
+      "lat": 48.8700741,
+      "lng": 2.3277568,
+      "uri": "http://www.songkick.com/venues/35050-lolympia?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner",
+        "id": 28909
+      },
+      "id": 35050,
+      "name": "L'Olympia"
+    },
+    "starts_at": "2018-10-11T20:00:00+0200",
+    "performers": [
+      {
+        "name": "Hamza",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/1813772-hamza?utm_source=51192&utm_medium=partner",
+        "id": 1813772
+      }
+    ]
+  },
+  {
+    "id": 33480754,
+    "name": "MY BABY at CafÃ© de la Danse (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/33480754-my-baby-at-cafe-de-la-danse?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "CafÃ© de la Danse",
+      "lat": 48.8538519,
+      "lng": 2.3727885,
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner",
+        "id": 28909
+      },
+      "uri": "http://www.songkick.com/venues/515556-cafe-de-la-danse?utm_source=51192&utm_medium=partner",
+      "id": 515556,
+      "name": "CafÃ© de la Danse"
+    },
+    "performers": [
+      {
+        "name": "MY BABY",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/17473-my-baby?utm_source=51192&utm_medium=partner",
+        "id": 17473
+      }
+    ]
+  },
+  {
+    "id": 34404379,
+    "name": "Roman Frayssinet at Flow (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34404379-roman-frayssinet-at-flow?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "Flow",
+      "lat": 48.8620716,
+      "lng": 2.2970085,
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner",
+        "id": 28909
+      },
+      "uri": "http://www.songkick.com/venues/3233509-flow?utm_source=51192&utm_medium=partner",
+      "id": 3233509,
+      "name": "Flow"
+    },
+    "starts_at": "2018-10-11T20:30:00+0200",
+    "performers": [
+      {
+        "name": "Roman Frayssinet",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/9318789-roman-frayssinet?utm_source=51192&utm_medium=partner",
+        "id": 9318789
+      }
+    ]
+  },
+  {
+    "id": 35392454,
+    "name": "Mosimann and Christophe MaÃ© at AccorHotels Arena POPB (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35392454-mosimann-at-accorhotels-arena-popb?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 3120894,
+      "displayName": "AccorHotels Arena POPB",
+      "uri": "http://www.songkick.com/venues/3120894-accorhotels-arena-popb?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.83917,
+      "lng": 2.37823,
+      "name": "AccorHotels Arena POPB"
+    },
+    "starts_at": "2018-10-11T08:00:00+0200",
+    "performers": [
+      {
+        "name": "Mosimann",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/8970444-mosimann?utm_source=51192&utm_medium=partner",
+        "id": 8970444
+      },
+      {
+        "name": "Christophe MaÃ©",
+        "billing": "headline",
+        "billingIndex": 2,
+        "url": "http://www.songkick.com/artists/1154038-christophe-mae?utm_source=51192&utm_medium=partner",
+        "id": 1154038
+      }
+    ]
+  },
+  {
+    "id": 35585784,
+    "name": "Komorebi at Les Petites Gouttes (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35585784-komorebi-at-les-petites-gouttes?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 2539544,
+      "displayName": "Les Petites Gouttes",
+      "uri": "http://www.songkick.com/venues/2539544-les-petites-gouttes?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.89215,
+      "lng": 2.34445,
+      "name": "Les Petites Gouttes"
+    },
+    "performers": [
+      {
+        "name": "Komorebi",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/8406968-komorebi?utm_source=51192&utm_medium=partner",
+        "id": 8406968
+      }
+    ]
+  },
+  {
+    "id": 34612279,
+    "name": "John Carpenter at Salle Pleyel (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/34612279-john-carpenter-at-salle-pleyel?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "displayName": "Salle Pleyel",
+      "lat": 48.8770182,
+      "lng": 2.3007926,
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner",
+        "id": 28909
+      },
+      "uri": "http://www.songkick.com/venues/17994-salle-pleyel?utm_source=51192&utm_medium=partner",
+      "id": 17994,
+      "name": "Salle Pleyel"
+    },
+    "starts_at": "2018-10-11T20:00:00+0200",
+    "performers": [
+      {
+        "name": "John Carpenter",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/270933-john-carpenter?utm_source=51192&utm_medium=partner",
+        "id": 270933
+      }
+    ]
+  },
+  {
+    "id": 35197039,
+    "name": "DeLaurentis at Le Hasard Ludique (October 11, 2018)",
+    "type": "Concert",
+    "url": "http://www.songkick.com/concerts/35197039-delaurentis-at-le-hasard-ludique?utm_source=51192&utm_medium=partner",
+    "venue": {
+      "id": 3512039,
+      "displayName": "Le Hasard Ludique",
+      "uri": "http://www.songkick.com/venues/3512039-le-hasard-ludique?utm_source=51192&utm_medium=partner",
+      "metroArea": {
+        "displayName": "Paris",
+        "country": {
+          "displayName": "France"
+        },
+        "id": 28909,
+        "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=51192&utm_medium=partner"
+      },
+      "lat": 48.89567,
+      "lng": 2.32858,
+      "name": "Le Hasard Ludique"
+    },
+    "starts_at": "2018-10-11T20:00:00+0200",
+    "performers": [
+      {
+        "name": "DeLaurentis",
+        "billing": "headline",
+        "billingIndex": 1,
+        "url": "http://www.songkick.com/artists/9304309-delaurentis?utm_source=51192&utm_medium=partner",
+        "id": 9304309
+      }
+    ]
+  }
+]

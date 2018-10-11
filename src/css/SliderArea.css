@@ -1,6 +1,6 @@
 .sliderArea{
   padding: 20px;
-  bottom: 50px;
+  bottom: 0px;
   left: 0;
   width: 100%;
   z-index: 9999999;
@@ -8,6 +8,11 @@
   position: absolute;
 }
 
+.sliderArea .sliderDate{
+  margin: 0px auto;
+  margin-top: 25px;
+  width: 30%;
+}
 
 .sliderArea .slider{
   width: 30%;
