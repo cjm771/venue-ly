@@ -121,7 +121,7 @@ module.exports = {
     }
   },
   fetchEvents: function(location, startTime, endTime) {
-    return this.getDataFromSongKickFake(location, startTime, endTime).then((results) => {
+    return this.getDataFromSongKick(location, startTime, endTime).then((results) => {
       if (Array.isArray(results)) {
         return results;
       } else {
