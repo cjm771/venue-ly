@@ -21,10 +21,10 @@ Preview
   ![Basic](http://g.recordit.co/EcfIgmKnij.gif)
 
 ### Go to current location
-  ![Current Location](http://g.recordit.co/ZYdk5g6ZtG.gif)
+  [Current Location](http://g.recordit.co/ZYdk5g6ZtG.gif)
 
 ### Check out NYC / Change date with menu
-  ![Change date](http://g.recordit.co/En7TxG9Nl3.gif)
+  [Change date](http://g.recordit.co/En7TxG9Nl3.gif)
 
 Todo
 =====
