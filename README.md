@@ -18,13 +18,13 @@ Features
 Preview
 =======
 ### Latest music in Oakland
-  ![Basic](http://g.recordit.co/EcfIgmKnij.gif)
+  ![Basic](http://g.recordit.co/lHyfQD7Rjn.gif)
 
 ### Go to current location
-  [Current Location](http://g.recordit.co/ZYdk5g6ZtG.gif)
+  ![Current Location](http://g.recordit.co/mWmnTshXNH.gif)
 
 ### Check out NYC / Change date with menu
-  [Change date](http://g.recordit.co/En7TxG9Nl3.gif)
+  [Change date](http://g.recordit.co/nX6YSW523n.gif)
 
 Todo
 =====
