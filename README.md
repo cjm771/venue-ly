@@ -24,7 +24,7 @@ Preview
   ![Current Location](http://g.recordit.co/mWmnTshXNH.gif)
 
 ### Check out NYC / Change date with menu
-  ![Change date](http://g.recordit.co/nX6YSW523n.gif)
+  ![Change date](http://g.recordit.co/ORO74jWNdH.gif)
 
 Todo
 =====
